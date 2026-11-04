@@ -22,8 +22,14 @@ Verificata nel browser l’interfaccia desktop e con viewport 390×844. Nessuno 
 - archivio giornaliero su una copia locale separata con due quiz fittizi, non inclusi nel dataset pubblicato;
 - passaggio tra i quiz giornalieri conservando le bozze, ripresa della risposta salvata, completamento e persistenza del risultato e dell’altra bozza dopo ricaricamento.
 
-Nessun errore JavaScript rilevato nei flussi controllati. La disponibilità del service worker è stata confermata dal browser. L’installazione effettiva su iOS e Android resta da provare sui dispositivi.
+Nessun errore JavaScript rilevato nei flussi controllati. La disponibilità del service worker è stata confermata dal browser. Con il server dell’anteprima di prova completamente spento, ricaricamento, archivio, risultato completato e ripresa dell’altra bozza hanno continuato a funzionare dalla cache offline. L’installazione effettiva su iOS e Android resta da provare sui dispositivi.
 
 ## Dati e credenziali
 
 Lettura autentica del foglio in sola lettura verificata con l’account tecnico. Il dataset iniziale contiene 190 domande complete nei capitoli 1–19; i restanti 26 capitoli rimangono nel catalogo. La chiave Google è fuori dal repository; i file di appoggio e gli strumenti di configurazione sono nella directory ignorata `.local/`. Il build controlla le risorse pubblicate per impedire l’inclusione di chiavi private e campi contenenti token.
+
+## Pubblicazione
+
+Prima esecuzione del [workflow GitHub Actions](https://github.com/alemarra89/elaborazione-segnali/actions/runs/41936607771) completata con successo: test, importazione autentica del foglio usando il segreto del repository, conservazione del dataset e pubblicazione Pages. La [PWA online](https://alemarra89.github.io/elaborazione-segnali/) è stata aperta e verificata nel browser.
+
+Al momento della prima pubblicazione erano le 00:49 del 5 novembre 2026 in Italia: nessun quiz giornaliero reale è stato generato prima delle 11. Le due date usate nella prova dell’archivio sono rimaste soltanto nell’anteprima locale separata.
