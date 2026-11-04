@@ -1,0 +1,3034 @@
+{
+  "version": "27db1b45a00dbe38",
+  "fetchedAt": "2026-11-04T23:24:01.662Z",
+  "source": {
+    "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
+    "sheetId": 0,
+    "title": "Esame di Elaborazione dei segnali",
+    "sheet": "Foglio1"
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Introduzione alle misure",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 2,
+      "title": "Unità di misura e riferibilità metrologica",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 3,
+      "title": "Definizione degli errori, incertezza di misura e caratteristiche metrologiche di una misura",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 4,
+      "title": "Elementi di statistica per le misure",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 5,
+      "title": "Elementi di probabilità",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 6,
+      "title": "Le distribuzioni di probabilità",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 7,
+      "title": "Teoria di Gauss",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 8,
+      "title": "Test del chi-quadrato",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 9,
+      "title": "Stima dell'incertezza di misura",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 10,
+      "title": "Propagazione dell'incertezza di misura",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 11,
+      "title": "Caratteristiche statiche della strumentazione di misura",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 12,
+      "title": "Caratteristiche dinamiche della strumentazione di misura",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 13,
+      "title": "Introduzione al multimetro numerico",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 14,
+      "title": "Misure di tensione e corrente mediante multimetro numerico",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 15,
+      "title": "Misure di resistenza mediante multimetro numerico",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 16,
+      "title": "Metodo Voltamperometrico",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 17,
+      "title": "Ponte di Wheatstone",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 18,
+      "title": "Elementi parassiti in un circuito di misura",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 19,
+      "title": "Metodo della caduta di potenziale",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
+      "issues": []
+    },
+    {
+      "id": 20,
+      "title": "Introduzione alla conversione analogico-digitale",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 21,
+      "title": "La conversione analogico-digitale, il campionamento",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 22,
+      "title": "La conversione analogico-digitale, quantizzazione ed errori",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 23,
+      "title": "Convertitori analogico-digitale",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 24,
+      "title": "Introduzione all'impedenzimetro numerico",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 25,
+      "title": "Modalità operative dell'impedenzimetro numerico",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 26,
+      "title": "Introduzione al contatore numerico",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 27,
+      "title": "Contatore numerico per misure di tempo e frequenza",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 28,
+      "title": "Oscilloscopio numerico",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 29,
+      "title": "Modalità di funzionamento di un oscilloscopio numerico",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 30,
+      "title": "Misure ed analisi nel dominio della frequenza",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 31,
+      "title": "Strumenti di misura per analisi in frequenza",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 32,
+      "title": "Analizzatori di spettro a banchi di filtri paralleli e filtro sintonizzabile",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 33,
+      "title": "Analizzatori di spettro a supereterodina: principi e applicazioni",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 34,
+      "title": "Applicazione della finestratura ai dati campionati per l analisi nel dominio della frequenza",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 35,
+      "title": "Principio di funzionamento di un FFT analyzer",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 36,
+      "title": "Parametri di impostazione di un FFT analyzer",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 37,
+      "title": "Caratteristiche statiche e dinamiche di sensori e trasduttori",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 38,
+      "title": "Sensori resistivi",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 39,
+      "title": "Circuiti di condizionamento per sensori resistivi",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 40,
+      "title": "Sensori induttivi e capacitivi",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 41,
+      "title": "Circuiti di condizionamento per sensori reattivi",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 42,
+      "title": "Sensori attivi",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 43,
+      "title": "I sistemi automatici di misura",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 44,
+      "title": "Sistemi di acquisizione dati",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    },
+    {
+      "id": 45,
+      "title": "Rappresentazione dei risultati di misura",
+      "questionCount": 0,
+      "available": false,
+      "status": "empty",
+      "issues": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "1-1",
+      "chapterId": 1,
+      "number": 1,
+      "text": "L'obiettivo delle misurazioni nel settore commerciale è:",
+      "options": [
+        "conoscenza delle leggi fisiche",
+        "automazione dei processi",
+        "regolazione degli scambi commerciali",
+        "monitoraggio dei livelli di inquinamento"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "1-2",
+      "chapterId": 1,
+      "number": 2,
+      "text": "L'ambito di misurazione ha l'obiettivo di monitorare i sintomi motori di malattie neurodegenerative è:",
+      "options": [
+        "ambientale",
+        "clinico",
+        "industriale",
+        "trasporti"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "1-3",
+      "chapterId": 1,
+      "number": 3,
+      "text": "La metrologia legale ha lo scopo di:",
+      "options": [
+        "verificare che gli strumenti di misura commerciali rispondano ai requisiti legali",
+        "realizzare i campioni primari delle unità di misur",
+        "verificare i parametri di interesse scientifico",
+        "monitorare i livelli di inquinamento"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "1-4",
+      "chapterId": 1,
+      "number": 4,
+      "text": "Gli agenti che contribuiscono al processo di misura sono:",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2,
+      "note": "Non presente nella dispensa"
+    },
+    {
+      "id": "1-5",
+      "chapterId": 1,
+      "number": 5,
+      "text": "Il misurando rappresenta:",
+      "options": [
+        "il dispositivo che consente di eseguire la misurazione",
+        "la grandezza sottoposta a misurazione",
+        "la modalità con cui si esegue il confronto tra misurando e campione di riferimento",
+        "le condizioni al contorno durante la misurazione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "1-6",
+      "chapterId": 1,
+      "number": 6,
+      "text": "Il ruolo del metodo nel processo di misurazione è:",
+      "options": [
+        "coordinare le operazioni di misura",
+        "realizzare fisicamente l'unità di misura",
+        "fornire le condizioni al contorno",
+        "stabilire le modalità di confronto tra misurando e campione di riferimento"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "1-7",
+      "chapterId": 1,
+      "number": 7,
+      "text": "Per strumento nel processo di misurazione si intende:",
+      "options": [
+        "il modello matematico utilizzato",
+        "l'oggetto con cui si esegue il confronto tra misurando e campione di riferimento",
+        "le condizioni al contorno durante la misurazione",
+        "il risultato della misura"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "1-8",
+      "chapterId": 1,
+      "number": 8,
+      "text": "Il compito dell'operatore nel processo di misurazione è:",
+      "options": [
+        "supervisionare le operazioni di misura e leggere le indicazioni degli strumenti",
+        "realizzare fisicamente l'unità di misura",
+        "fornire le condizioni al contorno",
+        "stabilire il metodo di misurazione"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "1-9",
+      "chapterId": 1,
+      "number": 9,
+      "text": "E' un esmpio di misura diretta:",
+      "options": [
+        "l'area tremite misure di lunghezza",
+        "la resistenza elettrica trremite misure di tensione e corrente",
+        "la lunghezza tramite asta metrica",
+        "velocità tramite misure di spazio e tempo"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "1-10",
+      "chapterId": 1,
+      "number": 10,
+      "text": "L'obiettivo della metrologia scientifica e tecnica è di:",
+      "options": [
+        "verificare gli strumenti di misura commerciale",
+        "monitorare i livelli di inquinamento",
+        "fornire alla metrologia legale i metodi di verifica dei parametri di interesse",
+        "regolare gli scambi commerciali"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "2-1",
+      "chapterId": 2,
+      "number": 1,
+      "text": "Il sistema decimale per i multipli e i sottomultipli è stato introdotto durante:",
+      "options": [
+        "il rinascimento",
+        "la rivoluzione francese",
+        "l'illuminismo",
+        "la rivoluzione industriale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "2-2",
+      "chapterId": 2,
+      "number": 2,
+      "text": "Il metro è stato definito come la dieci milionesima parte della distanza dal Polo Nord all'Equatore durante:",
+      "options": [
+        "la convenzione del metro",
+        "l'illuminismo",
+        "la rivoluzione francese",
+        "la rivoluzione industriale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "2-3",
+      "chapterId": 2,
+      "number": 3,
+      "text": "La tabella ufficiale del sistema metrico decimale è stata pubblicata dall'Assemblea Nazionale il 7 aprile 1795 per volontà:",
+      "options": [
+        "dell'imperatore",
+        "della convenzione nazionale",
+        "del parlamento inglese",
+        "del congresso degli Stati Uniti"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "2-4",
+      "chapterId": 2,
+      "number": 4,
+      "text": "Il Sistema Internazionale di Unità (SI) è stato ufficialmente adottato dalla Comunità Europea nel:",
+      "options": [
+        "1795",
+        "1901",
+        "1960",
+        "1789"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "2-5",
+      "chapterId": 2,
+      "number": 5,
+      "text": "Le unità fondamentali del Sistema Internazionale sono state definite come:",
+      "options": [
+        "sette unità di base",
+        "sei unità di base",
+        "cinque unità di base",
+        "quattro unità di base"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "2-6",
+      "chapterId": 2,
+      "number": 6,
+      "text": "Il metro è stato ridefinito come la lunghezza del tragitto percorso dalla luce nel vuoto in un intervallo di tempo pari a:",
+      "options": [
+        "1/100000000 s",
+        "1/186000 s",
+        "1/2997924 s",
+        "1/299792458 s"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "2-7",
+      "chapterId": 2,
+      "number": 7,
+      "text": "La candela è definita prendendo la costante di efficacia luminosa della radiazione monocromatica a:",
+      "options": [
+        "540 x 1012 Hz",
+        "540 x 1010 Hz",
+        "540 x 1014 Hz",
+        "540 x 108 Hz"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "2-8",
+      "chapterId": 2,
+      "number": 8,
+      "text": "La mole è definita prendendo il valore numerico della costante di:",
+      "options": [
+        "planck",
+        "avogadro",
+        "boltzmann",
+        "coulomb"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "2-9",
+      "chapterId": 2,
+      "number": 9,
+      "text": "I Laboratori di Taratura Accreditati (LAT) hanno il compito di:",
+      "options": [
+        "disseminare i campioni delle unità di misura del Sistema Internazionale",
+        "certificare i prodotti per il commercio internazionale",
+        "controllare la qualità dei prodotti industriali",
+        "verificare la sicurezza degli impianti industriali"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "2-10",
+      "chapterId": 2,
+      "number": 10,
+      "text": "Gli istituti metrologici primari hanno il compito di garantire:",
+      "options": [
+        "la certificazione degli strumenti di misura",
+        "l'uso dei campioni nelle misure ordinarie",
+        "la realizzazione, la conservazione e la disseminazione dei campioni di misura",
+        "la taratura degli strumenti di misura per le imprese"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "3-1",
+      "chapterId": 3,
+      "number": 1,
+      "text": "L'influenza sul processo di misurazione da parte del misurando è spesso dovuta a:",
+      "options": [
+        "componentistica non ideale",
+        "conoscenza molto spesso incompleta",
+        "capacità ed esperienza dell'operatore",
+        "effetti delle condizioni ambientali"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "3-2",
+      "chapterId": 3,
+      "number": 2,
+      "text": "Le cause sistematiche degli errori di misura sono dovute a:",
+      "options": [
+        "difetti costruttivi o di taratura degli strumenti",
+        "inadeguata conoscenza degli effetti ambientali",
+        "rumore generato internamente allo strumento",
+        "stato modificato del misurando"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "3-3",
+      "chapterId": 3,
+      "number": 3,
+      "text": "Gli effetti delle cause accidentali possono essere compensati:",
+      "options": [
+        "attraverso la conoscenza delle leggi fisiche",
+        "mediante ripetizione delle misure e media dei risultati",
+        "con una migliore taratura degli strumenti",
+        "attraverso la variazione delle condizioni ambientali"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "3-4",
+      "chapterId": 3,
+      "number": 4,
+      "text": "L'errore assoluto di misura di una grandezza x viene definito come:",
+      "options": [
+        "differenza tra il valore misurato e il valore medio",
+        "rapporto tra il valore misurato e il valore vero",
+        "differenza tra il valore misurato e il valore vero",
+        "somma dei valori misurati in diverse condizioni"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "3-5",
+      "chapterId": 3,
+      "number": 5,
+      "text": "La sensibilità di uno strumento di misura è definita come:",
+      "options": [
+        "capacità di risolvere stati diversi del misurando",
+        "rapporto tra variazione della grandezza di uscita e di ingresso",
+        "grado di concordanza tra valore misurato e valore vero",
+        "stima quantitativa del livello di non conoscenza del misurando"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "3-6",
+      "chapterId": 3,
+      "number": 6,
+      "text": "La stabilità di uno strumento si riferisce a:",
+      "options": [
+        "la capacità di risolvere stati diversi del misurando",
+        "la vicinanza di risultati ottenuti in diverse condizioni",
+        "l'attitudine a fornire valori di lettura poco differenti nel tempo",
+        "la capacità di compensare gli effetti delle cause sistematiche"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "3-7",
+      "chapterId": 3,
+      "number": 7,
+      "text": "La riproducibilità di una misura è definita come:",
+      "options": [
+        "vicinanza dei risultati ottenuti sullo stesso misurando in diverse condizioni",
+        "capacità di risolvere stati diversi del misurando",
+        "grado di concordanza tra valore misurato e valore vero",
+        "stima quantitativa del livello di non conoscenza del misurando"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "3-8",
+      "chapterId": 3,
+      "number": 8,
+      "text": "La riferibilità di una misura indica la proprietà di:",
+      "options": [
+        "fornire valori di lettura indipendenti",
+        "essere messa in relazione con un campione riconosciuto",
+        "risolvere stati diversi del misurando",
+        "compensare gli effetti delle cause accidentali"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "3-9",
+      "chapterId": 3,
+      "number": 9,
+      "text": "L'errore relativo di misura di una grandezza x viene definito come:",
+      "options": [
+        "rapporto tra il valore misurato e il valore vero",
+        "differenza tra il valore misurato e il valore vero",
+        "rapporto tra l'errore assoluto e il valore vero",
+        "somma dei valori misurati in diverse condizioni"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "3-10",
+      "chapterId": 3,
+      "number": 10,
+      "text": "Le cause sistematiche degli errori di misura possono essere compensate se:",
+      "options": [
+        "vengono ripetute le misure più volte",
+        "vengono corrette con un metodo noto",
+        "viene cambiato l'operatore",
+        "viene utilizzato un campione di riferimento diverso"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "4-1",
+      "chapterId": 4,
+      "number": 1,
+      "text": "Nello studio degli eventi aleatori e deterministici, l'approccio \"a posteriori\" viene applicato utilizzando:",
+      "options": [
+        "statistica inferenziale",
+        "statistica descrittiva",
+        "teoria della probabilità",
+        "metodo sperimentale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "4-2",
+      "chapterId": 4,
+      "number": 2,
+      "text": "Le variabili aleatorie discrete possono assumere:",
+      "options": [
+        "solo valori continui",
+        "solo un insieme di valori numerabili",
+        "un infinito numero di valori",
+        "valori non numerabili"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "4-3",
+      "chapterId": 4,
+      "number": 3,
+      "text": "La popolazione statistica è costituita da:",
+      "options": [
+        "un singolo elemento",
+        "un campione selezionato",
+        "tutte le unità statistiche di interesse",
+        "un gruppo di variabili aleatorie"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "4-4",
+      "chapterId": 4,
+      "number": 4,
+      "text": "L'istogramma è una rappresentazione grafica di:",
+      "options": [
+        "distribuzioni di frequenza",
+        "dati categoriali",
+        "dati continui",
+        "relazioni tra variabili"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "4-5",
+      "chapterId": 4,
+      "number": 5,
+      "text": "Gli istogrammi con frequenze relative mostrano:",
+      "options": [
+        "conteggi effettivi",
+        "proporzioni o percentuali",
+        "valori cumulativi",
+        "intervalli di confidenza"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "4-6",
+      "chapterId": 4,
+      "number": 6,
+      "text": "La mediana di un dataset con numero pari di osservazioni è:",
+      "options": [
+        "la media dei due valori centrali",
+        "il valore centrale",
+        "il valore più frequente",
+        "il valore massimo"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "4-7",
+      "chapterId": 4,
+      "number": 7,
+      "text": "La deviazione standard corretta viene calcolata:",
+      "options": [
+        "dividendo per N",
+        "senza correzione di Bessel",
+        "utilizzando la media aritmetica",
+        "dividendo per N-1"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "4-8",
+      "chapterId": 4,
+      "number": 8,
+      "text": "Il fattore di dispersione misura:",
+      "options": [
+        "la media dei dati",
+        "la dispersione relativa dei dati",
+        "il valore massimo",
+        "la somma dei valori"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "4-9",
+      "chapterId": 4,
+      "number": 9,
+      "text": "L'ampiezza delle classi in un istogramma è calcolata come:",
+      "options": [
+        "differenza tra valore massimo e minimo",
+        "media delle osservazioni",
+        "range diviso per il numero di classi",
+        "somma dei valori divisa per il numero di osservazioni"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "4-10",
+      "chapterId": 4,
+      "number": 10,
+      "text": "Dato un insieme di osservazioni con un valore minimo di 12 e un valore massimo di 50, il range delle osservazioni è pari a:",
+      "options": [
+        "62",
+        "38",
+        "42",
+        "50"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "5-1",
+      "chapterId": 5,
+      "number": 1,
+      "text": "L'aleatorietà nelle misurazioni è caratterizzata da:",
+      "options": [
+        "variabilità intrinseca del misurando",
+        "misure perfettamente accurate",
+        "misure sempre uguali",
+        "nessuna variabilità nel metodo di misura"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "5-2",
+      "chapterId": 5,
+      "number": 2,
+      "text": "La funzione di densità di probabilità (pdf) nel caso continuo è definita come:",
+      "options": [
+        "una funzione costante",
+        "una funzione che assegna probabilità a intervalli",
+        "una funzione che assegna probabilità a singoli punti",
+        "una funzione senza variazione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "5-3",
+      "chapterId": 5,
+      "number": 3,
+      "text": "La funzione massa di probabilità (pmf) nel caso discreto:",
+      "options": [
+        "assegna probabilità a intervalli continui",
+        "assegna probabilità solo a valori continui",
+        "assegna probabilità a ciascun valore discreto",
+        "non assegna probabilità"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "5-4",
+      "chapterId": 5,
+      "number": 4,
+      "text": "La varianza è definita come:",
+      "options": [
+        "il quadrato della varianza",
+        "la radice quadrata della varianza",
+        "la media dei valori",
+        "il valore massimo"
+      ],
+      "correctIndex": 1,
+      "note": "La deviazione standard è definita come: la radice quadrata della varianza"
+    },
+    {
+      "id": "5-5",
+      "chapterId": 5,
+      "number": 5,
+      "text": "La probabilità di un evento impossibile è:",
+      "options": [
+        "uno",
+        "variabile",
+        "zero",
+        "maggiore di uno"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "5-6",
+      "chapterId": 5,
+      "number": 6,
+      "text": "La somma delle probabilità di tutti gli eventi in uno spazio di probabilità è:",
+      "options": [
+        "zero",
+        "uno",
+        "variabile",
+        "infinita"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "5-7",
+      "chapterId": 5,
+      "number": 7,
+      "text": "L'approccio \"a posteriori\" è basato su:",
+      "options": [
+        "esperienze passate",
+        "stime future",
+        "probabilità soggettiva",
+        "numero di misure realizzate"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "5-8",
+      "chapterId": 5,
+      "number": 8,
+      "text": "L'approccio \"a priori\" è basato su:",
+      "options": [
+        "stime future",
+        "esperienze passate",
+        "numero di misure realizzate",
+        "probabilità soggettiva"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "5-9",
+      "chapterId": 5,
+      "number": 9,
+      "text": "La legge dei grandi numeri afferma che:",
+      "options": [
+        "la probabilità di un evento tende a zero con più prove",
+        "la probabilità stimata tende al valore vero con più ripetizioni",
+        "la probabilità di eventi rari aumenta con più prove",
+        "la probabilità di eventi comuni diminuisce con più prove"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "5-10",
+      "chapterId": 5,
+      "number": 10,
+      "text": "La probabilità di un evento complementare è calcolata come:",
+      "options": [
+        "la probabilità dell'evento stesso",
+        "il prodotto delle probabilità degli eventi",
+        "la somma delle probabilità di tutti gli eventi",
+        "uno meno la probabilità dell'evento"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "6-1",
+      "chapterId": 6,
+      "number": 1,
+      "text": "Qual è la forma della densità di probabilità di una distribuzione uniforme?",
+      "options": [
+        "lineare crescente",
+        "lineare decrescente",
+        "piatta",
+        "a campana"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "6-2",
+      "chapterId": 6,
+      "number": 2,
+      "text": "In una distribuzione triangolare simmetrica, la probabilità massima si trova:",
+      "options": [
+        "alle estremità dell'intervallo",
+        "al centro dell'intervallo",
+        "a un terzo dell'intervallo",
+        "a metà dell'intervallo"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "6-3",
+      "chapterId": 6,
+      "number": 3,
+      "text": "La distribuzione ad \"U\" è caratterizzata da:",
+      "options": [
+        "maggiore probabilità ai valori centrali",
+        "maggiore probabilità ai valori estremi",
+        "probabilità costante in tutto l'intervallo",
+        "probabilità variabile senza un pattern definito"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "6-4",
+      "chapterId": 6,
+      "number": 4,
+      "text": "La distribuzione ad \"U\" può essere applicata per descrivere:",
+      "options": [
+        "gli errori di misurazione simmetrici",
+        "i dati concentrati attorno alla media",
+        "i tassi di incidenza di una malattia in diverse fasce di età",
+        "i valori uniformemente distribuiti"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "6-5",
+      "chapterId": 6,
+      "number": 5,
+      "text": "La probabilità percentuale associata all'intervallo [20.45 g, 20.60 g] in una distribuzione uniforme con a=20 g e b=21 g è:",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "correctIndex": 1,
+      "note": "15% è corretta anche se la piattaforma dà 20%"
+    },
+    {
+      "id": "6-6",
+      "chapterId": 6,
+      "number": 6,
+      "text": "La media di una variabile aleatoria che  segue una distribuzione uniforme tra 1 e 7 è:",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "6-7",
+      "chapterId": 6,
+      "number": 7,
+      "text": "La media della distribuzione ad U si trova solitamente:",
+      "options": [
+        "nel punto centrale dell'intervallo di definizione della distribuzione",
+        "negli estemi",
+        "fuori dagli estremi",
+        "a un terzo dell'intervallo"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "6-8",
+      "chapterId": 6,
+      "number": 8,
+      "text": "In una distribuzione rettangolare, media e mediana:",
+      "options": [
+        "sono complementari",
+        "sono differenti",
+        "sono posti sugli estremi",
+        "coincidono"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "6-9",
+      "chapterId": 6,
+      "number": 9,
+      "text": "Nel caso di varianza pari a 9,  la corrispondente deviazione standard è uguale a:",
+      "options": [
+        "1",
+        "5",
+        "3",
+        "2"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "6-10",
+      "chapterId": 6,
+      "number": 10,
+      "text": "Nel caso di varianza pari a 16,  la corrispondente deviazione standard è uguale a:",
+      "options": [
+        "10",
+        "12",
+        "11",
+        "4"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "7-1",
+      "chapterId": 7,
+      "number": 1,
+      "text": "La media aritmetica è definita come:",
+      "options": [
+        "il valore più frequente in un dataset",
+        "il valore centrale in un dataset ordinato",
+        "la somma di tutti i valori divisa per il numero totale di osservazioni",
+        "la differenza tra il massimo e il minimo dei valori"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "7-2",
+      "chapterId": 7,
+      "number": 2,
+      "text": "La varianza misura:",
+      "options": [
+        "il valore centrale dei dati",
+        "la dispersione dei dati attorno alla media",
+        "il valore più frequente in un dataset",
+        "la media delle deviazioni assolute"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "7-3",
+      "chapterId": 7,
+      "number": 3,
+      "text": "La deviazione standard è:",
+      "options": [
+        "la radice quadrata della varianza",
+        "il doppio della varianza",
+        "la differenza tra il massimo e il minimo dei valori",
+        "il quadrato della varianza"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "7-4",
+      "chapterId": 7,
+      "number": 4,
+      "text": "La distribuzione gaussiana è simmetrica rispetto a:",
+      "options": [
+        "la media",
+        "la moda",
+        "la mediana",
+        "media, moda e mediana"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "7-5",
+      "chapterId": 7,
+      "number": 5,
+      "text": "Il teorema del limite centrale afferma che:",
+      "options": [
+        "la somma di variabili casuali indipendenti e identicamente distribuite converge a una distribuzione gaussiana",
+        "la somma di variabili casuali dipendenti converge a una distribuzione uniforme",
+        "la media di variabili casuali dipendenti converge a una distribuzione gaussiana",
+        "la media di variabili casuali indipendenti converge a una distribuzione uniforme"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "7-6",
+      "chapterId": 7,
+      "number": 6,
+      "text": "La probabilità che un valore misurato ricada all'interno di un intervallo specificato in una distribuzione gaussiana si calcola:",
+      "options": [
+        "integrando la funzione di densità di probabilità tra i limiti dell'intervallo",
+        "sommando tutti i valori dell'intervallo",
+        "sottraendo la media dal valore dell'intervallo",
+        "calcolando la radice quadrata della varianza"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "7-7",
+      "chapterId": 7,
+      "number": 7,
+      "text": "Perché la distribuzione gaussiana è considerata una buona approssimazione in molti casi reali:",
+      "options": [
+        "perché è semplice da calcolare",
+        "perché molti fenomeni naturali seguono questa distribuzione quando sono soddisfatte determinate condizioni",
+        "perché non richiede dati simmetrici",
+        "perché non dipende dal numero di osservazioni"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "7-8",
+      "chapterId": 7,
+      "number": 8,
+      "text": "La distribuzione gaussiana non ammette una primitiva analitica in forma chiusa, quindi è necessario:",
+      "options": [
+        "calcolare integrali numerici",
+        "utilizzare la trasformazione di Fourier",
+        "applicare la standardizzazione",
+        "utilizzare la funzione logaritmica"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "7-9",
+      "chapterId": 7,
+      "number": 9,
+      "text": "La distribuzione gaussiana è detta anche:",
+      "options": [
+        "distribuzione uniforme",
+        "distribuzione esponenziale",
+        "distribuzione normale",
+        "distribuzione di poisson"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "7-10",
+      "chapterId": 7,
+      "number": 10,
+      "text": "Il  livello di confidenzache si ha nel caso di distribuzione gaussiana con 3σ è pari a:",
+      "options": [
+        "13%",
+        "68.30%",
+        "95.40%",
+        "99.70%"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "8-1",
+      "chapterId": 8,
+      "number": 1,
+      "text": "L'ipotesi che viene avanzata se si ritiene che le distribuzioni siano concordi è",
+      "options": [
+        "ipotesi alternativa",
+        "ipotesi nulla",
+        "ipotesi di diversità",
+        "ipotesi casuale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "8-2",
+      "chapterId": 8,
+      "number": 2,
+      "text": "Ciò che deve essere verificato dal test del chi-quadrato è:",
+      "options": [
+        "la media dei campioni",
+        "la deviazione standard",
+        "la concordanza tra distribuzione osservata e attesa",
+        "la varianza dei campioni"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "8-3",
+      "chapterId": 8,
+      "number": 3,
+      "text": "Il momento in cui il test del chi-quadrato deve essere considerato valido è:",
+      "options": [
+        "quando il numero di osservazioni è inferiore a 30",
+        "quando il numero di osservazioni è superiore a 30",
+        "quando il numero di classi è superiore a 10",
+        "quando il numero di frequenze attese è inferiore a 5"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "8-4",
+      "chapterId": 8,
+      "number": 4,
+      "text": "Un valore alto del chi-quadrato indica:",
+      "options": [
+        "differenze piccole tra osservato e atteso",
+        "differenze grandi tra osservato e atteso",
+        "distribuzioni perfettamente concordi",
+        "assenza di variabilità nei dati"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "8-5",
+      "chapterId": 8,
+      "number": 5,
+      "text": "Quando il valore calcolato del chi-quadrato è inferiore al valore soglia, si ha che:",
+      "options": [
+        "si rifiuta l'ipotesi nulla",
+        "si rifiuta l'ipotesi alternativa",
+        "si accetta l'ipotesi alternativa",
+        "si accetta l'ipotesi nulla"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "8-6",
+      "chapterId": 8,
+      "number": 6,
+      "text": "Per ottenere il valore di frequenze assolute si deve moltiplicare le frequenze relative per:",
+      "options": [
+        "il numero di osservazioni",
+        "il numero di classi",
+        "le frequenze assolute",
+        "le stesse frequenze relative"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "8-7",
+      "chapterId": 8,
+      "number": 7,
+      "text": "Il range del dataset osservato viene definito come:",
+      "options": [
+        "differenza tra la media e la deviazione standard",
+        "differenza tra il valore massimo e il valore minimo dei valori osservati",
+        "somma delle frequenze osservate",
+        "somma delle frequenze attese"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "8-8",
+      "chapterId": 8,
+      "number": 8,
+      "text": "Nel test del chi-quadrato, le classi con osservazioni minime inferiori a 5 devono essere:",
+      "options": [
+        "eliminate",
+        "sommate tra loro",
+        "incorporate alle classi vicine",
+        "moltiplicate per il numero di misure"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "8-9",
+      "chapterId": 8,
+      "number": 9,
+      "text": "Il livello di confidenza del test del chi-quadrato viene determinato dal fattore di rischio definito come:",
+      "options": [
+        "probabilità di trarre conclusioni errate",
+        "probabilità di accettare l'ipotesi nulla",
+        "probabilità di accettare l'ipotesi alternativa",
+        "probabilità di osservare un valore casuale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "8-10",
+      "chapterId": 8,
+      "number": 10,
+      "text": "Il fattore di rischio indica:",
+      "options": [
+        "la probabilità che si abbia un risultato positivo",
+        "la probabilità che si abbia una frequenza assoluta",
+        "il numero di classi",
+        "la probabilità che si abbia un risultato negativo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "9-1",
+      "chapterId": 9,
+      "number": 1,
+      "text": "Il parametro associato al risultato di una misura che caratterizza la dispersione dei valori ragionevolmente attribuibili al misurando è definito come:",
+      "options": [
+        "deviazione standard",
+        "valore medio",
+        "incertezza di misura",
+        "accuratezza"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "9-2",
+      "chapterId": 9,
+      "number": 2,
+      "text": "Il documento ufficiale a cui fare riferimento per la stima dell'incertezza di misura è:",
+      "options": [
+        "ISO 9001",
+        "UNI CEI 70098-3:2016",
+        "IEC 61508",
+        "ISO 14001"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "9-3",
+      "chapterId": 9,
+      "number": 3,
+      "text": "Le cause dovute a difetti costruttivi o di taratura degli strumenti sono chiamate:",
+      "options": [
+        "cause accidentali",
+        "errori casuali",
+        "fluttuazioni",
+        "cause sistematiche"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "9-4",
+      "chapterId": 9,
+      "number": 4,
+      "text": "L'analisi statistica di serie di osservazioni per valutare l'incertezza è definita come:",
+      "options": [
+        "metodologia di Tipo B",
+        "metodologia di Tipo C",
+        "metodologia di Tipo A",
+        "metodologia di Tipo D"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "9-5",
+      "chapterId": 9,
+      "number": 5,
+      "text": "L'incertezza che viene valutata mediante metodi di tipo A è calcolata usando:",
+      "options": [
+        "la deviazione standard corretta",
+        "la mediana",
+        "il valore massimo",
+        "il valore minimo"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "9-6",
+      "chapterId": 9,
+      "number": 6,
+      "text": "Il livello di confidenza che rappresenta l'intervallo di incertezza viene determinato da:",
+      "options": [
+        "il valore medio",
+        "la varianza",
+        "il fattore di copertura",
+        "la mediana"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "9-7",
+      "chapterId": 9,
+      "number": 7,
+      "text": "La dispersione dei valori che sono attribuiti a un misurando sulla base delle informazioni utilizzate è chiamata:",
+      "options": [
+        "deviazione standard",
+        "valore medio",
+        "incertezza di misura",
+        "varianza"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "9-8",
+      "chapterId": 9,
+      "number": 8,
+      "text": "L'incertezza totale o globale viene valutata combinando le incertezze di tipo:",
+      "options": [
+        "A e C",
+        "A e B",
+        "B e C",
+        "B e D"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "9-9",
+      "chapterId": 9,
+      "number": 9,
+      "text": "L'incertezza valutata come scarto tipo (deviazione standard) è definita come:",
+      "options": [
+        "incertezza globale",
+        "incertezza estesa",
+        "incertezza composta",
+        "incertezza tipo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "9-10",
+      "chapterId": 9,
+      "number": 10,
+      "text": "Nel caso di distribuzione di probabilità gaussiana, il livello di confidenza del 68.3% si ha per un fattore di copertura (k) pari a:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "10-1",
+      "chapterId": 10,
+      "number": 1,
+      "text": "La  misurazione di una lunghezza mediante un calibro può essere definita come:",
+      "options": [
+        "misura indiretta",
+        "misura diretta",
+        "misura derivata",
+        "misura complessa"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "10-2",
+      "chapterId": 10,
+      "number": 2,
+      "text": "La  misurazione di un'area di un quadrato mediante un calibro può essere definita come:",
+      "options": [
+        "misura complessa",
+        "misura ottima",
+        "misura derivata",
+        "misura indiretta"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "10-3",
+      "chapterId": 10,
+      "number": 3,
+      "text": "Il parametro che descrive come cambia la stima dell'uscita per variazione della grandezza di ingresso è:",
+      "options": [
+        "coefficiente di variazione",
+        "coefficiente di sensibilità",
+        "coefficiente di correlazione",
+        "coefficiente di adattamento"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "10-4",
+      "chapterId": 10,
+      "number": 4,
+      "text": "La legge che consente di stimare l'incertezza dell'uscita a partire dalle incertezze dei dati in ingresso è:",
+      "options": [
+        "legge di conservazione dell'energia",
+        "legge di propagazione dell'incertezza",
+        "legge di Ohm",
+        "legge di Fourier"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "10-5",
+      "chapterId": 10,
+      "number": 5,
+      "text": "Il caso notevole che considera la somma di più resistenze in serie è:",
+      "options": [
+        "caso somma",
+        "caso differenza",
+        "caso prodotto",
+        "caso rapporto"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "10-6",
+      "chapterId": 10,
+      "number": 6,
+      "text": "L'incertezza relativa è definita come:",
+      "options": [
+        "una quantità dimensionale",
+        "una quantità variabile",
+        "una quantità costante",
+        "una quantità adimensionale"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "10-7",
+      "chapterId": 10,
+      "number": 7,
+      "text": "Il concetto introdotto per valutare la compatibilità tra due misure effettuate in stati differenti è:",
+      "options": [
+        "intercambiabilità",
+        "affidabilità",
+        "compatibilità",
+        "ripetibilità"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "10-8",
+      "chapterId": 10,
+      "number": 8,
+      "text": "Le misure che vengono utilizzate per determinare la frequenza di una forma d'onda sono un esempio di:",
+      "options": [
+        "misure complesse",
+        "misure derivate",
+        "misure indirette",
+        "misure dirette"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "10-9",
+      "chapterId": 10,
+      "number": 9,
+      "text": "Le misure di tensione elettrica continua effettuate con due voltmetri differenti possono essere valutate per:",
+      "options": [
+        "accuratezza",
+        "compatibilità",
+        "precisione",
+        "ripetibilità"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "10-10",
+      "chapterId": 10,
+      "number": 10,
+      "text": "L'incertezza di misura che viene propagata attraverso una funzione matematica è definita come:",
+      "options": [
+        "incertezza composta",
+        "incertezza residua",
+        "incertezza ponderata",
+        "incertezza assoluta"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "11-1",
+      "chapterId": 11,
+      "number": 1,
+      "text": "La funzione che lega l'uscita del sensore alla grandezza di influenza è chiamata:",
+      "options": [
+        "funzione di conversione",
+        "funzione di taratura",
+        "funzione di misura",
+        "funzione di calibrazione"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "11-2",
+      "chapterId": 11,
+      "number": 2,
+      "text": "Il campo di valori che il segnale d'uscita assume in corrispondenza del campo di misura è definito come:",
+      "options": [
+        "campo di taratura",
+        "campo di normale funzionamento dell'uscita",
+        "campo di calibrazione",
+        "campo di misura"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "11-3",
+      "chapterId": 11,
+      "number": 3,
+      "text": "Il parametro che specifica l'attitudine dello strumento a fornire valori poco differenti fra loro è chiamato:",
+      "options": [
+        "accuratezza",
+        "risoluzione",
+        "stabilità",
+        "ripetibilità"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "11-4",
+      "chapterId": 11,
+      "number": 4,
+      "text": "a capacità di un dispositivo di misura di conservare inalterate le sue caratteristiche nel tempo è definita:",
+      "options": [
+        "accuratezza",
+        "ripetibilità",
+        "risoluzione",
+        "stabilità"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "11-5",
+      "chapterId": 11,
+      "number": 5,
+      "text": "La massima differenza fra i valori della grandezza d'uscita per lo stesso misurando è:",
+      "options": [
+        "isteresi",
+        "accuratezza",
+        "risoluzione",
+        "ripetibilità"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "11-6",
+      "chapterId": 11,
+      "number": 6,
+      "text": "L'intervallo di valori che può assumere il misurando senza alterare permanentemente il funzionamento dello strumento è:",
+      "options": [
+        "campo di taratura",
+        "campo di sicurezza del misurando",
+        "campo di misura",
+        "campo di calibrazione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "11-7",
+      "chapterId": 11,
+      "number": 7,
+      "text": "Il valore dell'impedenza equivalente tra i morsetti di uscita del sistema di misura è:",
+      "options": [
+        "resistenza di uscita",
+        "capacità di uscita",
+        "impedenza di uscita",
+        "induttanza di uscita"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "11-8",
+      "chapterId": 11,
+      "number": 8,
+      "text": "La più piccola variazione del valore del misurando che provoca una variazione misurabile nel valore della grandezza di uscita è:",
+      "options": [
+        "risoluzione",
+        "accuratezza",
+        "sensibilità",
+        "stabilità"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "11-9",
+      "chapterId": 11,
+      "number": 9,
+      "text": "Il massimo errore che lo strumento può commettere viene indicato come:",
+      "options": [
+        "risoluzione",
+        "accuratezza",
+        "sensibilità",
+        "stabilità"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "11-10",
+      "chapterId": 11,
+      "number": 10,
+      "text": "Il limite superiore del campo di misura è noto come:",
+      "options": [
+        "valore di fondo scala",
+        "valore di riferimento",
+        "valore di sovraccarico",
+        "valore di calibrazione"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "12-1",
+      "chapterId": 12,
+      "number": 1,
+      "text": "La descrizione del comportamento del dispositivo a fronte di una grandezza di ingresso variabile nel tempo è definita come:",
+      "options": [
+        "caratteristica statica",
+        "caratteristica dinamica",
+        "caratteristica metrologica",
+        "caratteristica ausiliaria"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "12-2",
+      "chapterId": 12,
+      "number": 2,
+      "text": "Le caratteristiche del sistema di misura espresse mediante parametri sintetici in due domini specifici sono:",
+      "options": [
+        "dominio della lunghezza e dominio del tempo",
+        "dominio della frequenza e dominio della lunghezza",
+        "dominio del tempo e dominio della frequenza",
+        "dominio del tempo e dominio della velocità"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "12-3",
+      "chapterId": 12,
+      "number": 3,
+      "text": "l tempo che intercorre dall'applicazione dell'ingresso al momento in cui il sistema raggiunge il 5% del valore di regime è noto come:",
+      "options": [
+        "tempo di risposta",
+        "tempo di salita",
+        "tempo di recupero",
+        "tempo morto"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "12-4",
+      "chapterId": 12,
+      "number": 4,
+      "text": "Il sistema che si considera sempre funzionante in regime stazionario è",
+      "options": [
+        "sistema del primo ordine",
+        "sistema del secondo ordine",
+        "sistema del terzo ordine",
+        "sistema di ordine zero"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "12-5",
+      "chapterId": 12,
+      "number": 5,
+      "text": "Il tempo che il sistema impiega per passare dal 10% al 90% del valore di regime è definito come:",
+      "options": [
+        "tempo di assestamento",
+        "tempo di risposta",
+        "tempo di salita",
+        "tempo morto"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "12-6",
+      "chapterId": 12,
+      "number": 6,
+      "text": "Il parametro che descrive il rapporto tra il secondo picco e il primo picco del segnale considerato è chiamato:",
+      "options": [
+        "tempo di salita",
+        "sovraelongazione",
+        "fattore di smorzamento",
+        "tempo di risposta"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "12-7",
+      "chapterId": 12,
+      "number": 7,
+      "text": "Il comportamento in frequenza di un sistema è generalmente rappresentato mediante:",
+      "options": [
+        "diagrammi di Bode",
+        "diagrammi di Nyquist",
+        "diagrammi di Smith",
+        "diagrammi di Black"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "12-8",
+      "chapterId": 12,
+      "number": 8,
+      "text": "Il passaggio dal dominio del tempo a quello della frequenza avviene per mezzo della:",
+      "options": [
+        "trasformata di Laplace",
+        "trasformata di Fourier",
+        "trasformata di Z",
+        "trasformata di Mellin"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "12-9",
+      "chapterId": 12,
+      "number": 9,
+      "text": "Il sistema che attenua in modo irreversibile tutti i contributi a frequenza maggiore di un certo valore è:",
+      "options": [
+        "sistema passa basso",
+        "sistema passa alto",
+        "sistema passa banda",
+        "sistema blocca banda"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "12-10",
+      "chapterId": 12,
+      "number": 10,
+      "text": "La banda di misura dello strumento è rappresentata dall'intervallo di frequenze in cui la curva di risposta in modulo non esce da una fascia di tolleranza prefissata a:",
+      "options": [
+        "0 dB",
+        "100 dB",
+        "3 dB",
+        "3 kg"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "13-1",
+      "chapterId": 13,
+      "number": 1,
+      "text": "Le due principali tipologie di multimetri in commercio sono:",
+      "options": [
+        "multimetri digitali e analogici",
+        "multimetri portatili e da banco",
+        "multimetri a una portata e multipli",
+        "multimetri ad alta e bassa risoluzione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "13-2",
+      "chapterId": 13,
+      "number": 2,
+      "text": "Il parametro che indica l'insieme dei valori che il misurando può assumere è:",
+      "options": [
+        "risoluzione",
+        "accuratezza",
+        "campo di misura",
+        "sensibilità"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "13-3",
+      "chapterId": 13,
+      "number": 3,
+      "text": "La più piccola variazione del valore del misurando che provoca una variazione misurabile nel valore della grandezza di uscita per un multimetro è:",
+      "options": [
+        "risoluzione",
+        "accuratezza",
+        "campo di misura",
+        "sensibilità"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "13-4",
+      "chapterId": 13,
+      "number": 4,
+      "text": "Il valore di fondo scala di un multimetro si riferisce a:",
+      "options": [
+        "il valore massimo del misurando che può essere misurato",
+        "il valore minimo del misurando che può essere misurato",
+        "la deviazione standard del misurando",
+        "la media aritmetica del misurando"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "13-5",
+      "chapterId": 13,
+      "number": 5,
+      "text": "I morsetti utilizzati per misurare resistenze a quattro morsetti sono:",
+      "options": [
+        "morsetti con fusibile",
+        "morsetti senza fusibile",
+        "morsetti a due fili",
+        "morsetti a quattro fili"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "13-6",
+      "chapterId": 13,
+      "number": 6,
+      "text": "L'operazione di attenuazione in un multimetro digitale è eseguita mediante:",
+      "options": [
+        "amplificatore operazionale",
+        "partitore di tensione",
+        "filtro passa-alto",
+        "filtro passa-basso"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "13-7",
+      "chapterId": 13,
+      "number": 7,
+      "text": "Il segnale che varia attraverso passi discreti sia in tempo che in ampiezza è noto come:",
+      "options": [
+        "segnale analogico",
+        "segnale continuo",
+        "segnale digitale",
+        "segnale sinusoidale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "13-8",
+      "chapterId": 13,
+      "number": 8,
+      "text": "La memoria di un multimetro digitale permette di:",
+      "options": [
+        "visualizzare solo valori istantanei",
+        "memorizzare e richiamare i valori misurati",
+        "amplificare i segnali in ingresso",
+        "attenuare i segnali in ingresso"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "13-9",
+      "chapterId": 13,
+      "number": 9,
+      "text": "La sezione di decodifica di un multimetro digitale ha il compito di:",
+      "options": [
+        "memorizzare i segnali misurati",
+        "amplificare i segnali misurati",
+        "attenuare i segnali misurati",
+        "interpretare e visualizzare i segnali misurati"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "13-10",
+      "chapterId": 13,
+      "number": 10,
+      "text": "Il display di un multimetro digitale consente di:",
+      "options": [
+        "memorizzare i valori misurati",
+        "trasferire i dati al computer",
+        "visualizzare i risultati delle misurazioni",
+        "amplificare i segnali in ingresso"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "14-1",
+      "chapterId": 14,
+      "number": 1,
+      "text": "Le grandezze che possono essere misurate da un multimetro includono:",
+      "options": [
+        "solo tensioni continue",
+        "solo correnti continue",
+        "tensioni e correnti continue e alternate",
+        "solo resistenze"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "14-2",
+      "chapterId": 14,
+      "number": 2,
+      "text": "La tecnica di misura in cui lo strumento è isolato dal potenziale di terra è:",
+      "options": [
+        "misura floating",
+        "misura contromassa",
+        "misura a quattro fili",
+        "misura a due fili"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "14-3",
+      "chapterId": 14,
+      "number": 3,
+      "text": "La tecnica di misura in cui una delle sonde è collegata alla massa del circuito è:",
+      "options": [
+        "misura floating",
+        "misura contromassa",
+        "misura a quattro fili",
+        "misura a due fili"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "14-4",
+      "chapterId": 14,
+      "number": 4,
+      "text": "I multimetri palmari sono caratterizzati da:",
+      "options": [
+        "risoluzione e accuratezza molto elevate",
+        "limentazione a rete elettrica",
+        "collegamento a terra fisso",
+        "risoluzione e accuratezza inferiori rispetto ai multimetri da banco"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "14-5",
+      "chapterId": 14,
+      "number": 5,
+      "text": "La risoluzione di un multimetro si riferisce a:",
+      "options": [
+        "il numero di cifre che il display può mostrare",
+        "la precisione della misura",
+        "la capacità di misurare valori alti",
+        "la velocità di risposta"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "14-6",
+      "chapterId": 14,
+      "number": 6,
+      "text": "Il collegamento necessario per misurare la tensione con un multimetro digitale è:",
+      "options": [
+        "in serie",
+        "in parallelo",
+        "in derivazione",
+        "a triangolo"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "14-7",
+      "chapterId": 14,
+      "number": 7,
+      "text": "L'impedenza di ingresso di un multimetro digitale reale tipicamente è:",
+      "options": [
+        "molto bassa",
+        "molto alta",
+        "nulla",
+        "infinita"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "14-8",
+      "chapterId": 14,
+      "number": 8,
+      "text": "Per realizzare una misura di corrente, si utilizza spesso:",
+      "options": [
+        "un voltmetro in parallelo",
+        "un amperometro in parallelo",
+        "un generatore di corrente",
+        "un amperometro in serie"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "14-9",
+      "chapterId": 14,
+      "number": 9,
+      "text": "Il valore di resistenza di shunt viene selezionato per:",
+      "options": [
+        "minimizzare la tensione misurata",
+        "generare una tensione compatibile con il range di misura",
+        "aumentare la corrente misurata",
+        "ridurre la resistenza totale del circuito"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "14-10",
+      "chapterId": 14,
+      "number": 10,
+      "text": "Le misure di corrente all'interno del circuito di misura sono considerate:",
+      "options": [
+        "poco invasive",
+        "completamente non invasive",
+        "estremamente invasive",
+        "sempre precise"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "15-1",
+      "chapterId": 15,
+      "number": 1,
+      "text": "La grandezza di output monitorata da numerose tipologie di sensori industriali è:",
+      "options": [
+        "tensione",
+        "corrente",
+        "resistenza",
+        "potenza"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "15-2",
+      "chapterId": 15,
+      "number": 2,
+      "text": "I sensori utilizzati per misurare deformazioni fisiche in applicazioni civili sono chiamati:",
+      "options": [
+        "sensori di temperatura",
+        "potenziometri",
+        "sensori di umidità",
+        "estensimetri"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "15-3",
+      "chapterId": 15,
+      "number": 3,
+      "text": "La resistenza è una grandezza derivata da un componente:",
+      "options": [
+        "attivo",
+        "passivo",
+        "reattivo",
+        "capacitivo"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "15-4",
+      "chapterId": 15,
+      "number": 4,
+      "text": "La resistenza è una grandezza derivata da un componente:",
+      "options": [
+        "tensione",
+        "corrente nota",
+        "potenza",
+        "energia"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "15-5",
+      "chapterId": 15,
+      "number": 5,
+      "text": "La resistenza aggiuntiva che si verifica nei punti di contatto all'interno del circuito è definita:",
+      "options": [
+        "resistenza di carico",
+        "resistenza di cavo",
+        "resistenza di contatto",
+        "resistenza di shunt"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "15-6",
+      "chapterId": 15,
+      "number": 6,
+      "text": "La resistenza intrinseca dei cavi utilizzati per collegare i vari componenti del circuito è chiamata:",
+      "options": [
+        "resistenza di carico",
+        "resistenza di contatto",
+        "resistenza di shunt",
+        "resistenza di cavo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "15-7",
+      "chapterId": 15,
+      "number": 7,
+      "text": "Per le misure di resistenza a due morsetti, è importante che il circuito sotto misura sia:",
+      "options": [
+        "alimentato anche da fonti esterne",
+        "non alimentato anche da fonti esterne",
+        "sovralimentato",
+        "isolato"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "15-8",
+      "chapterId": 15,
+      "number": 8,
+      "text": "Per compensare il contributo di resistenza dei cavi di collegamento e di contatto dei puntali, è necessario:",
+      "options": [
+        "aumentare la corrente di misura",
+        "ridurre la tensione di misura",
+        "definire un metodo di compensazione",
+        "usare un generatore di tensione"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "15-9",
+      "chapterId": 15,
+      "number": 9,
+      "text": "Le misure di resistenza a quattro morsetti sono maggiormente indicate per la misura di:",
+      "options": [
+        "resistenze di alto valore",
+        "resistenza collegate in serie",
+        "induttanze di dispersione",
+        "resistenza di basso valore"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "15-10",
+      "chapterId": 15,
+      "number": 10,
+      "text": "Nel ramo voltmetrico delle misure a quattro morsetti, la corrente voltmetrica è:",
+      "options": [
+        "elevata",
+        "trascurabile",
+        "variabile",
+        "costante"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "16-1",
+      "chapterId": 16,
+      "number": 1,
+      "text": "Il metodo di misura che si basa sulla relazione analitica tra grandezze diverse da quella da misurare è:",
+      "options": [
+        "metodo diretto",
+        "metodo indiretto",
+        "metodo comparativo",
+        "metodo assoluto"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "16-2",
+      "chapterId": 16,
+      "number": 2,
+      "text": "Il metodo che stima il valore di resistenza misurando separatamente corrente e tensione presenti su un resistore ignoto è:",
+      "options": [
+        "metodo voltamperometrico",
+        "metodo potenziometrico",
+        "metodo amperometrico",
+        "metodo voltometrico"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "16-3",
+      "chapterId": 16,
+      "number": 3,
+      "text": "La corrente in un circuito per il metodo voltamperometrico è misurata inserendo lo strumento di misura:",
+      "options": [
+        "in parallelo",
+        "in serie",
+        "in derivazione",
+        "in cortocircuito"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "16-4",
+      "chapterId": 16,
+      "number": 4,
+      "text": "La tensione in un circuito per il metodo voltamperometrico è misurata inserendo lo strumento di misura:",
+      "options": [
+        "in serie",
+        "in derivazione",
+        "in cortocircuito",
+        "in parallelo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "16-5",
+      "chapterId": 16,
+      "number": 5,
+      "text": "Le configurazioni possibili per il metodo voltamperometrico includono:",
+      "options": [
+        "configurazione a ponte e configurazione a stella",
+        "configurazione a cortocircuito e configurazione a derivazione",
+        "configurazione con voltmetro a monte e configurazione con voltmetro a valle",
+        "configurazione con resistore a monte e configurazione con amperometro a valle"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "16-6",
+      "chapterId": 16,
+      "number": 6,
+      "text": "In una configurazione con voltmetro a monte, il voltmetro è collegato (considerando il verso dal generatore al resistore incognito):",
+      "options": [
+        "dopo l'amperometro",
+        "prima dell'amperometro",
+        "in parallelo all'amperometro",
+        "in serie all'amperometro"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "16-7",
+      "chapterId": 16,
+      "number": 7,
+      "text": "In un caso ideale, la scelta della configurazione per il metodo voltamperometrico è:",
+      "options": [
+        "influente",
+        "indifferente",
+        "fondamentale",
+        "critica"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "16-8",
+      "chapterId": 16,
+      "number": 8,
+      "text": "La configurazione con voltmetro monte per il metodo voltamperometrico è consigliata per:",
+      "options": [
+        "resistenze di ordine piccolo (Ω)",
+        "resistenze di ordine medio (kΩ)",
+        "resistenze di ordine elevato (MΩ)",
+        "resistenze di ordine variabile"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "16-9",
+      "chapterId": 16,
+      "number": 9,
+      "text": "Il metodo voltamperometrico permette di stimare la resistenza attraverso:",
+      "options": [
+        "la legge di Coulomb",
+        "la legge di Faraday",
+        "la legge di Ampère",
+        "la legge di Ohm"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "16-10",
+      "chapterId": 16,
+      "number": 10,
+      "text": "Il punto di intersezione delle curve di errore relativo per le configurazioni a monte e a valle si verifica:",
+      "options": [
+        "a resistenze di ordine medio (kΩ)",
+        "a resistenze di ordine piccolo (Ω)",
+        "a resistenze di ordine elevato (MΩ)",
+        "a resistenze di ordine variabile"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "17-1",
+      "chapterId": 17,
+      "number": 1,
+      "text": "Il circuito utilizzato per misurare resistenze elettriche incognite mediante il bilanciamento di due rami è:",
+      "options": [
+        "circuito a stella",
+        "circuito a ponte",
+        "ponte di Wheatstone",
+        "ponte di Kelvin"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "17-2",
+      "chapterId": 17,
+      "number": 2,
+      "text": "Il dispositivo utilizzato per variare la resistenza in un circuito elettrico è:",
+      "options": [
+        "voltmetro",
+        "amperometro",
+        "galvanometro",
+        "reostato"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "17-3",
+      "chapterId": 17,
+      "number": 3,
+      "text": "Il dispositivo utilizzato per rilevare correnti elettriche molto piccole è:",
+      "options": [
+        "galvanometro",
+        "voltmetro",
+        "amperometro",
+        "reostato"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "17-4",
+      "chapterId": 17,
+      "number": 4,
+      "text": "Il valore della resistenza incognita in un ponte di Wheatstone viene determinato:",
+      "options": [
+        "dal valore della tensione",
+        "dal valore della corrente",
+        "nelle condizioni di bilanciamento del ponte",
+        "dalla frequenza del segnale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "17-5",
+      "chapterId": 17,
+      "number": 5,
+      "text": "La condizione di equilibrio del ponte di Wheatstone si ottiene variando:",
+      "options": [
+        "la resistenza incognita",
+        "il valore della resistenza del resistore variabile",
+        "la tensione di alimentazione",
+        "il galvanometro"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "17-6",
+      "chapterId": 17,
+      "number": 6,
+      "text": "La procedura di misura con il ponte di Wheatstone inizia con:",
+      "options": [
+        "condizioni di ponte sbilanciato",
+        "condizioni di ponte bilanciato",
+        "corrente massima nel circuito",
+        "tensione massima nel circuito"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "17-7",
+      "chapterId": 17,
+      "number": 7,
+      "text": "Per evitare il danneggiamento del galvanometro, all'inizio della procedura di misura si imposta:",
+      "options": [
+        "una bassa tensione e una bassa sensibilità",
+        "una bassa tensione e una alta sensibilità",
+        "una alta tensione e una bassa sensibilità",
+        "una alta tensione e una alta sensibilità"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "17-8",
+      "chapterId": 17,
+      "number": 8,
+      "text": "Una volta trovata una prima condizione di equilibrio, la procedura di misura con il ponte di Wheatstone prosegue innalzando:",
+      "options": [
+        "la tensione e riducendo la sensibilità del galvanometro",
+        "la corrente e riducendo la sensibilità del galvanometro",
+        "la tensione e aumentando la sensibilità del galvanometro",
+        "la corrente e aumentando la sensibilità del galvanometro"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "17-9",
+      "chapterId": 17,
+      "number": 9,
+      "text": "La condizione ideale da raggiungere durante la misura con il ponte di Wheatstone è:",
+      "options": [
+        "equilibrio con minima tensione e minima sensibilità",
+        "sbilanciamento con massima tensione e minima sensibilità",
+        "sbilanciamento con minima tensione e massima sensibilità",
+        "equilibrio con massima tensione e massima sensibilità"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "17-10",
+      "chapterId": 17,
+      "number": 10,
+      "text": "Nella realtà, il valore finale della resistenza si ottiene mediante:",
+      "options": [
+        "somma delle resistenze",
+        "interpolazione lineare dei due valori positivi e negativi ottenuti intorno allo zero",
+        "misurazione diretta",
+        "calibrazione manuale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "18-1",
+      "chapterId": 18,
+      "number": 1,
+      "text": "I fenomeni indesiderati che possono influire sulla precisione e l'accuratezza delle misurazioni sono chiamati:",
+      "options": [
+        "fenomeni lineari",
+        "fenomeni non lineari",
+        "fenomeni parassiti",
+        "fenomeni stazionari"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "18-2",
+      "chapterId": 18,
+      "number": 2,
+      "text": "Le resistenze non intenzionali presenti nei conduttori a causa della loro resistività intrinseca sono chiamate:",
+      "options": [
+        "resistenze di carico",
+        "resistenze di contatto",
+        "resistenze di dispersione",
+        "resistenze parassite dei cavi"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "18-3",
+      "chapterId": 18,
+      "number": 3,
+      "text": "Le tensioni indesiderate generate ai punti di connessione tra materiali diversi sono chiamate:",
+      "options": [
+        "resistenze di contatto",
+        "forze elettromotrici di contatto",
+        "conduttanze di dispersione",
+        "tensioni di dispersione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "18-4",
+      "chapterId": 18,
+      "number": 4,
+      "text": "I percorsi di conduzione indesiderati attraverso i materiali isolanti di un circuito sono definiti:",
+      "options": [
+        "resistenze di contatto",
+        "resistenze parassite dei cavi",
+        "conduttanze di dispersione",
+        "forze elettromotrici di contatto"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "18-5",
+      "chapterId": 18,
+      "number": 5,
+      "text": "La resistenza parassita dei cavi è influenzata da:",
+      "options": [
+        "la lunghezza del cavo e la temperatura d'esercizio",
+        "la resistenza del cavo e la tensione d'esercizio",
+        "la capacità del cavo e la temperatura d'esercizio",
+        "l'induttanza del cavo e la corrente d'esercizio"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "18-6",
+      "chapterId": 18,
+      "number": 6,
+      "text": "Il valore della resistenza di contatto varia in relazione a:",
+      "options": [
+        "la lunghezza del cavo e la temperatura d'esercizio",
+        "il materiale di contatto e la temperatura d'esercizio",
+        "la capacità del cavo e la temperatura d'esercizio",
+        "l'induttanza del cavo e la corrente d'esercizio"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "18-7",
+      "chapterId": 18,
+      "number": 7,
+      "text": "Per ridurre il contributo delle resistenze parassite dei cavi, è possibile:",
+      "options": [
+        "aumentare la sezione trasversale del cavo e ridurre la lunghezza del cavo",
+        "ridurre la sezione trasversale del cavo e aumentare la lunghezza del cavo",
+        "aumentare la capacità del cavo e ridurre la lunghezza del cavo",
+        "ridurre l'induttanza del cavo e aumentare la lunghezza del cavo"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "18-8",
+      "chapterId": 18,
+      "number": 8,
+      "text": "I resistori a quattro morsetti sono utilizzati per:",
+      "options": [
+        "ridurre la capacità dei cavi",
+        "eliminare gli effetti delle resistenze di contatto e dei cavi",
+        "aumentare l'induttanza dei cavi",
+        "ridurre la lunghezza dei cavi"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "18-9",
+      "chapterId": 18,
+      "number": 9,
+      "text": "I morsetti amperometrici di una resistenza a quattro morsetti sono caratterizzati da:",
+      "options": [
+        "una sezione minore per ridurre le resistenze di contatto",
+        "una sezione maggiore per aumentare la capacità",
+        "una sezione minore per aumentare l'induttanza",
+        "una sezione maggiore per ridurre le resistenze di contatto"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "18-10",
+      "chapterId": 18,
+      "number": 10,
+      "text": "Le resistenze di contatto associate ai morsetti voltmetrici di una resistenza a quattro morsetti sono trascurabili perché:",
+      "options": [
+        "l'impedenza di ingresso di un voltmetro è molto elevata",
+        "l'impedenza di ingresso di un voltmetro è molto bassa",
+        "la capacità di ingresso di un voltmetro è molto elevata",
+        "la capacità di ingresso di un voltmetro è molto bassa"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "19-1",
+      "chapterId": 19,
+      "number": 1,
+      "text": "Il metodo utilizzato per misurare resistenze di piccolo valore è:",
+      "options": [
+        "metodo voltamperometrico",
+        "metodo della caduta di potenziale",
+        "metodo delle resistenze in serie",
+        "metodo delle resistenze in parallelo"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "19-2",
+      "chapterId": 19,
+      "number": 2,
+      "text": "Nel metodo della caduta di potenziale, per ottenere il valore della corrente che circola sul circuito di misura, viene misurata:",
+      "options": [
+        "la tensione ai capi della resistenza campione",
+        "la tensione ai capi della resistenza incognita",
+        "la corrente attraverso la resistenza incognita",
+        "la potenza dissipata dalla resistenza campione"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "19-3",
+      "chapterId": 19,
+      "number": 3,
+      "text": "La scelta di utilizzare due voltmetri anziché un voltmetro e un amperometro nel metodo della caduta di potenziale è dovuta a:",
+      "options": [
+        "la facilità di utilizzo",
+        "il costo inferiore",
+        "la semplicità del circuito",
+        "la precisione e l'accuratezza non raggiungibili da un amperometro"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "19-4",
+      "chapterId": 19,
+      "number": 4,
+      "text": "I fenomeni parassiti che possono introdurre errori nel metodo della caduta di potenziale includono:",
+      "options": [
+        "resistenze di contatto e forze elettromotrici di contatto",
+        "variazioni di temperatura e umidità",
+        "interferenze elettromagnetiche",
+        "vibrazioni meccaniche"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "19-5",
+      "chapterId": 19,
+      "number": 5,
+      "text": "Per ridurre l'effetto delle resistenze di contatto nei morsetti di tensione, si utilizza:",
+      "options": [
+        "un amperometro di alta precisione",
+        "un filtro passa-basso",
+        "un invertitore di corrente",
+        "quattro morsetti di misura sul resistore"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "19-6",
+      "chapterId": 19,
+      "number": 6,
+      "text": "L'invertitore permette di avere tre diverse condizioni di funzionamento, tra cui:",
+      "options": [
+        "circuito aperto, circuito chiuso con corrente diretta, circuito chiuso con corrente inversa",
+        "circuito aperto, circuito chiuso senza corrente, circuito chiuso con corrente costante",
+        "circuito chiuso con corrente alternata, circuito chiuso con corrente continua, circuito chiuso con corrente pulsata",
+        "circuito aperto, circuito chiuso con alta tensione, circuito chiuso con bassa tensione"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "19-7",
+      "chapterId": 19,
+      "number": 7,
+      "text": "Nel metodo della caduta di potenziale la misura della tensione sulla resistenza incognita con configurazione diretta viene effettuata:",
+      "options": [
+        "solo una volta",
+        "all'inizio e alla fine del processo di misurazione",
+        "in modo continuo",
+        "solo alla fine del processo di misurazione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "19-8",
+      "chapterId": 19,
+      "number": 8,
+      "text": "Nel metodo della caduta di potenziale, per verificare che la variabilità introdotta dalla variazione della temperatura sia trascurabile, si stima:",
+      "options": [
+        "la media delle misure ripetute",
+        "la moda delle misure ripetute",
+        "la mediana delle misure ripetute",
+        "la deviazione standard delle misure ripetute"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "19-9",
+      "chapterId": 19,
+      "number": 9,
+      "text": "L'incertezza di misura del metodo della caduta di potenziale è influenzata da:",
+      "options": [
+        "la resistenza campione, la misura di tensione ai capi del resistore campione, la misura di tensione ai capi del resistore incognito",
+        "la resistenza dei cavi, la temperatura ambiente, la pressione atmosferica",
+        "la velocità di misura, la precisione dello strumento, la calibrazione dello strumento",
+        "la corrente di misura, la tensione di alimentazione, la durata della misura"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "19-10",
+      "chapterId": 19,
+      "number": 10,
+      "text": "Nel metodo della caduta di potenziale, per eliminare il contributo sistematico legato al range di misura del voltmetro, si può:",
+      "options": [
+        "aumentare la corrente di misura",
+        "ridurre la tensione di misura",
+        "utilizzare un singolo voltmetro/multimetro per la misura di tensione",
+        "aumentare il numero di misure ripetute"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    }
+  ]
+}

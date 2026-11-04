@@ -1,0 +1,8 @@
+{
+  "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
+  "sheetId": 0,
+  "serviceAccountEmail": "fogli-google@esami-universita.iam.gserviceaccount.com",
+  "timezone": "Europe/Rome",
+  "dailyQuizHour": 11,
+  "questionsPerChapter": 10
+}
