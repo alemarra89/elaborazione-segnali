@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
       - name: Controlla se il quiz di oggi è già pubblicato
         id: check
         run: node scripts/should-update.mjs
@@ -44,9 +44,17 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
+      - name: Installa dipendenze bloccate
+        run: npm ci
       - name: Verifica la logica
         run: npm test
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Verifica i permessi su un database di prova locale
+        run: npm run test:rules
       - name: Leggi le domande dal foglio privato
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}

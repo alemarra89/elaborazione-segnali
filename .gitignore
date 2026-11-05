@@ -9,3 +9,6 @@ esami-universita-*.json
 .env.*
 !.env.example
 *.tmp
+*-debug.log
+firebase-debug.log
+.firebase/

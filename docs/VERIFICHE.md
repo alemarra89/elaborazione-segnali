@@ -2,7 +2,7 @@
 
 ## Logica
 
-20 test automatici superati. Controllati importazione da Google Sheets, stato dei capitoli incompleti, soluzioni mancanti o ambigue, stabilità degli identificativi, versionamento, campionamento, punteggi, timer assoluto, conservazione dei testi nei tentativi, ripasso degli errori, ricerca e gestione dell’ora italiana in estate e in inverno.
+30 test automatici di logica, importazione e sincronizzazione. Controllati importazione da Google Sheets, stato dei capitoli incompleti, soluzioni mancanti o ambigue, stabilità degli identificativi, versionamento, campionamento, punteggi, timer assoluto, conservazione dei testi nei tentativi, ripasso degli errori, ricerca e gestione dell’ora italiana in estate e in inverno.
 
 La generazione giornaliera è stata provata prima e dopo le 11, ripetendo l’operazione nella stessa data e in una data successiva: non duplica o modifica i quiz già archiviati. Nessun quiz viene generato con meno di dieci domande.
 
@@ -39,3 +39,15 @@ Al momento della prima pubblicazione erano le 00:49 del 5 novembre 2026 in Itali
 Alle 17:47 italiane non risultava alcuna esecuzione programmata della mattina. Il workflow era attivo e GitHub Actions abilitato, ma l’archivio era vuoto. Non essendo presente un’esecuzione del trigger programmato, non sono disponibili log che ne determinino la causa. Il [lancio manuale di recupero](https://github.com/alemarra89/elaborazione-segnali/actions/runs/42068256106) è terminato con successo e ha generato il quiz del 5 novembre usando la data e l’ora effettive del recupero.
 
 Alla programmazione delle 11 sono stati aggiunti controlli al minuto 17 di ogni ora dalle 11 alle 23. Quattro nuovi test verificano il recupero di un quiz mancante, l’assenza di ricompilazioni se è già online, il recupero di una pubblicazione fallita e il rispetto dell’orario minimo delle 11. I tentativi restano soggetti alla disponibilità della pianificazione GitHub; non costituiscono una garanzia di puntualità.
+
+## Sincronizzazione
+
+Dieci test del modello verificano modifiche di due dispositivi a domande diverse, cancellazione di una risposta, rimozione dei preferiti, importazione senza duplicati, chiusura di una sessione già consegnata altrove, importazione di una consegna locale ancora da inviare, ripresa del quiz condiviso, conservazione dei risultati giornalieri oltre i cento tentativi, compattazione delle modifiche e diario locale separato per account.
+
+La suite con emulatore Firestore verifica effettivamente l’accesso del proprietario e il rifiuto di utenti anonimi, account diversi, email non verificate e percorsi appartenenti a un altro utente. Verificati anche aggiornamenti indipendenti delle risposte, cancellazione di una risposta, impossibilità di riaprire una sessione chiusa e immutabilità dei risultati. Gli errori PERMISSION_DENIED prodotti dalle prove negative sono intenzionali.
+
+Prova nel browser con due origini locali separate, con autenticazione e database fittizi: preferito e prima risposta inseriti sul dispositivo A ritrovati sul dispositivo B; seconda risposta di B comparsa su A; consegna su B e risultato da 2 corrette, 0 sbagliate e 8 non risposte ritrovato su A e dopo ricaricamento di B. Nessun dato fittizio è inviato al progetto reale.
+
+Firebase è stato aggiunto a `esami-universita` sul piano Spark, senza collegare fatturazione o metodi di pagamento. Firestore Standard creato a Milano (`europe-west8`) con accesso inizialmente chiuso, poi sostituito dalle regole private verificate. Abilitato soltanto il provider Google e autorizzato il dominio `alemarra89.github.io`. Non attivati Analytics, Storage, Functions o backup a pagamento.
+
+Le versioni interne di Firebase sono allineate a quelle dello SDK 12.19.0 per evitare registri duplicati dei componenti. Un override di `@grpc/grpc-js` alla versione corretta 1.14.7 risolve le segnalazioni alte della dipendenza Node. Gli SDK browser sono inclusi nel bundle generato.

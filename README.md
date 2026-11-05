@@ -1,6 +1,6 @@
 # Elaborazione dei segnali · Quiz e ripasso
 
-PWA per lo studio dell’esame, con interfaccia azzurra e blu, domande provenienti da Google Sheets e quiz giornalieri archiviati. HTML, CSS e JavaScript, senza framework o dipendenze runtime.
+PWA per lo studio dell’esame, con interfaccia azzurra e blu, domande provenienti da Google Sheets e quiz giornalieri archiviati. HTML, CSS e JavaScript senza framework, con Firebase per l’accesso Google e la sincronizzazione facoltativa dei progressi.
 
 ## Stato attuale
 
@@ -10,9 +10,10 @@ Importazione iniziale verificata: 190 domande valide, capitoli 1–19 completi; 
 
 ## Avvio e verifiche
 
-Richiede Node.js 22 o successivo. Non occorre installare dipendenze per avviare l’app.
+Richiede Node.js 24.12 o successivo. Le dipendenze sono bloccate in `package-lock.json`; il build include gli SDK Firebase nel sito, così non dipendono da una CDN esterna durante lo studio offline.
 
 ```powershell
+npm ci
 npm test
 npm run build
 npm run preview
@@ -28,7 +29,23 @@ Panoramica, capitoli con soluzioni e ricerca, quiz di capitolo senza timer, simu
 
 I quiz giornalieri rimangono nell’archivio. Ogni quiz conserva dieci domande e soluzioni del giorno della generazione, senza modificarsi al ricaricamento o dopo successive correzioni al foglio. I quiz giornalieri in corso vengono conservati anche quando si passa a un altro quiz. Il risultato più recente e il migliore di ciascun quiz giornaliero sono mantenuti separatamente dai 100 tentativi dello storico. La serie conta le date consecutive dei quiz completati; recuperare un giorno precedente può colmare una lacuna nella serie.
 
-I progressi sono conservati nel browser con `localStorage`, senza account e senza sincronizzazione tra dispositivi. Una copia delle domande è inclusa nelle sessioni e nei risultati per preservare i tentativi dopo aggiornamenti del foglio. Cancellare i dati del sito elimina questi progressi. In caso di storage disabilitato o esaurito, l’app mostra un avviso e continua in memoria.
+I progressi sono conservati subito sul dispositivo. Senza accesso rimangono locali; con accesso Google vengono sincronizzati anche su Firestore, con permessi limitati all’account verificato `alemarra89@gmail.com`. Una copia delle domande è inclusa nelle sessioni e nei risultati per preservare i tentativi dopo aggiornamenti del foglio.
+
+Al primo accesso vengono uniti i progressi locali e quelli online, senza duplicare i tentativi già presenti. Una copia dei dati precedenti all’attivazione del cloud rimane nel browser. Lo spazio locale dell’account è separato dallo spazio usato senza accesso: uscire dall’account non mostra i dati sincronizzati nella modalità ospite.
+
+Una coda locale conserva le modifiche finché il server non ne conferma il salvataggio; Firestore mantiene anche la propria cache persistente. Le risposte sono aggiornate separatamente per domanda, i preferiti rimossi conservano una marcatura di rimozione e i risultati consegnati sono immutabili. Le modifiche concorrenti alla stessa risposta seguono l’ordine di ricezione del server; una vecchia sessione offline non può riaprire un quiz già consegnato. La pagina Account mostra lo stato della sincronizzazione e permette di riprendere altri quiz sospesi. Il timer delle simulazioni rimane una scadenza assoluta condivisa.
+
+I permessi sono versionati in `firestore.rules` e verificati su un emulatore locale prima della pubblicazione. L’app Firebase usa soltanto Authentication con Google e Firestore Standard, piano Spark senza account di fatturazione. Nessun uso di Cloud Functions, Storage o backup a pagamento. Se una quota gratuita blocca la sincronizzazione, i progressi restano locali in attesa del ripristino; non viene attivata la fatturazione. La configurazione client in `public/firebase-config.json` è pubblica per progetto; la protezione dei dati dipende dalle regole e dall’identità verificata, non dalla riservatezza della chiave API client.
+
+Cancellare i dati del sito elimina i progressi non ancora sincronizzati. Quelli già confermati dal server si ritrovano accedendo nuovamente. In caso di storage disabilitato o esaurito, l’app mostra un avviso e continua in memoria.
+
+Per verificare i permessi con Java 21 installato:
+
+```powershell
+npm run test:rules
+```
+
+Il comando usa esclusivamente il progetto fittizio `demo-segnali` nell’emulatore. Per prove manuali, avviare gli emulatori Authentication e Firestore e aprire l’anteprima su loopback con `?emulator=1`: l’accesso usa un utente fittizio e il database demo; questa modalità è ignorata sul dominio pubblico.
 
 L’app può essere installata dal browser. Dopo il primo caricamento completo, il service worker conserva interfaccia, icone, domande e archivio anche offline. Per ricevere nuovi contenuti occorre tornare online. Il pulsante di aggiornamento, il ritorno alla pagina e un controllo ogni cinque minuti quando la pagina è visibile verificano nuovi dati pubblicati. Per le modifiche dell’interfaccia compare “Aggiorna app”; l’aggiornamento conserva i progressi e la sessione. Il service worker è limitato al percorso dell’app e non modifica le cache di altri progetti sullo stesso dominio.
 
@@ -86,6 +103,6 @@ Intestazioni inattese, capitoli sconosciuti, più di 10 righe in un capitolo o p
 - Simulazioni da 30 domande casuali in 30 minuti, scadenza assoluta e consegna automatica, anche alla riapertura se il tempo è scaduto.
 - Risultati con punteggio, durata, corrette, sbagliate e non risposte. Un punto per risposta corretta, zero per errore o risposta vuota.
 - Preferiti, storico degli ultimi 100 tentativi, progressi per capitolo, ripasso degli errori con massimo 30 domande e ripresa del quiz interrotto. Una risposta successiva corretta risolve un errore precedente.
-- Progressi locali al dispositivo nella prima versione; sincronizzazione tra dispositivi da definire se richiesta.
+- Progressi locali e sincronizzazione facoltativa su più dispositivi con lo stesso account Google.
 
 Le credenziali dell’account tecnico non saranno distribuite nel sito. Rendere pubblico il sito renderà leggibili le domande importate, anche con foglio sorgente privato.

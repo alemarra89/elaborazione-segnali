@@ -1,0 +1,10 @@
+{
+  "allowedEmail": "alemarra89@gmail.com",
+  "firebase": {
+    "apiKey": "AIzaSyBxoZaDifWhBo3hd9VxGwGcfkATWoAq_Lg",
+    "authDomain": "esami-universita-2dc31.firebaseapp.com",
+    "projectId": "esami-universita",
+    "messagingSenderId": "586298404914",
+    "appId": "1:586298404914:web:65a1991346e7d6ec778c2b"
+  }
+}

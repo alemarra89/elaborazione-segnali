@@ -3,12 +3,28 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=24.12"
+  },
   "scripts": {
-    "test": "node --test",
+    "test": "node --test tests/*.test.mjs",
+    "test:rules": "firebase emulators:exec --only firestore --project demo-segnali \"node checks/firestore-rules.mjs\"",
     "build": "node scripts/build.mjs",
     "preview": "node scripts/serve.mjs",
     "sync": "node scripts/import-questions.mjs",
     "daily": "node scripts/generate-daily.mjs"
+  },
+  "dependencies": {
+    "firebase": "12.19.0"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "5.0.2",
+    "esbuild": "0.28.2",
+    "firebase-tools": "15.35.0"
+  },
+  "overrides": {
+    "@firebase/app": "0.16.2",
+    "@firebase/app-compat": "0.5.18",
+    "@grpc/grpc-js": "1.14.7"
   }
 }

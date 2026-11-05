@@ -1,9 +1,12 @@
 import {mkdir,readFile,writeFile,cp,readdir,stat} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
+import {build} from 'esbuild';
+import {fileURLToPath} from 'node:url';
 const root=new URL('../',import.meta.url),out=new URL('dist/',root);
 await mkdir(out,{recursive:true});
 await cp(new URL('public/',root),out,{recursive:true});
 await cp(new URL('src/',root),new URL('src/',out),{recursive:true});
+await build({entryPoints:[fileURLToPath(new URL('src/app.js',root))],bundle:true,format:'esm',platform:'browser',target:['es2022'],minify:true,outfile:fileURLToPath(new URL('src/app.js',out))});
 await mkdir(new URL('data/',out),{recursive:true});
 for(const name of ['questions.json','daily.json'])await cp(new URL(`data/${name}`,root),new URL(`data/${name}`,out));
 const files=[];
