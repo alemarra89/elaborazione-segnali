@@ -1,1 +1,151 @@
-{"quizzes":[]}
+{
+  "quizzes": [
+    {
+      "date": "2026-11-05",
+      "createdAt": "2026-11-05T16:48:45.006Z",
+      "datasetVersion": "27db1b45a00dbe38",
+      "questions": [
+        {
+          "id": "10-9",
+          "chapterId": 10,
+          "number": 9,
+          "text": "Le misure di tensione elettrica continua effettuate con due voltmetri differenti possono essere valutate per:",
+          "options": [
+            "accuratezza",
+            "compatibilità",
+            "precisione",
+            "ripetibilità"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "9-10",
+          "chapterId": 9,
+          "number": 10,
+          "text": "Nel caso di distribuzione di probabilità gaussiana, il livello di confidenza del 68.3% si ha per un fattore di copertura (k) pari a:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "10-2",
+          "chapterId": 10,
+          "number": 2,
+          "text": "La  misurazione di un'area di un quadrato mediante un calibro può essere definita come:",
+          "options": [
+            "misura complessa",
+            "misura ottima",
+            "misura derivata",
+            "misura indiretta"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "3-4",
+          "chapterId": 3,
+          "number": 4,
+          "text": "L'errore assoluto di misura di una grandezza x viene definito come:",
+          "options": [
+            "differenza tra il valore misurato e il valore medio",
+            "rapporto tra il valore misurato e il valore vero",
+            "differenza tra il valore misurato e il valore vero",
+            "somma dei valori misurati in diverse condizioni"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "5-6",
+          "chapterId": 5,
+          "number": 6,
+          "text": "La somma delle probabilità di tutti gli eventi in uno spazio di probabilità è:",
+          "options": [
+            "zero",
+            "uno",
+            "variabile",
+            "infinita"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "10-5",
+          "chapterId": 10,
+          "number": 5,
+          "text": "Il caso notevole che considera la somma di più resistenze in serie è:",
+          "options": [
+            "caso somma",
+            "caso differenza",
+            "caso prodotto",
+            "caso rapporto"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "1-10",
+          "chapterId": 1,
+          "number": 10,
+          "text": "L'obiettivo della metrologia scientifica e tecnica è di:",
+          "options": [
+            "verificare gli strumenti di misura commerciale",
+            "monitorare i livelli di inquinamento",
+            "fornire alla metrologia legale i metodi di verifica dei parametri di interesse",
+            "regolare gli scambi commerciali"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "17-1",
+          "chapterId": 17,
+          "number": 1,
+          "text": "Il circuito utilizzato per misurare resistenze elettriche incognite mediante il bilanciamento di due rami è:",
+          "options": [
+            "circuito a stella",
+            "circuito a ponte",
+            "ponte di Wheatstone",
+            "ponte di Kelvin"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "16-3",
+          "chapterId": 16,
+          "number": 3,
+          "text": "La corrente in un circuito per il metodo voltamperometrico è misurata inserendo lo strumento di misura:",
+          "options": [
+            "in parallelo",
+            "in serie",
+            "in derivazione",
+            "in cortocircuito"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "9-8",
+          "chapterId": 9,
+          "number": 8,
+          "text": "L'incertezza totale o globale viene valutata combinando le incertezze di tipo:",
+          "options": [
+            "A e C",
+            "A e B",
+            "B e C",
+            "B e D"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        }
+      ]
+    }
+  ]
+}
