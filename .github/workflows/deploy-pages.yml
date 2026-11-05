@@ -7,6 +7,10 @@ on:
   schedule:
     - cron: '0 11 * * *'
       timezone: Europe/Rome
+    # Recovery runs avoid relying on a single trigger at the busiest minute.
+    # They stop before importing/building if today's quiz is already online.
+    - cron: '17 11-23 * * *'
+      timezone: Europe/Rome
 
 permissions:
   contents: write
@@ -18,7 +22,21 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      should-run: ${{ steps.check.outputs.should_run }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controlla se il quiz di oggi è già pubblicato
+        id: check
+        run: node scripts/should-update.mjs
   build:
+    needs: check
+    if: needs.check.outputs.should-run == 'true'
     runs-on: ubuntu-latest
     outputs:
       commit: ${{ steps.persist.outputs.commit }}

@@ -34,7 +34,9 @@ L’app può essere installata dal browser. Dopo il primo caricamento completo, 
 
 ## Pubblicazione e aggiornamento giornaliero
 
-Il workflow `.github/workflows/deploy-pages.yml` si avvia dopo un push del codice su `main`, manualmente e ogni giorno alle 11:00 nel fuso `Europe/Rome`, seguendo ora legale e solare. Esegue i test, legge il foglio privato, genera il quiz giornaliero se non è già presente, conserva dataset e archivio in un commit e pubblica `dist/` su GitHub Pages.
+Il workflow `.github/workflows/deploy-pages.yml` si avvia dopo un push del codice su `main`, manualmente e ogni giorno alle 11:00 nel fuso `Europe/Rome`, seguendo ora legale e solare. Sono previsti anche controlli di recupero alle 11:17 e poi al minuto 17 di ogni ora fino alle 23:17. Se il quiz della data corrente è già presente sia nel repository sia sul sito pubblico, i controlli programmati terminano senza importare dati o ricompilare il sito. Se la pubblicazione è fallita, riprovano anche quando il quiz è già stato salvato nel repository.
+
+Quando l’aggiornamento è necessario, il workflow esegue i test, legge il foglio privato, genera il quiz giornaliero se non è già presente, conserva dataset e archivio in un commit e pubblica `dist/` su GitHub Pages. I lanci manuali e i push del codice aggiornano sempre i dati; non duplicano il quiz del giorno.
 
 Le credenziali Google sono usate soltanto nel passaggio di importazione e non sono incluse nel sito. Il workflow non usa servizi Google dal browser e non richiede login Google agli utenti della PWA.
 

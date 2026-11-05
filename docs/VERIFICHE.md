@@ -2,7 +2,7 @@
 
 ## Logica
 
-16 test automatici superati. Controllati importazione da Google Sheets, stato dei capitoli incompleti, soluzioni mancanti o ambigue, stabilità degli identificativi, versionamento, campionamento, punteggi, timer assoluto, conservazione dei testi nei tentativi, ripasso degli errori, ricerca e gestione dell’ora italiana in estate e in inverno.
+20 test automatici superati. Controllati importazione da Google Sheets, stato dei capitoli incompleti, soluzioni mancanti o ambigue, stabilità degli identificativi, versionamento, campionamento, punteggi, timer assoluto, conservazione dei testi nei tentativi, ripasso degli errori, ricerca e gestione dell’ora italiana in estate e in inverno.
 
 La generazione giornaliera è stata provata prima e dopo le 11, ripetendo l’operazione nella stessa data e in una data successiva: non duplica o modifica i quiz già archiviati. Nessun quiz viene generato con meno di dieci domande.
 
@@ -33,3 +33,9 @@ Lettura autentica del foglio in sola lettura verificata con l’account tecnico.
 Prima esecuzione del [workflow GitHub Actions](https://github.com/alemarra89/elaborazione-segnali/actions/runs/41936607771) completata con successo: test, importazione autentica del foglio usando il segreto del repository, conservazione del dataset e pubblicazione Pages. La [PWA online](https://alemarra89.github.io/elaborazione-segnali/) è stata aperta e verificata nel browser.
 
 Al momento della prima pubblicazione erano le 00:49 del 5 novembre 2026 in Italia: nessun quiz giornaliero reale è stato generato prima delle 11. Le due date usate nella prova dell’archivio sono rimaste soltanto nell’anteprima locale separata.
+
+## Recupero del 5 novembre
+
+Alle 17:47 italiane non risultava alcuna esecuzione programmata della mattina. Il workflow era attivo e GitHub Actions abilitato, ma l’archivio era vuoto. Non essendo presente un’esecuzione del trigger programmato, non sono disponibili log che ne determinino la causa. Il [lancio manuale di recupero](https://github.com/alemarra89/elaborazione-segnali/actions/runs/42068256106) è terminato con successo e ha generato il quiz del 5 novembre usando la data e l’ora effettive del recupero.
+
+Alla programmazione delle 11 sono stati aggiunti controlli al minuto 17 di ogni ora dalle 11 alle 23. Quattro nuovi test verificano il recupero di un quiz mancante, l’assenza di ricompilazioni se è già online, il recupero di una pubblicazione fallita e il rispetto dell’orario minimo delle 11. I tentativi restano soggetti alla disponibilità della pianificazione GitHub; non costituiscono una garanzia di puntualità.
