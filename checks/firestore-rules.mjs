@@ -31,5 +31,20 @@ try{
   await assertSucceeds(setDoc(ref(owner,'attempt_example'),attempt,{merge:true}));
   await assertFails(updateDoc(ref(owner,'attempt_example'),{payload:'changed'}));
   await assertFails(deleteDoc(ref(owner,'attempt_example')));
+  const pushId='a'.repeat(64),push=db=>doc(db,'pushDevices',pushId);
+  const device={uid:'owner',endpoint:'https://web.push.apple.com/test',p256dh:'B'.repeat(87),auth:'A'.repeat(22),publicKey:'C'.repeat(87)};
+  await assertSucceeds(setDoc(push(owner),device));
+  await assertSucceeds(getDoc(push(owner)));
+  for(const db of [other,unverified,anonymous]){
+    await assertFails(getDoc(push(db)));await assertFails(setDoc(push(db),device));await assertFails(deleteDoc(push(db)));
+  }
+  await assertFails(setDoc(doc(owner,'pushDevices','invalid-id'),device));
+  await assertFails(setDoc(push(owner),{...device,endpoint:'https://example.com/internal'}));
+  await assertFails(setDoc(push(owner),{...device,uid:'other'}));
+  await assertFails(setDoc(push(owner),{...device,lastSentDate:'2026-11-06'}));
+  await assertFails(setDoc(push(owner),{...device,auth:'invalid'}));
+  const receipt=doc(owner,'pushDeliveries','2026-11-06_'+pushId);
+  await assertFails(getDoc(receipt));await assertFails(setDoc(receipt,{state:'sent'}));await assertFails(deleteDoc(receipt));
+  await assertSucceeds(deleteDoc(push(owner)));
   console.log('Regole verificate: proprietario, altri account, accesso anonimo, email non verificata, risposte indipendenti, sessioni chiuse e risultati immutabili.');
 }finally{await env.cleanup();}

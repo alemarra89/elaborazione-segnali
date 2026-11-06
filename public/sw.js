@@ -7,6 +7,28 @@ self.addEventListener('activate',event=>event.waitUntil((async()=>{
   await self.clients.claim();
 })()));
 self.addEventListener('message',event=>{if(event.data?.type==='ACTIVATE_UPDATE')self.skipWaiting();});
+self.addEventListener('push',event=>{
+  let payload={};try{payload=event.data?.json()||{};}catch{}
+  const date=/^\d{4}-\d{2}-\d{2}$/.test(payload.date||'')?payload.date:null;
+  event.waitUntil(self.registration.showNotification('Il quiz di oggi è pronto',{
+    body:'Dieci domande per il tuo ripasso di Elaborazione dei segnali.',
+    icon:new URL('icons/icon-192.png',BASE).href,badge:new URL('icons/icon-192.png',BASE).href,
+    tag:date?`segnali-daily-${date}`:'segnali-daily',
+    data:{url:new URL('#/giornalieri',BASE).href}
+  }));
+});
+self.addEventListener('notificationclick',event=>{
+  event.notification.close();
+  const target=new URL('#/giornalieri',BASE).href;
+  event.waitUntil((async()=>{
+    const windows=await self.clients.matchAll({type:'window',includeUncontrolled:true});
+    const existing=windows.find(client=>client.url.startsWith(BASE));
+    if(existing){
+      // Reuse the app window; navigation preserves any in-progress quiz and answers.
+      const focused=await existing.focus();focused?.postMessage({type:'OPEN_DAILY'});
+    }else await self.clients.openWindow(target);
+  })());
+});
 self.addEventListener('fetch',event=>{
   const url=new URL(event.request.url);
   if(event.request.method!=='GET'||!event.request.url.startsWith(BASE))return;

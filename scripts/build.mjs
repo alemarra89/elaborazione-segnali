@@ -19,5 +19,5 @@ const worker=(await readFile(new URL('public/sw.js',root),'utf8')).replaceAll('_
 await writeFile(new URL('sw.js',out),worker);
 await writeFile(new URL('.nojekyll',out),'');
 // Publish only the explicit application assets, never source configuration or credentials.
-for(const file of files){const text=await readFile(new URL(file,out));if(/-----BEGIN (RSA )?PRIVATE KEY-----|"private_key"\s*:|"access_token"\s*:/.test(text.toString('utf8')))throw new Error(`Dati riservati rilevati in ${file}.`);}
+for(const file of files){const text=await readFile(new URL(file,out));if(/-----BEGIN (RSA )?PRIVATE KEY-----|"(?:private_key|privateKey|access_token|refresh_token)"\s*:/.test(text.toString('utf8')))throw new Error(`Dati riservati rilevati in ${file}.`);}
 console.log(`PWA pronta in dist/ · versione ${version} · ${files.length} risorse offline.`);

@@ -39,6 +39,26 @@ I permessi sono versionati in `firestore.rules` e verificati su un emulatore loc
 
 Cancellare i dati del sito elimina i progressi non ancora sincronizzati. Quelli già confermati dal server si ritrovano accedendo nuovamente. In caso di storage disabilitato o esaurito, l’app mostra un avviso e continua in memoria.
 
+## Notifiche del quiz giornaliero
+
+Nella pagina **Account**, dopo l’accesso Google, **Attiva notifiche** registra soltanto il dispositivo corrente. Su iPhone e iPad serve iOS/iPadOS 16.4 o successivo: aggiungere prima l’app alla schermata Home e aprirla dalla sua icona. Il consenso viene richiesto soltanto dopo il tocco sul pulsante. La disattivazione e l’uscita dall’account rimuovono l’iscrizione di quel dispositivo; gli altri dispositivi non cambiano.
+
+Il workflow invia la notifica dopo la pubblicazione riuscita e verifica il quiz sul sito pubblico. Non è una sveglia alle 11: i ritardi di GitHub Actions, la rete, le impostazioni di concentrazione e il servizio push possono ritardare o impedire la consegna. Toccando l’avviso si apre l’archivio giornaliero senza avviare o sostituire automaticamente un quiz in corso.
+
+L’invio usa Web Push standard e chiavi VAPID, senza Firebase Cloud Messaging, Cloud Functions o un account sviluppatore Apple. L’elenco delle API consentite alla chiave client non richiede servizi di messaggistica aggiuntivi. Il service worker mostra sempre una notifica visibile; su Safari non vengono usate push silenziose.
+
+Le iscrizioni sono in `pushDevices`, con accesso client riservato all’account verificato del proprietario. Le ricevute in `pushDeliveries` sono accessibili soltanto al mittente. Dopo l’accettazione del servizio push viene salvata una ricevuta per data e dispositivo: gli aggiornamenti e i recuperi non reinviano le notifiche già accettate. Gli errori temporanei vengono ritentati nei controlli programmati e le iscrizioni scadute vengono eliminate. Una ricevuta di accettazione non prova che il dispositivo abbia mostrato l’avviso. Un’interruzione fra accettazione e salvataggio della ricevuta può causare un nuovo tentativo; il tag stabile della notifica limita gli avvisi duplicati visibili.
+
+Configurazione amministrativa una tantum:
+
+1. Eseguire `npm run setup:push`: conserva le chiavi private in `.local/web-push-keys.json` e pubblica soltanto la chiave pubblica in `public/push-config.json`. Non rigenerare le chiavi a ogni pubblicazione.
+2. Pubblicare le regole aggiornate con `firebase deploy --only firestore:rules --project esami-universita` dopo la verifica sull’emulatore.
+3. Configurare un account di servizio dedicato all’invio con il ruolo **Cloud Datastore User** nel progetto Firebase. Questo ruolo consente al mittente di leggere e scrivere il database tramite IAM; le regole client non si applicano all’account di servizio. Non riutilizzare né ampliare l’account tecnico del foglio.
+4. Salvare la sua chiave JSON nel segreto GitHub **PUSH_SERVICE_ACCOUNT_JSON** e il solo valore `privateKey` VAPID nel segreto **VAPID_PRIVATE_KEY**. Entrambe le credenziali rimangono fuori dal repository e dalle risorse pubblicate.
+5. Pubblicare l’app, aprirla dal dispositivo, accedere e premere **Attiva notifiche**. Provare la consegna reale sul dispositivo: i test automatici non sostituiscono questa verifica.
+
+Il comando `npm run notify` usa gli stessi segreti del workflow, legge esclusivamente il quiz pubblicato della data corrente e non stampa endpoint o credenziali. I lanci prima delle 11 terminano senza invii. I controlli di recupero ritentano gli invii anche se non occorre ricompilare il sito.
+
 Per verificare i permessi con Java 21 installato:
 
 ```powershell

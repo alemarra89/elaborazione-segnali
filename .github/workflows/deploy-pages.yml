@@ -88,3 +88,25 @@ jobs:
       - name: Pubblica su GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+  notify:
+    needs: [check, deploy]
+    # Recovery runs retry notifications even when today's quiz is already online.
+    if: >-
+      always() && needs.check.result == 'success' &&
+      (needs.deploy.result == 'success' ||
+      (needs.check.outputs.should-run == 'false' && github.event_name == 'schedule'))
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Installa dipendenze bloccate
+        run: npm ci
+      - name: Avvisa i dispositivi del quiz pubblicato
+        env:
+          PUSH_SERVICE_ACCOUNT_JSON: ${{ secrets.PUSH_SERVICE_ACCOUNT_JSON }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+        run: npm run notify

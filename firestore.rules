@@ -38,5 +38,23 @@ service cloud.firestore {
           ? request.resource.data == resource.data : true);
       allow delete: if false;
     }
+    match /pushDevices/{id} {
+      function validDevice(d) {
+        return d.keys().hasOnly(['uid','endpoint','p256dh','auth','publicKey'])
+          && d.uid is string && owner(d.uid)
+          && id.matches('[a-f0-9]{64}')
+          && d.endpoint is string && d.endpoint.size() <= 2048
+          && d.endpoint.matches('https://([A-Za-z0-9.-]+[.]push[.]apple[.]com|fcm[.]googleapis[.]com|[A-Za-z0-9.-]+[.]push[.]services[.]mozilla[.]com)/.*')
+          && d.p256dh is string && d.p256dh.matches('[A-Za-z0-9_-]{87}')
+          && d.auth is string && d.auth.matches('[A-Za-z0-9_-]{22}')
+          && d.publicKey is string && d.publicKey.matches('[A-Za-z0-9_-]{87}');
+      }
+      allow read, delete: if owner(resource.data.uid);
+      allow create: if validDevice(request.resource.data);
+      allow update: if owner(resource.data.uid) && validDevice(request.resource.data)
+        && request.resource.data.uid == resource.data.uid;
+    }
+    // Delivery receipts are only accessible to the trusted sender through IAM.
+    match /pushDeliveries/{id} { allow read, write: if false; }
   }
 }

@@ -119,7 +119,21 @@ export function createCloudSync({config,getState,onAccount,onRemote,onStatus,sto
   const storageChanged=event=>{if(event.key?.startsWith('segnali.sync.outbox.v1.'))flush();};
   window.addEventListener('online',online);window.addEventListener('offline',offline);window.addEventListener('storage',storageChanged);
   retryTimer=setInterval(()=>{if(user&&ready&&!lastError&&document.visibilityState==='visible')flush();},30000);
+  async function pushDeviceRequest(subscription,method,publicKey){
+    if(!user||!navigator.onLine)throw new Error('Per gestire le notifiche accedi e verifica la connessione.');
+    const current=user,token=await auth.currentUser.getIdToken();
+    if(user?.uid!==current.uid)throw new Error('Account cambiato durante la richiesta.');
+    const hash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(subscription.endpoint));
+    const id=Array.from(new Uint8Array(hash),byte=>byte.toString(16).padStart(2,'0')).join('');
+    const origin=emulators?`http://${emulators.host}:8085`:'https://firestore.googleapis.com';
+    const projectId=emulators?'demo-segnali':config.firebase.projectId;
+    const fields=method==='PATCH'?Object.fromEntries(Object.entries({uid:current.uid,endpoint:subscription.endpoint,p256dh:subscription.keys.p256dh,auth:subscription.keys.auth,publicKey}).map(([key,value])=>[key,{stringValue:value}])):null;
+    const response=await fetch(`${origin}/v1/projects/${encodeURIComponent(projectId)}/databases/(default)/documents/pushDevices/${id}`,{method,headers:{Authorization:`Bearer ${token}`,'Content-Type':'application/json'},body:fields?JSON.stringify({fields}):undefined,signal:AbortSignal.timeout(15000)});
+    if(!response.ok&&!(method==='DELETE'&&response.status===404))throw new Error('Non riesco a salvare le preferenze delle notifiche.');
+  }
   return {
+    savePushSubscription:(subscription,publicKey)=>pushDeviceRequest(subscription,'PATCH',publicKey),
+    removePushSubscription:subscription=>pushDeviceRequest(subscription,'DELETE'),
     async login(){
       if(!navigator.onLine)throw new Error('Per accedere serve una connessione.');
       if(emulators){

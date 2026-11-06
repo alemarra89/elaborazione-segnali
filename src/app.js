@@ -1,6 +1,7 @@
 import {sample,makeSession,remaining,finish,status,mistakeQuestions,matches,normalize,dateInRome,dailyState,streak,formatTime} from './quiz.js';
 import {createCloudSync} from './cloud-sync.js';
 import {emptyStudy} from './sync-model.js';
+import {createPushNotifications} from './push-notifications.js';
 
 const KEY='segnali.study.v1';
 const app=document.querySelector('#app');
@@ -22,6 +23,7 @@ let state=emptyStudy(),stateKey=KEY,cloud=null,account=null;
 let cloudStatus={code:'loading',message:'',pending:0,lastSynced:null};
 let storageError='',dataset,archive={quizzes:[]},registration,installPrompt,toastTimer,screenFilter='all',search='',chapterFilter='all',resultFilter='all',ripassoTab='mistakes';
 let lastRoute='',busy=false;
+let push=null,pushStatus={code:'loading',busy:false,message:'Preparazione delle notifiche…'};
 try{
   const saved=JSON.parse(localStorage.getItem(KEY)||'null');
   if(saved){
@@ -45,6 +47,7 @@ function switchAccount(user){
     state=loadStudy(stateKey)||loadStudy(KEY)||emptyStudy();
   }else state=loadStudy(KEY)||emptyStudy();
   save(false);if(!checkExpiry())renderPreservingView();
+  void push?.refresh();
 }
 function syncLabel(){return cloudStatus.code==='loading'?'Preparazione…':cloudStatus.code==='signed-out'?'Solo su questo dispositivo':cloudStatus.code==='connecting'?'Connessione…':cloudStatus.code==='pending'?'Modifiche da inviare':cloudStatus.code==='offline'?'In attesa della rete':cloudStatus.code==='error'?'Sincronizzazione sospesa':'Sincronizzato';}
 function syncStatusMarkup(){return `<span class="dot ${['error','offline','pending'].includes(cloudStatus.code)?'offline':''}"></span><span>${escape(syncLabel())}</span>`;}
@@ -222,6 +225,7 @@ function accountPage(){
   return `${pageTitle('Il tuo spazio personale','Lo studio ti segue.','Accedi con lo stesso account Google su tutti i dispositivi per ritrovare quiz, risultati e preferiti.')}
   <div class="two-col"><section class="card stack"><span class="tile-icon" style="align-self:flex-start">${icon('refresh',26)}</span><h2>${account?'I tuoi progressi, insieme.':'Un account, tutti i dispositivi.'}</h2>${account?`<p class="small"><strong>${escape(account.email)}</strong></p><div class="connection sync-status">${syncStatusMarkup()}</div>${cloudStatus.message?`<p class="muted small">${escape(cloudStatus.message)}</p>`:''}<p class="muted small">${cloudStatus.lastSynced?'Ultima sincronizzazione: '+dateTime(cloudStatus.lastSynced):'Il primo collegamento unisce i progressi di questo dispositivo a quelli già salvati.'}</p><div class="row wrap">${button('Riprova sincronizzazione','retry-sync','','secondary small')}${button('Esci dall’account','sign-out','','secondary small')}</div>`:`<p class="muted small">I progressi già presenti su questo dispositivo verranno uniti a quelli del tuo account. Una copia locale dei dati esistenti sarà conservata.</p>${button('Accedi con Google','sign-in',!cloud?'disabled':'')}<p class="muted small">La sincronizzazione è riservata ad alemarra89@gmail.com. Puoi continuare a studiare senza accedere.</p>${cloudStatus.message?`<div class="notice warning">${escape(cloudStatus.message)}</div>`:''}`}</section>
   <section class="card stack"><h2>Anche quando sei offline.</h2><p class="muted small">Le risposte vengono salvate subito sul dispositivo. Quando torna la connessione, le modifiche in attesa vengono inviate al tuo account.</p><p class="muted small">Puoi riprendere un quiz da un altro dispositivo. Se modifichi la stessa risposta su due dispositivi, prevale l’ultima modifica ricevuta dal server. Una consegna già registrata non può essere riaperta da una vecchia sessione offline.</p><p class="muted small">Senza accesso restano disponibili i progressi locali. Dopo l’uscita, i progressi del tuo account si ritrovano accedendo di nuovo.</p><div class="notice">Piano Firebase Spark, senza fatturazione. Se la quota gratuita è esaurita, lo studio continua in locale finché la sincronizzazione torna disponibile.</div></section></div>
+  <section class="card stack mt" aria-labelledby="push-title"><h2 id="push-title">Il quiz è pronto? Ti avvisiamo.</h2><p class="muted small">Attiva un avviso su questo dispositivo quando il quiz giornaliero è pubblicato. Toccando la notifica apri i quiz giornalieri.</p><p class="small" role="status">${escape(pushStatus.message)}</p><div class="row wrap">${['disabled','error','enabling'].includes(pushStatus.code)?button(pushStatus.busy?'Attivazione…':'Attiva notifiche','enable-push',pushStatus.busy?'disabled':''):''}${pushStatus.code==='enabled'||pushStatus.code==='error'?button('Disattiva su questo dispositivo','disable-push',pushStatus.busy?'disabled':'','secondary small'):''}</div></section>
   ${account&&saved.length?section('Quiz sospesi sui tuoi dispositivi')+saved.map(session=>`<article class="list-row"><span class="tile-icon">${icon('book',20)}</span><div class="grow"><h3>${escape(quizName(session))}</h3><p>${Object.keys(session.answers).length}/${session.questions.length} risposte salvate${session.expiresAt?' · Il timer continua a scorrere':''}</p></div>${button('Riprendi','resume-saved',`data-id="${session.id}"`,'secondary small')}</article>`).join(''):''}`;
 }
 function notFound(){return pageTitle('Il tuo spazio di studio','Questa pagina non esiste.')+empty('Torniamo allo studio.','Puoi ripartire dalla panoramica.','home',link('Vai alla panoramica','home'));}
@@ -274,8 +278,10 @@ document.addEventListener('click',async event=>{
     try{await cloud?.login();}catch(error){toast(error.message);}return;
   }
   if(action==='sign-out'){
-    showDialog('Esci dall’account?','I progressi sincronizzati rimangono nel tuo account. Su questo dispositivo tornerai ai progressi locali precedenti all’accesso.',[{text:'Esci dall’account',run:async()=>{try{await cloud.logout();}catch(error){toast(error.message);}}},{text:'Resta connesso',run:()=>{}}]);return;
+    showDialog('Esci dall’account?','I progressi sincronizzati rimangono nel tuo account. Su questo dispositivo tornerai ai progressi locali precedenti all’accesso e le notifiche saranno disattivate.',[{text:'Esci dall’account',run:async()=>{try{if(cloud.pending())throw new Error('Attendi la sincronizzazione dei progressi prima di uscire.');await push?.disable();await cloud.logout();}catch(error){toast(error.message);}}},{text:'Resta connesso',run:()=>{}}]);return;
   }
+  if(action==='enable-push'){await push?.enable();return;}
+  if(action==='disable-push'){try{await push?.disable();}catch(error){toast(error.message);}return;}
   if(action==='retry-sync'){try{await cloud?.retry();}catch{toast('Sincronizzazione non disponibile. Le modifiche restano sul dispositivo.');}return;}
   if(action==='resume-saved'){
     const saved=state.savedSessions?.[id];if(!saved)return;
@@ -332,7 +338,7 @@ window.addEventListener('hashchange',()=>{if(checkExpiry())return;render();windo
 window.addEventListener('online',()=>{render();refreshData(false);});
 window.addEventListener('offline',render);
 window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installPrompt=event;});
-document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'){if(!checkExpiry())refreshData(false);}});
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'){if(!checkExpiry())refreshData(false);void push?.refresh();}});
 window.addEventListener('storage',event=>{
   if(event.key===stateKey&&event.newValue){
     try{const updated=JSON.parse(event.newValue);if(Array.isArray(updated.history)&&Array.isArray(updated.favorites)&&updated.dailyProgress&&updated.dailyDrafts){state=updated;cloud?.rebase(state);if(!checkExpiry())render();toast('Progressi aggiornati da un’altra scheda.');}}
@@ -369,7 +375,15 @@ async function init(){
       if(registration.waiting)renderBanners();
       registration.addEventListener('updatefound',()=>{const worker=registration.installing;worker?.addEventListener('statechange',()=>{if(worker.state==='installed'&&navigator.serviceWorker.controller)renderBanners();});});
       let reloading=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(reloading)return;reloading=true;location.reload();});
-      navigator.serviceWorker.ready.then(()=>toast('Il tuo spazio di studio è pronto anche offline.'));
+      navigator.serviceWorker.addEventListener('message',event=>{if(event.data?.type==='OPEN_DAILY'){void refreshData(false);go('giornalieri');}});
+      registration=await navigator.serviceWorker.ready;
+      toast('Il tuo spazio di studio è pronto anche offline.');
+      let pushConfig={};
+      try{const response=await fetch('./push-config.json',{cache:'no-cache'});if(response.ok)pushConfig=await response.json();}catch{}
+      push=createPushNotifications({publicKey:pushConfig.publicKey,getRegistration:()=>registration,getAccount:()=>account,
+        saveSubscription:(subscription,key)=>cloud.savePushSubscription(subscription,key),removeSubscription:subscription=>cloud.removePushSubscription(subscription),
+        onChange:next=>{pushStatus=next;if(route()==='account')renderPreservingView();}});
+      void push.refresh();
     }
   }catch(error){
     if(dataset&&archive){toast('I quiz sono disponibili. La modalità offline non è ancora pronta.');return;}
