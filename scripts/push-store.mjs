@@ -29,6 +29,22 @@ export function createPushStore({projectId,token,fetcher=fetch}){
       do{const result=await request('/pushDevices?pageSize=100'+(page?'&pageToken='+encodeURIComponent(page):''));documents.push(...(result.documents||[]));page=result.nextPageToken||'';}while(page);
       return documents.map(doc=>({id:doc.name.split('/').at(-1),...decodeFields(doc.fields)}));
     },
+    async hasCompletedDailyQuiz(uid,date){
+      // Read existing results so this also works for clients released before this check.
+      const results=await request(`/users/${encodeURIComponent(uid)}:runQuery`,'POST',{structuredQuery:{
+        from:[{collectionId:'records'}],select:{fields:[{fieldPath:'payload'}]},
+        where:{fieldFilter:{field:{fieldPath:'kind'},op:'EQUAL',value:{stringValue:'attempt'}}}
+      }});
+      if(!Array.isArray(results)||results.some(result=>result.error))throw new Error('Completamento del quiz non verificabile.');
+      for(const result of results){
+        if(!result.document)continue; // An empty query returns only its read time.
+        let attempt;
+        try{attempt=JSON.parse(result.document.fields?.payload?.stringValue);}
+        catch{throw new Error('Completamento del quiz non verificabile.');}
+        if(attempt?.dailyDate===date&&Number.isFinite(attempt.finishedAt))return true;
+      }
+      return false;
+    },
     async getDelivery(id){try{return decodeFields((await request('/pushDeliveries/'+id)).fields);}catch(error){if(error.status===404)return null;throw error;}},
     async claim(id,date,now){
       try{await request('/pushDeliveries?documentId='+id,'POST',{fields:encodeFields({state:'sending',date,claimedAt:now})});return true;}

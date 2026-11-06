@@ -13,11 +13,42 @@ function device(endpoint='https://web.push.apple.com/test'){
   return {id:createHash('sha256').update(endpoint).digest('hex'),uid:'owner',endpoint,p256dh:'B'.repeat(87),auth:'A'.repeat(22),publicKey};
 }
 function memoryStore(devices=[device()]){
-  const deliveries=new Map(),removed=[];
-  return {deliveries,removed,listDevices:async()=>devices.filter(d=>!removed.includes(d.id)),getDelivery:async id=>deliveries.get(id),
+  const deliveries=new Map(),removed=[],completions=new Set();
+  return {deliveries,removed,completions,hasCompletedDailyQuiz:async(uid,date)=>completions.has(`${uid}_${date}`),listDevices:async()=>devices.filter(d=>!removed.includes(d.id)),getDelivery:async id=>deliveries.get(id),
     async claim(id,date,claimedAt){if(deliveries.has(id))return false;deliveries.set(id,{state:'sending',date,claimedAt});return true;},
     sent:async(id,date)=>deliveries.set(id,{state:'sent',date}),release:async id=>deliveries.delete(id),removeDevice:async id=>removed.push(id)};
 }
+
+test('Il completamento sincronizzato esclude tutti i dispositivi dello stesso account',async()=>{
+  const store=memoryStore([device(),device('https://fcm.googleapis.com/test')]);let calls=0,checks=0;
+  store.completions.add('owner_2026-11-06');
+  const lookup=store.hasCompletedDailyQuiz;store.hasCompletedDailyQuiz=async(...args)=>{checks++;return lookup(...args);};
+  const result=await sendDailyPush({archive,store,publicKey,now,send:async()=>calls++});
+  assert.equal(result.completed,2);assert.equal(result.sent,0);assert.equal(calls,0);assert.equal(checks,1);
+  assert.equal(store.deliveries.size,0);assert.equal(store.removed.length,0);
+});
+
+test('Il completamento di ieri o di un altro account non blocca chi deve ancora fare il quiz',async()=>{
+  const store=memoryStore([device(),{...device('https://fcm.googleapis.com/test'),uid:'another-owner'}]),sent=[];
+  store.completions.add('owner_2026-11-05');store.completions.add('another-owner_2026-11-06');
+  const result=await sendDailyPush({archive,store,publicKey,now,send:async subscription=>sent.push(subscription.endpoint)});
+  assert.equal(result.sent,1);assert.equal(result.completed,1);assert.deepEqual(sent,[device().endpoint]);
+});
+
+test('Un recupero rilegge i progressi e salta il quiz completato dopo un invio fallito',async()=>{
+  const store=memoryStore();let calls=0;
+  const args={archive,store,publicKey,now,send:async()=>{calls++;throw {statusCode:503};}};
+  assert.equal((await sendDailyPush(args)).failed,1);
+  store.completions.add('owner_2026-11-06');
+  assert.equal((await sendDailyPush(args)).completed,1);assert.equal(calls,1);assert.equal(store.deliveries.size,0);
+});
+
+test('Se i progressi non sono leggibili non invia e non registra una ricevuta',async()=>{
+  const store=memoryStore();let calls=0;
+  store.hasCompletedDailyQuiz=async()=>{throw new Error('Archivio non disponibile');};
+  await assert.rejects(sendDailyPush({archive,store,publicKey,now,send:async()=>calls++}),/Archivio non disponibile/);
+  assert.equal(calls,0);assert.equal(store.deliveries.size,0);
+});
 test('Invia una sola volta per quiz e dispositivo, con un collegamento al sito',async()=>{
   const store=memoryStore([device(),device('https://fcm.googleapis.com/test')]),sent=[];
   const args={archive,store,publicKey,now,send:async(...params)=>sent.push(params)};
@@ -69,6 +100,35 @@ test('Legge tutte le pagine Firestore e non divulga il corpo degli errori',async
   assert.deepEqual(decodeFields(encodeFields({state:'sent',claimedAt:42})),{state:'sent',claimedAt:42});
   const denied=createPushStore({projectId:'demo',token:'fake',fetcher:async()=>({ok:false,status:403,json:async()=>({secret:'do not display'})})});
   await assert.rejects(denied.listDevices(),error=>error.message==='Archivio notifiche: HTTP 403.');
+});
+
+test('Cerca i risultati dell’account anche oltre i cento tentativi dello storico locale',async()=>{
+  const calls=[],attempts=Array.from({length:120},()=>({dailyDate:'2026-11-05',finishedAt:now.getTime()}));
+  attempts.push({dailyDate:'2026-11-06',finishedAt:1});
+  const store=createPushStore({projectId:'demo',token:'fake',fetcher:async(url,options)=>{
+    calls.push({url,options});return {ok:true,status:200,json:async()=>attempts.map(attempt=>({document:{fields:encodeFields({payload:JSON.stringify(attempt)})}}))};
+  }});
+  assert.equal(await store.hasCompletedDailyQuiz('owner','2026-11-06'),true);
+  assert.equal(calls.length,1);assert.match(calls[0].url,/\/users\/owner:runQuery$/);
+  assert.equal(calls[0].options.method,'POST');
+  const query=JSON.parse(calls[0].options.body).structuredQuery;
+  assert.deepEqual(query.from,[{collectionId:'records'}]);
+  assert.deepEqual(query.where,{fieldFilter:{field:{fieldPath:'kind'},op:'EQUAL',value:{stringValue:'attempt'}}});
+  assert.equal(query.limit,undefined);
+});
+
+test('Distingue il quiz di oggi dai recuperi e dalle sessioni senza consegna',async()=>{
+  for(const attempts of [[],[{dailyDate:'2026-11-05',finishedAt:now.getTime()}],[{dailyDate:'2026-11-06'}],[{mode:'exam',finishedAt:now.getTime()}]]){
+    const store=createPushStore({projectId:'demo',token:'fake',fetcher:async()=>({ok:true,status:200,json:async()=>attempts.length?attempts.map(attempt=>({document:{fields:encodeFields({payload:JSON.stringify(attempt)})}})):[{readTime:now.toISOString()}]})});
+    assert.equal(await store.hasCompletedDailyQuiz('owner','2026-11-06'),false);
+  }
+});
+
+test('Una risposta Firestore incompleta o illeggibile non viene scambiata per un quiz da fare',async()=>{
+  for(const response of [{error:{message:'private details'}},[{error:{message:'private details'}}],[{document:{fields:encodeFields({payload:'private malformed data'})}}]]){
+    const store=createPushStore({projectId:'demo',token:'fake',fetcher:async()=>({ok:true,status:200,json:async()=>response})});
+    await assert.rejects(store.hasCompletedDailyQuiz('owner','2026-11-06'),error=>error.message==='Completamento del quiz non verificabile.');
+  }
 });
 test('Su iOS richiede l’installazione; negli altri browser controlla le API disponibili',()=>{
   const win={isSecureContext:true,Notification:{},PushManager:{},matchMedia:()=>({matches:false})};

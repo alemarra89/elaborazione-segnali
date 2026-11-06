@@ -17,13 +17,18 @@ export function validPushDevice(device,publicKey){
   }catch{return false;}
 }
 export async function sendDailyPush({archive,store,send,publicKey,now=new Date()}){
-  const result={sent:0,alreadySent:0,expired:0,failed:0,invalid:0};
+  const result={sent:0,alreadySent:0,completed:0,expired:0,failed:0,invalid:0};
   const date=dateInRome(now);
   if(!dailyIsDue(now)||!archive?.quizzes?.some(quiz=>quiz.date===date&&Date.parse(quiz.createdAt)<=now.getTime()))return result;
+  const completedAccounts=new Map();
   for(const device of await store.listDevices()){
     if(!validPushDevice(device,publicKey)){result.invalid++;continue;}
     const id=`${date}_${device.id}`,previous=await store.getDelivery(id);
     if(previous?.state==='sent'){result.alreadySent++;continue;}
+    // Check once per account in this run, including completions from another device.
+    // A read error aborts delivery rather than notifying without a verified result.
+    if(!completedAccounts.has(device.uid))completedAccounts.set(device.uid,await store.hasCompletedDailyQuiz(device.uid,date));
+    if(completedAccounts.get(device.uid)){result.completed++;continue;}
     if(previous){
       if(now.getTime()-previous.claimedAt<15*60*1000){result.alreadySent++;continue;}
       await store.release(id);
