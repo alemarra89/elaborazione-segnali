@@ -1,6 +1,6 @@
 {
-  "version": "27db1b45a00dbe38",
-  "fetchedAt": "2026-11-06T12:18:50.624Z",
+  "version": "2ea4e905b0bdf538",
+  "fetchedAt": "2026-11-07T16:08:11.204Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -163,25 +163,25 @@
     {
       "id": 20,
       "title": "Introduzione alla conversione analogico-digitale",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
       "id": 21,
       "title": "La conversione analogico-digitale, il campionamento",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
       "id": 22,
       "title": "La conversione analogico-digitale, quantizzazione ed errori",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -3028,6 +3028,426 @@
         "aumentare il numero di misure ripetute"
       ],
       "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "20-1",
+      "chapterId": 20,
+      "number": 1,
+      "text": "Il primo stadio della catena di misura, che trasforma la grandezza fisica in un segnale di misura, è costituito da:",
+      "options": [
+        "elementi rivelatori",
+        "elementi trasformatori",
+        "elementi sensibili o sensori",
+        "elementi trasmettitori"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "20-2",
+      "chapterId": 20,
+      "number": 2,
+      "text": "L'elemento che amplifica ed elabora il segnale di misura è definito:",
+      "options": [
+        "elemento rivelatore",
+        "sistema di condizionamento",
+        "resistore",
+        "peso specifico"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "20-3",
+      "chapterId": 20,
+      "number": 3,
+      "text": "Un segnale analogico è caratterizzato da una funzione che è:",
+      "options": [
+        "definita solo in alcuni istanti",
+        "definita per un insieme discreto di valori",
+        "discontinua e quantizzata",
+        "continua e definita per ogni valore del tempo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "20-4",
+      "chapterId": 20,
+      "number": 4,
+      "text": "Un segnale digitale è rappresentato da una sequenza di:",
+      "options": [
+        "numeri continui",
+        "numeri discreti e continui",
+        "bit in una fuzione tempo-discreta e quantizzata",
+        "onde sinusoidali"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "20-5",
+      "chapterId": 20,
+      "number": 5,
+      "text": "Il vantaggio del filtraggio dei segnali digitali rispetto a quelli analogici è dato da:",
+      "options": [
+        "la flessibilità dei componenti hardware",
+        "la stabilità dei componenti fisici",
+        "la precisione intrinseca del segnale",
+        "la flessibilità e facilità di elaborazione tramite software"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "20-6",
+      "chapterId": 20,
+      "number": 6,
+      "text": "Il componente che trasforma un segnale analogico in un flusso numerico di dati è definito:",
+      "options": [
+        "convertitore analogico-digitale",
+        "amplificatore operazionale",
+        "trasduttore di segnale",
+        "convertitore digitale-analogico"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "20-7",
+      "chapterId": 20,
+      "number": 7,
+      "text": "La prima operazione nella conversione A/D, che discretizza il segnale nel dominio del tempo, è:",
+      "options": [
+        "quantizzazione",
+        "campionamento",
+        "amplificazione",
+        "modulazione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "20-8",
+      "chapterId": 20,
+      "number": 8,
+      "text": "La quantizzazione uniforme suddivide il segnale in:",
+      "options": [
+        "intervalli di ampiezza costante",
+        "intervalli di ampiezza variabile",
+        "intervalli di tempo variabile",
+        "intervalli di frequenza costante"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "20-9",
+      "chapterId": 20,
+      "number": 9,
+      "text": "Il numero di bit in un convertitore A/D rappresenta:",
+      "options": [
+        "la quantità di memoria necessaria per la conversione",
+        "la precisione della tensione di fondo scala",
+        "il numero di cifre binarie utilizzate per rappresentare il segnale convertito",
+        "il numero di componenti elettronici coinvolti nella conversione"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "20-10",
+      "chapterId": 20,
+      "number": 10,
+      "text": "Il tempo di conversione in un convertitore A/D determina:",
+      "options": [
+        "la quantità di memoria utilizzata per archiviare i dati",
+        "la velocità di acquisizione e conversione del segnale",
+        "la precisione del segnale analogico",
+        "la risoluzione del segnale digitale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "21-1",
+      "chapterId": 21,
+      "number": 1,
+      "text": "Il processo mediante il quale si raccolgono valori discreti di un segnale continuo è noto come:",
+      "options": [
+        "quantizzazione",
+        "campionamento",
+        "modulazione",
+        "amplificazione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "21-2",
+      "chapterId": 21,
+      "number": 2,
+      "text": "Il problema principale dell'elaborazione numerica di segnali campionati riguarda:",
+      "options": [
+        "la conservazione delle informazioni originali",
+        "la velocità di campionamento",
+        "l'ampiezza del segnale",
+        "la memoria necessaria per la conservazione dei dati"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "21-3",
+      "chapterId": 21,
+      "number": 3,
+      "text": "Il teorema che garantisce la corretta rappresentazione di un segnale campionato se la frequenza di campionamento è adeguata è:",
+      "options": [
+        "Teorema di Fourier",
+        "Teorema di Shannon",
+        "Teorema di Nyquist",
+        "Teorema di Heisenberg"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "21-4",
+      "chapterId": 21,
+      "number": 4,
+      "text": "La frequenza minima di campionamento necessaria per evitare perdite di informazione è:",
+      "options": [
+        "la frequenza di Fourier",
+        "la frequenza di Einstein",
+        "la frequenza di Aliasing",
+        "la frequenza di Nyquist"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "21-5",
+      "chapterId": 21,
+      "number": 5,
+      "text": "Il fenomeno di distorsione del segnale acquisito causato da una frequenza di campionamento insufficiente è chiamato:",
+      "options": [
+        "saturazione",
+        "dithering",
+        "aliasing",
+        "quantizzazione"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "21-6",
+      "chapterId": 21,
+      "number": 6,
+      "text": "Il filtro utilizzato per prevenire il fenomeno dell'aliasing è denominato:",
+      "options": [
+        "filtro anti-aliasing",
+        "filtro passa-alto",
+        "filtro passa-basso",
+        "filtro di Shannon"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "21-7",
+      "chapterId": 21,
+      "number": 7,
+      "text": "Un filtro anti-aliasing reale è caratterizzato da:",
+      "options": [
+        "una banda di transizione con estensione non infinitesima",
+        "una banda di transizione infinita",
+        "una banda di transizione nulla",
+        "una banda passante variabile"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "21-8",
+      "chapterId": 21,
+      "number": 8,
+      "text": "Il risultato dell'applicazione della trasformata di Fourier a un segnale periodico è:",
+      "options": [
+        "un segnale continuo nel tempo",
+        "un segnale discreto nel tempo",
+        "uno spettro di ampiezza del segnale",
+        "un segnale modulato"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "21-9",
+      "chapterId": 21,
+      "number": 9,
+      "text": "La banda di un segnale rappresenta:",
+      "options": [
+        "la frequenza minima presente nel segnale",
+        "la differenza tra la frequenza massima e quella minima di un segnale",
+        "la frequenza massima presente nel segnale",
+        "la somma delle frequenze del segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "21-10",
+      "chapterId": 21,
+      "number": 10,
+      "text": "Il campionamento di un segnale continuo nel tempo genera una sequenza:",
+      "options": [
+        "infinita di campioni",
+        "finita di campioni",
+        "continua di campioni",
+        "discontinua di campioni"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "22-1",
+      "chapterId": 22,
+      "number": 1,
+      "text": "L'operazione che discretizza un segnale rispetto alle ampiezze durante la conversione A/D è chiamata:",
+      "options": [
+        "campionamento",
+        "quantizzazione",
+        "modulazione",
+        "amplificazione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "22-2",
+      "chapterId": 22,
+      "number": 2,
+      "text": "Il campo di misura utilizzato per la quantizzazione di un segnale può essere:",
+      "options": [
+        "solo unipolare",
+        "solo bipolare",
+        "unipolare o bipolare",
+        "solo tripolare"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "22-3",
+      "chapterId": 22,
+      "number": 3,
+      "text": "La quantizzazione uniforme implica la suddivisione del campo di misura in:",
+      "options": [
+        "intervalli di ampiezza costante",
+        "intervalli di ampiezza variabile",
+        "intervalli di frequenza costante",
+        "intervalli di frequenza variabile"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "22-4",
+      "chapterId": 22,
+      "number": 4,
+      "text": "Il numero di bit necessario per rappresentare M livelli di quantizzazione è dato da:",
+      "options": [
+        "M",
+        "2M",
+        "log2(M)",
+        "M/2"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "22-5",
+      "chapterId": 22,
+      "number": 5,
+      "text": "Il valore centrale di ciascun intervallo di quantizzazione è utilizzato per:",
+      "options": [
+        "migliorare la precisione del segnale",
+        "ridurre la quantità di dati da memorizzare",
+        "aumentare la velocità di campionamento",
+        "rappresentare il valore di tensione del segnale quantizzato"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "22-6",
+      "chapterId": 22,
+      "number": 6,
+      "text": "La risoluzione di un quantizzatore migliora se:",
+      "options": [
+        "aumenta il numero di livelli di quantizzazione",
+        "diminuisce il numero di bit",
+        "aumenta la tensione di fondo scala a parità di numero di bit",
+        "diminuisce la tensione di fondo scala"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "22-7",
+      "chapterId": 22,
+      "number": 7,
+      "text": "L'errore di guadagno in un convertitore A/D è caratterizzato da:",
+      "options": [
+        "una traslazione della caratteristica rispetto all'asse delle ordinate",
+        "un'inclinazione della caratteristica diversa da 45°",
+        "una non linearità della caratteristica",
+        "una traslazione della caratteristica rispetto all'asse delle ascisse"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "22-8",
+      "chapterId": 22,
+      "number": 8,
+      "text": "La non linearità differenziale (DNL) in un convertitore A/D  è:",
+      "options": [
+        "un parametro che descrive il massimo scostamento della caratteristica reale da quella ideale",
+        "un parametro che descrive l'inclinazione della caratteristica",
+        "un parametro che descrive l'offset della caratteristica",
+        "un parametro puntuale che descrive la deviazione di un singolo gradino rispetto all'ideale"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "22-9",
+      "chapterId": 22,
+      "number": 9,
+      "text": "Il fenomeno del jitter in un convertitore A/D è associato a:",
+      "options": [
+        "un'incertezza sull'istante effettivo di campionamento",
+        "un'incertezza sull'ampiezza del segnale campionato",
+        "un'incertezza sulla frequenza del segnale campionato",
+        "un'incertezza sulla fase del segnale campionato"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "22-10",
+      "chapterId": 22,
+      "number": 10,
+      "text": "Gli errori statici in un convertitore A/D possono essere:",
+      "options": [
+        "compensati preliminarmente",
+        "ignorati",
+        "amplificati",
+        "cancellati completamente"
+      ],
+      "correctIndex": 0,
       "note": ""
     }
   ]
