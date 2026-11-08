@@ -1,6 +1,6 @@
 {
-  "version": "2ea4e905b0bdf538",
-  "fetchedAt": "2026-11-07T16:08:11.204Z",
+  "version": "bb1bb4deca627d9b",
+  "fetchedAt": "2026-11-08T16:32:19.161Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -187,9 +187,9 @@
     {
       "id": 23,
       "title": "Convertitori analogico-digitale",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -3448,6 +3448,146 @@
         "cancellati completamente"
       ],
       "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "23-1",
+      "chapterId": 23,
+      "number": 1,
+      "text": "Il tempo impiegato per convertire un segnale analogico in un valore digitale è definito:",
+      "options": [
+        "tempo di campionamento",
+        "tempo di quantizzazione",
+        "tempo di conversione",
+        "tempo di codifica"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "23-2",
+      "chapterId": 23,
+      "number": 2,
+      "text": "Il tipo di convertitore A/D utilizzato principalmente negli oscilloscopi è:",
+      "options": [
+        "convertitore SAR",
+        "convertitore Flash",
+        "convertitore a doppia rampa",
+        "convertitore Delta-Sigma"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "23-3",
+      "chapterId": 23,
+      "number": 3,
+      "text": "La caratteristica principale dei convertitori Flash è:",
+      "options": [
+        "alta precisione ma bassa velocità di conversione",
+        "bassa precisione ma alta velocità di conversione",
+        "conversione lenta e sequenziale",
+        "conversione diretta e rapida"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "23-4",
+      "chapterId": 23,
+      "number": 4,
+      "text": "La conversione A/D che avviene in un unico passaggio è tipica del convertitore:",
+      "options": [
+        "flash",
+        "SAR",
+        "delta-sigma",
+        "a doppia rampa"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "23-5",
+      "chapterId": 23,
+      "number": 5,
+      "text": "La velocità di conversione nei convertitori A/D Flash è limitata da:",
+      "options": [
+        "numero di bit del convertitore",
+        "stabilità del clock",
+        "rumore di ingresso",
+        "numero di comparatori utilizzati"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "23-6",
+      "chapterId": 23,
+      "number": 6,
+      "text": "Il convertitore a doppia rampa è noto per:",
+      "options": [
+        "alta velocità di conversione ma bassa precisione",
+        "alta precisione e immunità al rumore ma bassa velocità di conversione",
+        "alta capacità di elaborare segnali complessi",
+        "bassa complessità circuitale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "23-7",
+      "chapterId": 23,
+      "number": 7,
+      "text": "L'integratore nel convertitore a doppia rampa è utilizzato per:",
+      "options": [
+        "amplificare il segnale di ingresso",
+        "ridurre il rumore nel segnale di ingresso",
+        "integrare il segnale di ingresso per un tempo costante",
+        "quantizzare il segnale di ingresso"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "23-8",
+      "chapterId": 23,
+      "number": 8,
+      "text": "La fase di \"Run-Up\" nel convertitore a doppia rampa comporta:",
+      "options": [
+        "la scarica del condensatore",
+        "l'integrazione della tensione di ingresso",
+        "l'applicazione della tensione di riferimento",
+        "la quantizzazione del segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "23-9",
+      "chapterId": 23,
+      "number": 9,
+      "text": "La velocità di conversione in un convertitore a doppia rampa dipende da:",
+      "options": [
+        "numero di bit utilizzati",
+        "ampiezza del segnale di ingresso",
+        "valore del clock",
+        "tempo di integrazione"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "23-10",
+      "chapterId": 23,
+      "number": 10,
+      "text": "I convertitori SAR sono comunemente utilizzati per:",
+      "options": [
+        "misure di precisione in applicazioni industriali",
+        "misure di temperatura e umidità",
+        "applicazioni che richiedono alta velocità",
+        "strumenti portatili e multimetri digitali"
+      ],
+      "correctIndex": 3,
       "note": ""
     }
   ]

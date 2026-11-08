@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-08",
+      "createdAt": "2026-11-08T16:32:19.335Z",
+      "datasetVersion": "bb1bb4deca627d9b",
+      "questions": [
+        {
+          "id": "1-1",
+          "chapterId": 1,
+          "number": 1,
+          "text": "L'obiettivo delle misurazioni nel settore commerciale è:",
+          "options": [
+            "conoscenza delle leggi fisiche",
+            "automazione dei processi",
+            "regolazione degli scambi commerciali",
+            "monitoraggio dei livelli di inquinamento"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "2-8",
+          "chapterId": 2,
+          "number": 8,
+          "text": "La mole è definita prendendo il valore numerico della costante di:",
+          "options": [
+            "planck",
+            "avogadro",
+            "boltzmann",
+            "coulomb"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "7-4",
+          "chapterId": 7,
+          "number": 4,
+          "text": "La distribuzione gaussiana è simmetrica rispetto a:",
+          "options": [
+            "la media",
+            "la moda",
+            "la mediana",
+            "media, moda e mediana"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "4-4",
+          "chapterId": 4,
+          "number": 4,
+          "text": "L'istogramma è una rappresentazione grafica di:",
+          "options": [
+            "distribuzioni di frequenza",
+            "dati categoriali",
+            "dati continui",
+            "relazioni tra variabili"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "17-7",
+          "chapterId": 17,
+          "number": 7,
+          "text": "Per evitare il danneggiamento del galvanometro, all'inizio della procedura di misura si imposta:",
+          "options": [
+            "una bassa tensione e una bassa sensibilità",
+            "una bassa tensione e una alta sensibilità",
+            "una alta tensione e una bassa sensibilità",
+            "una alta tensione e una alta sensibilità"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "4-6",
+          "chapterId": 4,
+          "number": 6,
+          "text": "La mediana di un dataset con numero pari di osservazioni è:",
+          "options": [
+            "la media dei due valori centrali",
+            "il valore centrale",
+            "il valore più frequente",
+            "il valore massimo"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "23-8",
+          "chapterId": 23,
+          "number": 8,
+          "text": "La fase di \"Run-Up\" nel convertitore a doppia rampa comporta:",
+          "options": [
+            "la scarica del condensatore",
+            "l'integrazione della tensione di ingresso",
+            "l'applicazione della tensione di riferimento",
+            "la quantizzazione del segnale"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "2-1",
+          "chapterId": 2,
+          "number": 1,
+          "text": "Il sistema decimale per i multipli e i sottomultipli è stato introdotto durante:",
+          "options": [
+            "il rinascimento",
+            "la rivoluzione francese",
+            "l'illuminismo",
+            "la rivoluzione industriale"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "13-7",
+          "chapterId": 13,
+          "number": 7,
+          "text": "Il segnale che varia attraverso passi discreti sia in tempo che in ampiezza è noto come:",
+          "options": [
+            "segnale analogico",
+            "segnale continuo",
+            "segnale digitale",
+            "segnale sinusoidale"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "13-8",
+          "chapterId": 13,
+          "number": 8,
+          "text": "La memoria di un multimetro digitale permette di:",
+          "options": [
+            "visualizzare solo valori istantanei",
+            "memorizzare e richiamare i valori misurati",
+            "amplificare i segnali in ingresso",
+            "attenuare i segnali in ingresso"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-07",
       "createdAt": "2026-11-07T16:08:11.364Z",
       "datasetVersion": "2ea4e905b0bdf538",
