@@ -1,6 +1,6 @@
 {
-  "version": "bb1bb4deca627d9b",
-  "fetchedAt": "2026-11-08T16:32:19.161Z",
+  "version": "813c488ef565a84e",
+  "fetchedAt": "2026-11-09T20:27:41.793Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -195,17 +195,17 @@
     {
       "id": 24,
       "title": "Introduzione all'impedenzimetro numerico",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
       "id": 25,
       "title": "Modalità operative dell'impedenzimetro numerico",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -3588,6 +3588,286 @@
         "strumenti portatili e multimetri digitali"
       ],
       "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "24-1",
+      "chapterId": 24,
+      "number": 1,
+      "text": "Gli strumenti che permettono di misurare l'impedenza e altri parametri elettrici utilizzando tecniche numeriche sono chiamati:",
+      "options": [
+        "voltmetri numerici",
+        "amperometri numerici",
+        "impedenzimetri numerici",
+        "multimetri digitali"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "24-2",
+      "chapterId": 24,
+      "number": 2,
+      "text": "Il principio di funzionamento degli impedenzimetri numerici si basa sull'applicazione di:",
+      "options": [
+        "un segnale costante",
+        "un segnale sinusoidale a frequenza regolabile",
+        "un segnale impulsivo",
+        "un segnale triangolare"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "24-3",
+      "chapterId": 24,
+      "number": 3,
+      "text": "L'impedenza di un componente viene calcolata tramite il rapporto tra:",
+      "options": [
+        "tensione e resistenza",
+        "corrente e resistenza",
+        "potenza e corrente",
+        "tensione e corrente"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "24-4",
+      "chapterId": 24,
+      "number": 4,
+      "text": "Un impedenzimetro fornisce valori di:",
+      "options": [
+        "modulo e fase dell'impedenza",
+        "tensione e corrente",
+        "resistenza e induttanza",
+        "resistenza e capacità"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "24-5",
+      "chapterId": 24,
+      "number": 5,
+      "text": "Il segnale di prova utilizzato in un impedenzimetro per caratterizzare un componente su un intervallo di frequenze è noto come:",
+      "options": [
+        "segnale di riferimento",
+        "segnale di scansione",
+        "segnale di test",
+        "segnale di calibrazione"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "24-6",
+      "chapterId": 24,
+      "number": 6,
+      "text": "L'impedenza incognita è calcolata mediante:",
+      "options": [
+        "somma vettoriale di tensione e corrente",
+        "rapporto vettoriale tra caduta di tensione e corrente",
+        "somma algebrica di tensione e corrente",
+        "differenza vettoriale di tensione e corrente"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "24-7",
+      "chapterId": 24,
+      "number": 7,
+      "text": "Il generatore di segnale numerico presente nell'impedenzimetro:",
+      "options": [
+        "genera solo segnali a frequenza fissa",
+        "genera segnali sinusoidali di frequenza regolabile",
+        "non può variare la fase dei segnali",
+        "non è utilizzato per le misure di impedenza"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "24-8",
+      "chapterId": 24,
+      "number": 8,
+      "text": "Il controllo di fase in un generatore di segnale numerico consente di:",
+      "options": [
+        "generare segnali con fase variabile",
+        "generare segnali con frequenza fissa",
+        "generare segnali con ampiezza variabile",
+        "generare segnali con ampiezza fissa"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "24-9",
+      "chapterId": 24,
+      "number": 9,
+      "text": "Le ammettenze parassite nei circuiti di misura si manifestano principalmente:",
+      "options": [
+        "alle alte frequenze",
+        "alle basse frequenze",
+        "solo nei circuiti resistivi",
+        "solo nei circuiti capacitivi"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "24-10",
+      "chapterId": 24,
+      "number": 10,
+      "text": "L'uso della schermatura nei circuiti di misura:",
+      "options": [
+        "elimina completamente le ammettenze parassite",
+        "riduce ma non elimina completamente le ammettenze parassite",
+        "aumenta l'effetto delle ammettenze parassite",
+        "non influisce sulle ammettenze parassite"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "25-1",
+      "chapterId": 25,
+      "number": 1,
+      "text": "L'impedenza incognita in un impedenzimetro numerico viene calcolata tramite:",
+      "options": [
+        "somma delle tensioni",
+        "rapporto tra vettori di tensioni",
+        "prodotto di tensione e corrente",
+        "differenza di fase tra tensione e corrente"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "25-2",
+      "chapterId": 25,
+      "number": 2,
+      "text": "Nella procedura di misurazione in un impedenzimetro numerico, l'uscita del voltmetro ad integrazione è ottenuta come:",
+      "options": [
+        "media geometrica dei segnali in ingresso",
+        "media aritmetica dei segnali in ingresso",
+        "valor medio del prodotto tra i segnali in ingresso al moltiplicatore",
+        "somma dei segnali in ingresso al moltiplicatore"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "25-3",
+      "chapterId": 25,
+      "number": 3,
+      "text": "Generalmente, la procedura di misura per un impedenzimetro numerico include il confronto tra segnale e riferimento a fasi:",
+      "options": [
+        "0° e 45°",
+        "90° e 180°",
+        "0° e 90°",
+        "45° e 135°"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "25-4",
+      "chapterId": 25,
+      "number": 4,
+      "text": "Il modulo dell'impedenza viene calcolato utilizzando:",
+      "options": [
+        "solo la componente reale",
+        "la differenza tra range e campionamento",
+        "solo la componente immaginaria",
+        "entrambe le componenti reale e immaginaria"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "25-5",
+      "chapterId": 25,
+      "number": 5,
+      "text": "La modalità di funzionamento \"Fast\" in un impedenzimetro numerico utilizza proiezioni delle tensioni a:",
+      "options": [
+        "0° e 90°",
+        "0° , 90° e 180°",
+        "0° , 50° e 150°",
+        "0°"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "25-6",
+      "chapterId": 25,
+      "number": 6,
+      "text": "La modalità di funzionamento \"Medium\" in un impedenzimetro numerico si distingue per:",
+      "options": [
+        "un'accuratezza inferiore ma un tempo di misura più rapido",
+        "un numero maggiore di assi di proiezione rispetto alla modalità \"Fast\"",
+        "un numero minore di assi di proiezione rispetto alla modalità \"Fast\"",
+        "la capacità di misurare solo impedenze resistive"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "25-7",
+      "chapterId": 25,
+      "number": 7,
+      "text": "L'accuratezza della misura di impedenza dipende principalmente da:",
+      "options": [
+        "la qualità della corrente di test",
+        "la temperatura ambiente",
+        "la lunghezza dei cavi di misura",
+        "la precisione delle proiezioni dei vettori di tensione"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "25-8",
+      "chapterId": 25,
+      "number": 8,
+      "text": "La modalità \"swept frequency\" di un impedenzimetro numerico consente di:",
+      "options": [
+        "analizzare il comportamento di un componente su un determinato intervallo di frequenze",
+        "misurare la resistenza solo a una frequenza specifica",
+        "eliminare completamente le impedenze parassite",
+        "generare un segnale di riferimento a fase variabile"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "25-9",
+      "chapterId": 25,
+      "number": 9,
+      "text": "L'uso della modalità \"swept frequency\" in un impedenzimetro numerico è particolarmente utile per:",
+      "options": [
+        "la misurazione di resistenze ad alta frequenza",
+        "l'analisi di segnali di corrente continua",
+        "la calibrazione di multimetri digitali",
+        "la caratterizzazione di filtri, induttori e condensatori"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "25-10",
+      "chapterId": 25,
+      "number": 10,
+      "text": "L'effetto delle impedenze parassite nei cavi di misura può essere ridotto utilizzando:",
+      "options": [
+        "cavi di lunghezza maggiore",
+        "cavi twistati o intrecciati",
+        "cavi non schermati",
+        "cavi con alta resistenza interna"
+      ],
+      "correctIndex": 1,
       "note": ""
     }
   ]

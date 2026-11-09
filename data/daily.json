@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-09",
+      "createdAt": "2026-11-09T20:27:41.964Z",
+      "datasetVersion": "813c488ef565a84e",
+      "questions": [
+        {
+          "id": "2-6",
+          "chapterId": 2,
+          "number": 6,
+          "text": "Il metro è stato ridefinito come la lunghezza del tragitto percorso dalla luce nel vuoto in un intervallo di tempo pari a:",
+          "options": [
+            "1/100000000 s",
+            "1/186000 s",
+            "1/2997924 s",
+            "1/299792458 s"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "1-5",
+          "chapterId": 1,
+          "number": 5,
+          "text": "Il misurando rappresenta:",
+          "options": [
+            "il dispositivo che consente di eseguire la misurazione",
+            "la grandezza sottoposta a misurazione",
+            "la modalità con cui si esegue il confronto tra misurando e campione di riferimento",
+            "le condizioni al contorno durante la misurazione"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "20-8",
+          "chapterId": 20,
+          "number": 8,
+          "text": "La quantizzazione uniforme suddivide il segnale in:",
+          "options": [
+            "intervalli di ampiezza costante",
+            "intervalli di ampiezza variabile",
+            "intervalli di tempo variabile",
+            "intervalli di frequenza costante"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "23-4",
+          "chapterId": 23,
+          "number": 4,
+          "text": "La conversione A/D che avviene in un unico passaggio è tipica del convertitore:",
+          "options": [
+            "flash",
+            "SAR",
+            "delta-sigma",
+            "a doppia rampa"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "4-4",
+          "chapterId": 4,
+          "number": 4,
+          "text": "L'istogramma è una rappresentazione grafica di:",
+          "options": [
+            "distribuzioni di frequenza",
+            "dati categoriali",
+            "dati continui",
+            "relazioni tra variabili"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "21-7",
+          "chapterId": 21,
+          "number": 7,
+          "text": "Un filtro anti-aliasing reale è caratterizzato da:",
+          "options": [
+            "una banda di transizione con estensione non infinitesima",
+            "una banda di transizione infinita",
+            "una banda di transizione nulla",
+            "una banda passante variabile"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "1-4",
+          "chapterId": 1,
+          "number": 4,
+          "text": "Gli agenti che contribuiscono al processo di misura sono:",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correctIndex": 2,
+          "note": "Non presente nella dispensa"
+        },
+        {
+          "id": "1-1",
+          "chapterId": 1,
+          "number": 1,
+          "text": "L'obiettivo delle misurazioni nel settore commerciale è:",
+          "options": [
+            "conoscenza delle leggi fisiche",
+            "automazione dei processi",
+            "regolazione degli scambi commerciali",
+            "monitoraggio dei livelli di inquinamento"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "1-7",
+          "chapterId": 1,
+          "number": 7,
+          "text": "Per strumento nel processo di misurazione si intende:",
+          "options": [
+            "il modello matematico utilizzato",
+            "l'oggetto con cui si esegue il confronto tra misurando e campione di riferimento",
+            "le condizioni al contorno durante la misurazione",
+            "il risultato della misura"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "13-2",
+          "chapterId": 13,
+          "number": 2,
+          "text": "Il parametro che indica l'insieme dei valori che il misurando può assumere è:",
+          "options": [
+            "risoluzione",
+            "accuratezza",
+            "campo di misura",
+            "sensibilità"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-08",
       "createdAt": "2026-11-08T16:32:19.335Z",
       "datasetVersion": "bb1bb4deca627d9b",
