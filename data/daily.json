@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-10",
+      "createdAt": "2026-11-10T17:30:46.405Z",
+      "datasetVersion": "813c488ef565a84e",
+      "questions": [
+        {
+          "id": "12-2",
+          "chapterId": 12,
+          "number": 2,
+          "text": "Le caratteristiche del sistema di misura espresse mediante parametri sintetici in due domini specifici sono:",
+          "options": [
+            "dominio della lunghezza e dominio del tempo",
+            "dominio della frequenza e dominio della lunghezza",
+            "dominio del tempo e dominio della frequenza",
+            "dominio del tempo e dominio della velocità"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "11-4",
+          "chapterId": 11,
+          "number": 4,
+          "text": "a capacità di un dispositivo di misura di conservare inalterate le sue caratteristiche nel tempo è definita:",
+          "options": [
+            "accuratezza",
+            "ripetibilità",
+            "risoluzione",
+            "stabilità"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "24-8",
+          "chapterId": 24,
+          "number": 8,
+          "text": "Il controllo di fase in un generatore di segnale numerico consente di:",
+          "options": [
+            "generare segnali con fase variabile",
+            "generare segnali con frequenza fissa",
+            "generare segnali con ampiezza variabile",
+            "generare segnali con ampiezza fissa"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "7-6",
+          "chapterId": 7,
+          "number": 6,
+          "text": "La probabilità che un valore misurato ricada all'interno di un intervallo specificato in una distribuzione gaussiana si calcola:",
+          "options": [
+            "integrando la funzione di densità di probabilità tra i limiti dell'intervallo",
+            "sommando tutti i valori dell'intervallo",
+            "sottraendo la media dal valore dell'intervallo",
+            "calcolando la radice quadrata della varianza"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "15-8",
+          "chapterId": 15,
+          "number": 8,
+          "text": "Per compensare il contributo di resistenza dei cavi di collegamento e di contatto dei puntali, è necessario:",
+          "options": [
+            "aumentare la corrente di misura",
+            "ridurre la tensione di misura",
+            "definire un metodo di compensazione",
+            "usare un generatore di tensione"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "24-2",
+          "chapterId": 24,
+          "number": 2,
+          "text": "Il principio di funzionamento degli impedenzimetri numerici si basa sull'applicazione di:",
+          "options": [
+            "un segnale costante",
+            "un segnale sinusoidale a frequenza regolabile",
+            "un segnale impulsivo",
+            "un segnale triangolare"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "18-10",
+          "chapterId": 18,
+          "number": 10,
+          "text": "Le resistenze di contatto associate ai morsetti voltmetrici di una resistenza a quattro morsetti sono trascurabili perché:",
+          "options": [
+            "l'impedenza di ingresso di un voltmetro è molto elevata",
+            "l'impedenza di ingresso di un voltmetro è molto bassa",
+            "la capacità di ingresso di un voltmetro è molto elevata",
+            "la capacità di ingresso di un voltmetro è molto bassa"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "20-1",
+          "chapterId": 20,
+          "number": 1,
+          "text": "Il primo stadio della catena di misura, che trasforma la grandezza fisica in un segnale di misura, è costituito da:",
+          "options": [
+            "elementi rivelatori",
+            "elementi trasformatori",
+            "elementi sensibili o sensori",
+            "elementi trasmettitori"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "8-9",
+          "chapterId": 8,
+          "number": 9,
+          "text": "Il livello di confidenza del test del chi-quadrato viene determinato dal fattore di rischio definito come:",
+          "options": [
+            "probabilità di trarre conclusioni errate",
+            "probabilità di accettare l'ipotesi nulla",
+            "probabilità di accettare l'ipotesi alternativa",
+            "probabilità di osservare un valore casuale"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "19-5",
+          "chapterId": 19,
+          "number": 5,
+          "text": "Per ridurre l'effetto delle resistenze di contatto nei morsetti di tensione, si utilizza:",
+          "options": [
+            "un amperometro di alta precisione",
+            "un filtro passa-basso",
+            "un invertitore di corrente",
+            "quattro morsetti di misura sul resistore"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-09",
       "createdAt": "2026-11-09T20:27:41.964Z",
       "datasetVersion": "813c488ef565a84e",
