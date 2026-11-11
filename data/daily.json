@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-11",
+      "createdAt": "2026-11-11T17:43:55.049Z",
+      "datasetVersion": "f181d19edda94dbf",
+      "questions": [
+        {
+          "id": "22-3",
+          "chapterId": 22,
+          "number": 3,
+          "text": "La quantizzazione uniforme implica la suddivisione del campo di misura in:",
+          "options": [
+            "intervalli di ampiezza costante",
+            "intervalli di ampiezza variabile",
+            "intervalli di frequenza costante",
+            "intervalli di frequenza variabile"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "14-9",
+          "chapterId": 14,
+          "number": 9,
+          "text": "Il valore di resistenza di shunt viene selezionato per:",
+          "options": [
+            "minimizzare la tensione misurata",
+            "generare una tensione compatibile con il range di misura",
+            "aumentare la corrente misurata",
+            "ridurre la resistenza totale del circuito"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "6-5",
+          "chapterId": 6,
+          "number": 5,
+          "text": "La probabilità percentuale associata all'intervallo [20.45 g, 20.60 g] in una distribuzione uniforme con a=20 g e b=21 g è:",
+          "options": [
+            "10%",
+            "15%",
+            "20%",
+            "25%"
+          ],
+          "correctIndex": 1,
+          "note": "15% è corretta anche se la piattaforma dà 20%"
+        },
+        {
+          "id": "17-6",
+          "chapterId": 17,
+          "number": 6,
+          "text": "La procedura di misura con il ponte di Wheatstone inizia con:",
+          "options": [
+            "condizioni di ponte sbilanciato",
+            "condizioni di ponte bilanciato",
+            "corrente massima nel circuito",
+            "tensione massima nel circuito"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "12-3",
+          "chapterId": 12,
+          "number": 3,
+          "text": "l tempo che intercorre dall'applicazione dell'ingresso al momento in cui il sistema raggiunge il 5% del valore di regime è noto come:",
+          "options": [
+            "tempo di risposta",
+            "tempo di salita",
+            "tempo di recupero",
+            "tempo morto"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "11-7",
+          "chapterId": 11,
+          "number": 7,
+          "text": "Il valore dell'impedenza equivalente tra i morsetti di uscita del sistema di misura è:",
+          "options": [
+            "resistenza di uscita",
+            "capacità di uscita",
+            "impedenza di uscita",
+            "induttanza di uscita"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "25-10",
+          "chapterId": 25,
+          "number": 10,
+          "text": "L'effetto delle impedenze parassite nei cavi di misura può essere ridotto utilizzando:",
+          "options": [
+            "cavi di lunghezza maggiore",
+            "cavi twistati o intrecciati",
+            "cavi non schermati",
+            "cavi con alta resistenza interna"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "12-7",
+          "chapterId": 12,
+          "number": 7,
+          "text": "Il comportamento in frequenza di un sistema è generalmente rappresentato mediante:",
+          "options": [
+            "diagrammi di Bode",
+            "diagrammi di Nyquist",
+            "diagrammi di Smith",
+            "diagrammi di Black"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "24-8",
+          "chapterId": 24,
+          "number": 8,
+          "text": "Il controllo di fase in un generatore di segnale numerico consente di:",
+          "options": [
+            "generare segnali con fase variabile",
+            "generare segnali con frequenza fissa",
+            "generare segnali con ampiezza variabile",
+            "generare segnali con ampiezza fissa"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "12-4",
+          "chapterId": 12,
+          "number": 4,
+          "text": "Il sistema che si considera sempre funzionante in regime stazionario è",
+          "options": [
+            "sistema del primo ordine",
+            "sistema del secondo ordine",
+            "sistema del terzo ordine",
+            "sistema di ordine zero"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "createdAt": "2026-11-10T17:30:46.405Z",
       "datasetVersion": "813c488ef565a84e",

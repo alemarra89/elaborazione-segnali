@@ -1,6 +1,6 @@
 {
-  "version": "813c488ef565a84e",
-  "fetchedAt": "2026-11-10T17:30:46.237Z",
+  "version": "f181d19edda94dbf",
+  "fetchedAt": "2026-11-11T17:43:54.911Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -211,9 +211,9 @@
     {
       "id": 26,
       "title": "Introduzione al contatore numerico",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -3868,6 +3868,146 @@
         "cavi con alta resistenza interna"
       ],
       "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "26-1",
+      "chapterId": 26,
+      "number": 1,
+      "text": "Il contatore numerico è utilizzato per misurare:",
+      "options": [
+        "tensioni continue",
+        "frequenze e intervalli di tempo",
+        "correnti alternate",
+        "potenze elettriche"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "26-2",
+      "chapterId": 26,
+      "number": 2,
+      "text": "Il periodo di un segnale è definito come:",
+      "options": [
+        "la differenza tra il valore massimo e minimo del segnale",
+        "il reciproco dell'ampiezza",
+        "l'integrale del segnale nel tempo",
+        "l'intervallo di tempo necessario affinché il segnale ritorni allo stesso valore con la stessa pendenza"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "26-3",
+      "chapterId": 26,
+      "number": 3,
+      "text": "Il tempo di salita di un segnale rappresenta:",
+      "options": [
+        "il tempo necessario per passare dal 10% al 90% del valore di regime",
+        "il tempo impiegato per un ciclo completo del segnale",
+        "il tempo impiegato per passare dal valore minimo al massimo",
+        "il tempo necessario per la stabilizzazione del segnale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "26-4",
+      "chapterId": 26,
+      "number": 4,
+      "text": "Il contatore numerico opera tramite:",
+      "options": [
+        "elaborazione analogica del segnale",
+        "misurazioni continue delle ampiezze del segnale",
+        "conteggio di impulsi discreti",
+        "analisi spettroscopica del segnale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "26-5",
+      "chapterId": 26,
+      "number": 5,
+      "text": "Il blocco di ingresso di un contatore numerico ha la funzione di:",
+      "options": [
+        "visualizzare il risultato della misura",
+        "amplificare e condizionare il segnale elettrico in ingresso",
+        "fornire l'alimentazione al circuito",
+        "eseguire la conversione A/D del segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "26-6",
+      "chapterId": 26,
+      "number": 6,
+      "text": "Il blocco di conteggio in un contatore numerico è costituito da:",
+      "options": [
+        "un oscillatore al quarzo",
+        "una serie di contatori modulo 10",
+        "un amplificatore operazionale",
+        "un display a 7 segmenti"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "26-7",
+      "chapterId": 26,
+      "number": 7,
+      "text": "Il clock utilizzato nel contatore numerico è solitamente un:",
+      "options": [
+        "un oscillatore al quarzo",
+        "generatore di corrente",
+        "amplificatore di potenza",
+        "convertitore D/A"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "26-8",
+      "chapterId": 26,
+      "number": 8,
+      "text": "Il segnale in ingresso al blocco gate del contatore numerico viene:",
+      "options": [
+        "sommato al segnale di riferimento",
+        "filtrato per migliorare la misura",
+        "confrontato con un segnale di soglia",
+        "utilizzato per attivare o disattivare il conteggio"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "26-9",
+      "chapterId": 26,
+      "number": 9,
+      "text": "Il blocco di visualizzazione in un contatore numerico converte i dati per:",
+      "options": [
+        "l'archiviazione su memoria esterna",
+        "la trasmissione a un computer",
+        "la visualizzazione su un display",
+        "l'analisi statistica"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "26-10",
+      "chapterId": 26,
+      "number": 10,
+      "text": "Il trigger di Schmidt nel contatore numerico è utilizzato per:",
+      "options": [
+        "convertire il segnale analogico in digitale",
+        "selezionare solo gli impulsi positivi",
+        "amplificare il segnale in ingresso",
+        "portare il segnale a un livello logico definito"
+      ],
+      "correctIndex": 3,
       "note": ""
     }
   ]
