@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-12",
+      "createdAt": "2026-11-12T17:56:54.364Z",
+      "datasetVersion": "7575d3553ab11d0d",
+      "questions": [
+        {
+          "id": "20-7",
+          "chapterId": 20,
+          "number": 7,
+          "text": "La prima operazione nella conversione A/D, che discretizza il segnale nel dominio del tempo, è:",
+          "options": [
+            "quantizzazione",
+            "campionamento",
+            "amplificazione",
+            "modulazione"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "14-8",
+          "chapterId": 14,
+          "number": 8,
+          "text": "Per realizzare una misura di corrente, si utilizza spesso:",
+          "options": [
+            "un voltmetro in parallelo",
+            "un amperometro in parallelo",
+            "un generatore di corrente",
+            "un amperometro in serie"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "8-7",
+          "chapterId": 8,
+          "number": 7,
+          "text": "Il range del dataset osservato viene definito come:",
+          "options": [
+            "differenza tra la media e la deviazione standard",
+            "differenza tra il valore massimo e il valore minimo dei valori osservati",
+            "somma delle frequenze osservate",
+            "somma delle frequenze attese"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "18-6",
+          "chapterId": 18,
+          "number": 6,
+          "text": "Il valore della resistenza di contatto varia in relazione a:",
+          "options": [
+            "la lunghezza del cavo e la temperatura d'esercizio",
+            "il materiale di contatto e la temperatura d'esercizio",
+            "la capacità del cavo e la temperatura d'esercizio",
+            "l'induttanza del cavo e la corrente d'esercizio"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "18-2",
+          "chapterId": 18,
+          "number": 2,
+          "text": "Le resistenze non intenzionali presenti nei conduttori a causa della loro resistività intrinseca sono chiamate:",
+          "options": [
+            "resistenze di carico",
+            "resistenze di contatto",
+            "resistenze di dispersione",
+            "resistenze parassite dei cavi"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "27-5",
+          "chapterId": 27,
+          "number": 5,
+          "text": "Lo sfasamento tra due segnali isofrequenziali viene misurato come:",
+          "options": [
+            "differenza di ampiezza tra i segnali",
+            "differenza di fase tra i segnali non isofrequenziali",
+            "somma delle frequenze dei segnali",
+            "intervallo di tempo tra i segnali che attraversano lo zero con la stessa pendenza"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "18-9",
+          "chapterId": 18,
+          "number": 9,
+          "text": "I morsetti amperometrici di una resistenza a quattro morsetti sono caratterizzati da:",
+          "options": [
+            "una sezione minore per ridurre le resistenze di contatto",
+            "una sezione maggiore per aumentare la capacità",
+            "una sezione minore per aumentare l'induttanza",
+            "una sezione maggiore per ridurre le resistenze di contatto"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "23-10",
+          "chapterId": 23,
+          "number": 10,
+          "text": "I convertitori SAR sono comunemente utilizzati per:",
+          "options": [
+            "misure di precisione in applicazioni industriali",
+            "misure di temperatura e umidità",
+            "applicazioni che richiedono alta velocità",
+            "strumenti portatili e multimetri digitali"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "4-8",
+          "chapterId": 4,
+          "number": 8,
+          "text": "Il fattore di dispersione misura:",
+          "options": [
+            "la media dei dati",
+            "la dispersione relativa dei dati",
+            "il valore massimo",
+            "la somma dei valori"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "20-5",
+          "chapterId": 20,
+          "number": 5,
+          "text": "Il vantaggio del filtraggio dei segnali digitali rispetto a quelli analogici è dato da:",
+          "options": [
+            "la flessibilità dei componenti hardware",
+            "la stabilità dei componenti fisici",
+            "la precisione intrinseca del segnale",
+            "la flessibilità e facilità di elaborazione tramite software"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-11",
       "createdAt": "2026-11-11T17:43:55.049Z",
       "datasetVersion": "f181d19edda94dbf",

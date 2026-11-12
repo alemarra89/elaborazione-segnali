@@ -1,6 +1,6 @@
 {
-  "version": "f181d19edda94dbf",
-  "fetchedAt": "2026-11-11T17:43:54.911Z",
+  "version": "7575d3553ab11d0d",
+  "fetchedAt": "2026-11-12T17:56:54.200Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -219,9 +219,9 @@
     {
       "id": 27,
       "title": "Contatore numerico per misure di tempo e frequenza",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -4008,6 +4008,146 @@
         "portare il segnale a un livello logico definito"
       ],
       "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "27-1",
+      "chapterId": 27,
+      "number": 1,
+      "text": "In un contatore numerico, Il periodo di un segnale viene determinato contando:",
+      "options": [
+        "i cicli completi del segnale",
+        "le oscillazioni del segnale di ingresso",
+        "i picchi di tensione del segnale",
+        "gli impulsi del segnale che attraversano lo zero con pendenza positiva/negativa"
+      ],
+      "correctIndex": 3,
+      "note": "da vedere bene"
+    },
+    {
+      "id": "27-2",
+      "chapterId": 27,
+      "number": 2,
+      "text": "La risoluzione della misura di periodo per un contatore numerico dipende da:",
+      "options": [
+        "la frequenza del segnale di ingresso",
+        "la risoluzione del clock del contatore",
+        "l'ampiezza del segnale",
+        "il tipo di rilevatore di zero utilizzato"
+      ],
+      "correctIndex": 1,
+      "note": "da vedere bene"
+    },
+    {
+      "id": "27-3",
+      "chapterId": 27,
+      "number": 3,
+      "text": "Per un contatore numerico, la misura più accurata del periodo si ottiene con segnali:",
+      "options": [
+        "di alta frequenza",
+        "di bassa ampiezza",
+        "con lungo periodo",
+        "con basso periodo"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "27-4",
+      "chapterId": 27,
+      "number": 4,
+      "text": "L'errore massimo nella misura del periodo per un contatore numerico è dato da:",
+      "options": [
+        "l'ampiezza del segnale di ingresso",
+        "la frequenza del segnale di ingresso",
+        "la risoluzione del clock del contatore",
+        "il tipo di rilevatore di zero utilizzato"
+      ],
+      "correctIndex": 2,
+      "note": "da vedere bene"
+    },
+    {
+      "id": "27-5",
+      "chapterId": 27,
+      "number": 5,
+      "text": "Lo sfasamento tra due segnali isofrequenziali viene misurato come:",
+      "options": [
+        "differenza di ampiezza tra i segnali",
+        "differenza di fase tra i segnali non isofrequenziali",
+        "somma delle frequenze dei segnali",
+        "intervallo di tempo tra i segnali che attraversano lo zero con la stessa pendenza"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "27-6",
+      "chapterId": 27,
+      "number": 6,
+      "text": "Il tempo di salita di un segnale viene misurato come:",
+      "options": [
+        "il tempo impiegato dal segnale per raggiungere il 90% del suo valore massimo",
+        "il tempo impiegato dal segnale per passare dal 10% al 90% del suo valore massimo",
+        "il tempo impiegato dal segnale per scendere dal 90% al 10% del suo valore massimo",
+        "il tempo impiegato dal segnale per completare un ciclo completo"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "27-7",
+      "chapterId": 27,
+      "number": 7,
+      "text": "La misura di frequenza in un contatore numerico avviene contando:",
+      "options": [
+        "gli impulsi di segnale in un intervallo di tempo definito",
+        "le oscillazioni del segnale di ingresso",
+        "i cicli completi del segnale",
+        "i picchi di tensione del segnale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "27-8",
+      "chapterId": 27,
+      "number": 8,
+      "text": "In un contatore numerico, la risoluzione nella misura di frequenza migliora:",
+      "options": [
+        "aumentando la frequenza del segnale",
+        "aumentando il numero di impulsi contati",
+        "riducendo il tempo di osservazione",
+        "riducendo la frequenza del segnale"
+      ],
+      "correctIndex": 1,
+      "note": "da vedere bene"
+    },
+    {
+      "id": "27-9",
+      "chapterId": 27,
+      "number": 9,
+      "text": "In un contatore numerico, l'errore di conteggio negli impulsi è causato da:",
+      "options": [
+        "l'instabilità del clock",
+        "il rumore nel segnale di ingresso",
+        "la bassa ampiezza del segnale",
+        "l'intervallo temporale non multiplo del periodo degli impulsi"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "27-10",
+      "chapterId": 27,
+      "number": 10,
+      "text": "Per un contatore numerico, il gating error è causato da:",
+      "options": [
+        "disturbi sovrapposti al segnale di ingresso",
+        "instabilità della base dei tempi",
+        "variazioni della tensione di alimentazione",
+        "errore nella misura del periodo"
+      ],
+      "correctIndex": 0,
       "note": ""
     }
   ]
