@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-13",
+      "createdAt": "2026-11-13T17:32:38.682Z",
+      "datasetVersion": "7575d3553ab11d0d",
+      "questions": [
+        {
+          "id": "10-5",
+          "chapterId": 10,
+          "number": 5,
+          "text": "Il caso notevole che considera la somma di più resistenze in serie è:",
+          "options": [
+            "caso somma",
+            "caso differenza",
+            "caso prodotto",
+            "caso rapporto"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "22-8",
+          "chapterId": 22,
+          "number": 8,
+          "text": "La non linearità differenziale (DNL) in un convertitore A/D  è:",
+          "options": [
+            "un parametro che descrive il massimo scostamento della caratteristica reale da quella ideale",
+            "un parametro che descrive l'inclinazione della caratteristica",
+            "un parametro che descrive l'offset della caratteristica",
+            "un parametro puntuale che descrive la deviazione di un singolo gradino rispetto all'ideale"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "1-5",
+          "chapterId": 1,
+          "number": 5,
+          "text": "Il misurando rappresenta:",
+          "options": [
+            "il dispositivo che consente di eseguire la misurazione",
+            "la grandezza sottoposta a misurazione",
+            "la modalità con cui si esegue il confronto tra misurando e campione di riferimento",
+            "le condizioni al contorno durante la misurazione"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "21-4",
+          "chapterId": 21,
+          "number": 4,
+          "text": "La frequenza minima di campionamento necessaria per evitare perdite di informazione è:",
+          "options": [
+            "la frequenza di Fourier",
+            "la frequenza di Einstein",
+            "la frequenza di Aliasing",
+            "la frequenza di Nyquist"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "23-1",
+          "chapterId": 23,
+          "number": 1,
+          "text": "Il tempo impiegato per convertire un segnale analogico in un valore digitale è definito:",
+          "options": [
+            "tempo di campionamento",
+            "tempo di quantizzazione",
+            "tempo di conversione",
+            "tempo di codifica"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "11-8",
+          "chapterId": 11,
+          "number": 8,
+          "text": "La più piccola variazione del valore del misurando che provoca una variazione misurabile nel valore della grandezza di uscita è:",
+          "options": [
+            "risoluzione",
+            "accuratezza",
+            "sensibilità",
+            "stabilità"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "27-6",
+          "chapterId": 27,
+          "number": 6,
+          "text": "Il tempo di salita di un segnale viene misurato come:",
+          "options": [
+            "il tempo impiegato dal segnale per raggiungere il 90% del suo valore massimo",
+            "il tempo impiegato dal segnale per passare dal 10% al 90% del suo valore massimo",
+            "il tempo impiegato dal segnale per scendere dal 90% al 10% del suo valore massimo",
+            "il tempo impiegato dal segnale per completare un ciclo completo"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "4-4",
+          "chapterId": 4,
+          "number": 4,
+          "text": "L'istogramma è una rappresentazione grafica di:",
+          "options": [
+            "distribuzioni di frequenza",
+            "dati categoriali",
+            "dati continui",
+            "relazioni tra variabili"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "1-9",
+          "chapterId": 1,
+          "number": 9,
+          "text": "E' un esmpio di misura diretta:",
+          "options": [
+            "l'area tremite misure di lunghezza",
+            "la resistenza elettrica trremite misure di tensione e corrente",
+            "la lunghezza tramite asta metrica",
+            "velocità tramite misure di spazio e tempo"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "14-8",
+          "chapterId": 14,
+          "number": 8,
+          "text": "Per realizzare una misura di corrente, si utilizza spesso:",
+          "options": [
+            "un voltmetro in parallelo",
+            "un amperometro in parallelo",
+            "un generatore di corrente",
+            "un amperometro in serie"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-12",
       "createdAt": "2026-11-12T17:56:54.364Z",
       "datasetVersion": "7575d3553ab11d0d",
