@@ -1,6 +1,6 @@
 {
-  "version": "7575d3553ab11d0d",
-  "fetchedAt": "2026-11-13T17:32:38.562Z",
+  "version": "6f4498d6b5e857e6",
+  "fetchedAt": "2026-11-14T16:24:41.582Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -227,9 +227,9 @@
     {
       "id": 28,
       "title": "Oscilloscopio numerico",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -4148,6 +4148,146 @@
         "errore nella misura del periodo"
       ],
       "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "28-1",
+      "chapterId": 28,
+      "number": 1,
+      "text": "Un oscilloscopio numerico è uno strumento che consente di visualizzare:",
+      "options": [
+        "un segnale nel dominio della frequenza",
+        "un segnale nel dominio della potenza",
+        "un segnale nel dominio dell'impedenza",
+        "un segnale nel dominio del tempo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "28-2",
+      "chapterId": 28,
+      "number": 2,
+      "text": "Quando l'andamento temporale è ottenuto da un numero finito di campioni memorizzati, si parla di un oscilloscopio:",
+      "options": [
+        "analogico",
+        "a memori variabile",
+        "numerico o digitale",
+        "dinamico"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "28-3",
+      "chapterId": 28,
+      "number": 3,
+      "text": "L'oscilloscopio numerico può visualizzare solo porzioni di durata limitata di segnale a causa di:",
+      "options": [
+        "limiti di frequenza",
+        "capacità di memoria disponibile",
+        "risoluzione verticale",
+        "risoluzione orizzontale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "28-4",
+      "chapterId": 28,
+      "number": 4,
+      "text": "La scelta della porzione di segnale da memorizzare in un oscilloscopio numerico viene eseguita sulla base di:",
+      "options": [
+        "la frequenza di campionamento",
+        "il segnale di trigger",
+        "l'ampiezza del segnale",
+        "il tempo di salita del segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "28-5",
+      "chapterId": 28,
+      "number": 5,
+      "text": "Il blocco di condizionamento analogico in un oscilloscopio numerico ha il compito di:",
+      "options": [
+        "convertire il segnale in digitale",
+        "filtrare il segnale con un filtro passa-basso",
+        "generare il segnale di clock",
+        "attenuare o amplificare il segnale in ingresso"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "28-6",
+      "chapterId": 28,
+      "number": 6,
+      "text": "Il coupling in un oscilloscopio numerico modifica il modo in cui:",
+      "options": [
+        "il segnale viene campionato",
+        "il segnale viene visualizzato sullo schermo",
+        "il segnale viene collegato all'amplificatore d'ingresso",
+        "il segnale viene memorizzato"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "28-7",
+      "chapterId": 28,
+      "number": 7,
+      "text": "In un oscilloscopio numerico, l'accoppiamento diretto (DC) permette al segnale di:",
+      "options": [
+        "passare direttamente all'amplificatore d'ingresso",
+        "essere filtrato da un filtro passa-alto",
+        "essere campionato a bassa frequenza",
+        "essere bloccato e centrato su zero vol"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "28-8",
+      "chapterId": 28,
+      "number": 8,
+      "text": "L'accoppiamento alternato (AC) in un oscilloscopio numerico blocca:",
+      "options": [
+        "le componenti ad alta frequenza del segnale",
+        "le componenti continue del segnale",
+        "tutte le componenti del segnale",
+        "le componenti di bassa frequenza del segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "28-9",
+      "chapterId": 28,
+      "number": 9,
+      "text": "La memoria di acquisizione in un oscilloscopio numerico immagazzina:",
+      "options": [
+        "i campioni digitalizzati del segnale",
+        "il segnale analogico originale",
+        "il segnale di clock",
+        "l'evento di trigger"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "28-10",
+      "chapterId": 28,
+      "number": 10,
+      "text": "Il segnale di trigger in un oscilloscopio numerico viene utilizzato per:",
+      "options": [
+        "aumentare la frequenza di campionamento",
+        "ridurre il rumore del segnale",
+        "sincronizzare l'acquisizione dei campioni con eventi specifici del segnale",
+        "modificare l'ampiezza del segnale di ingresso"
+      ],
+      "correctIndex": 2,
       "note": ""
     }
   ]

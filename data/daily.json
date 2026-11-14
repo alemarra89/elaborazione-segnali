@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-14",
+      "createdAt": "2026-11-14T16:24:41.707Z",
+      "datasetVersion": "6f4498d6b5e857e6",
+      "questions": [
+        {
+          "id": "23-1",
+          "chapterId": 23,
+          "number": 1,
+          "text": "Il tempo impiegato per convertire un segnale analogico in un valore digitale è definito:",
+          "options": [
+            "tempo di campionamento",
+            "tempo di quantizzazione",
+            "tempo di conversione",
+            "tempo di codifica"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "16-4",
+          "chapterId": 16,
+          "number": 4,
+          "text": "La tensione in un circuito per il metodo voltamperometrico è misurata inserendo lo strumento di misura:",
+          "options": [
+            "in serie",
+            "in derivazione",
+            "in cortocircuito",
+            "in parallelo"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "2-7",
+          "chapterId": 2,
+          "number": 7,
+          "text": "La candela è definita prendendo la costante di efficacia luminosa della radiazione monocromatica a:",
+          "options": [
+            "540 x 1012 Hz",
+            "540 x 1010 Hz",
+            "540 x 1014 Hz",
+            "540 x 108 Hz"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "21-1",
+          "chapterId": 21,
+          "number": 1,
+          "text": "Il processo mediante il quale si raccolgono valori discreti di un segnale continuo è noto come:",
+          "options": [
+            "quantizzazione",
+            "campionamento",
+            "modulazione",
+            "amplificazione"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "19-1",
+          "chapterId": 19,
+          "number": 1,
+          "text": "Il metodo utilizzato per misurare resistenze di piccolo valore è:",
+          "options": [
+            "metodo voltamperometrico",
+            "metodo della caduta di potenziale",
+            "metodo delle resistenze in serie",
+            "metodo delle resistenze in parallelo"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "21-5",
+          "chapterId": 21,
+          "number": 5,
+          "text": "Il fenomeno di distorsione del segnale acquisito causato da una frequenza di campionamento insufficiente è chiamato:",
+          "options": [
+            "saturazione",
+            "dithering",
+            "aliasing",
+            "quantizzazione"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "22-3",
+          "chapterId": 22,
+          "number": 3,
+          "text": "La quantizzazione uniforme implica la suddivisione del campo di misura in:",
+          "options": [
+            "intervalli di ampiezza costante",
+            "intervalli di ampiezza variabile",
+            "intervalli di frequenza costante",
+            "intervalli di frequenza variabile"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "27-2",
+          "chapterId": 27,
+          "number": 2,
+          "text": "La risoluzione della misura di periodo per un contatore numerico dipende da:",
+          "options": [
+            "la frequenza del segnale di ingresso",
+            "la risoluzione del clock del contatore",
+            "l'ampiezza del segnale",
+            "il tipo di rilevatore di zero utilizzato"
+          ],
+          "correctIndex": 1,
+          "note": "da vedere bene"
+        },
+        {
+          "id": "17-5",
+          "chapterId": 17,
+          "number": 5,
+          "text": "La condizione di equilibrio del ponte di Wheatstone si ottiene variando:",
+          "options": [
+            "la resistenza incognita",
+            "il valore della resistenza del resistore variabile",
+            "la tensione di alimentazione",
+            "il galvanometro"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "20-10",
+          "chapterId": 20,
+          "number": 10,
+          "text": "Il tempo di conversione in un convertitore A/D determina:",
+          "options": [
+            "la quantità di memoria utilizzata per archiviare i dati",
+            "la velocità di acquisizione e conversione del segnale",
+            "la precisione del segnale analogico",
+            "la risoluzione del segnale digitale"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "createdAt": "2026-11-13T17:32:38.682Z",
       "datasetVersion": "7575d3553ab11d0d",
