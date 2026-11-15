@@ -1,6 +1,6 @@
 {
-  "version": "6f4498d6b5e857e6",
-  "fetchedAt": "2026-11-14T16:24:41.582Z",
+  "version": "1a618ebf7dbd5d1d",
+  "fetchedAt": "2026-11-15T16:50:52.484Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -235,9 +235,9 @@
     {
       "id": 29,
       "title": "Modalità di funzionamento di un oscilloscopio numerico",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -4288,6 +4288,146 @@
         "modificare l'ampiezza del segnale di ingresso"
       ],
       "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "29-1",
+      "chapterId": 29,
+      "number": 1,
+      "text": "In un oscilloscopio numerico, per poter variare la visualizzazione sull'asse verticale, si variano i parametri relativi a:",
+      "options": [
+        "un attenuatore e un amplificatore",
+        "un rilevatore di fase",
+        "un convertitore A/D",
+        "un deviatore e un filtro passa-basso"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "29-2",
+      "chapterId": 29,
+      "number": 2,
+      "text": "La funzione del controllo \"time base\" in un oscilloscopio è di:",
+      "options": [
+        "regolare l'ampiezza del segnale in ingresso",
+        "impostare i secondi per divisione visualizzati sullo schermo",
+        "amplificare il segnale di ingresso",
+        "ridurre il rumore del segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "29-3",
+      "chapterId": 29,
+      "number": 3,
+      "text": "Il controllo di ritardo in un oscilloscopio viene utilizzato per:",
+      "options": [
+        "ritardare la visualizzazione del segnale lungo l'asse orizzontale del display",
+        "aumentare l'ampiezza del segnale",
+        "filtrare il segnale in ingresso",
+        "ridurre la frequenza di campionamento"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "29-4",
+      "chapterId": 29,
+      "number": 4,
+      "text": "Per un oscilloscopio numerico, il campionamento in tempo reale è utilizzato principalmente per:",
+      "options": [
+        "analizzare segnali a bassa frequenza",
+        "catturare segnali transitori veloci non ripetitivi",
+        "ridurre la risoluzione temporale del segnale",
+        "migliorare la precisione della misura di fase"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "29-5",
+      "chapterId": 29,
+      "number": 5,
+      "text": "Il fenomeno di aliasing in un oscilloscopio digitale si verifica quando:",
+      "options": [
+        "la frequenza di campionamento è troppo alta",
+        "il segnale in ingresso è troppo debole",
+        "l'attenuatore è disinserito",
+        "a frequenza di campionamento è troppo bassa"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "29-6",
+      "chapterId": 29,
+      "number": 6,
+      "text": "L'interpolazione lineare in un oscilloscopio numerico è utilizzata per:",
+      "options": [
+        "ridurre il rumore del segnale",
+        "aumentare la frequenza di campionamento",
+        "unire i campioni con linee rette per ricostruire la forma d'onda",
+        "migliorare la risoluzione verticale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "29-7",
+      "chapterId": 29,
+      "number": 7,
+      "text": "L'interpolazione sinusoidale è preferita per:",
+      "options": [
+        "segnali con andamenti curvilinei e irregolari",
+        "segnali a onde quadre",
+        "segnali con basse frequenze",
+        "segnali con alta ampiezza"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "29-8",
+      "chapterId": 29,
+      "number": 8,
+      "text": "Per un oscilloscopio numerico, il campionamento in tempo equivalente è adatto per:",
+      "options": [
+        "segnali transitori non ripetitivi",
+        "segnali continui a bassa frequenza",
+        "segnali casuali con alta ampiezza",
+        "segnali ripetitivi con alta frequenza"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "29-9",
+      "chapterId": 29,
+      "number": 9,
+      "text": "La banda passante di un oscilloscopio digitale è definita come:",
+      "options": [
+        "l'intervallo di frequenze che possono essere analizzate con un'attenuazione inferiore a 3 dB",
+        "la massima frequenza che può essere campionata",
+        "la differenza tra l'ampiezza del segnale massima e minima misurabile",
+        "l'intervallo di frequenze che possono essere campionate senza aliasing"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "29-10",
+      "chapterId": 29,
+      "number": 10,
+      "text": "La risoluzione verticale in un oscilloscopio digitale dipende da:",
+      "options": [
+        "la frequenza di campionamento",
+        "il numero di bit del convertitore A/D",
+        "l'ampiezza del segnale di ingresso",
+        "la larghezza della banda passante"
+      ],
+      "correctIndex": 1,
       "note": ""
     }
   ]
