@@ -1,6 +1,6 @@
 {
-  "version": "1a618ebf7dbd5d1d",
-  "fetchedAt": "2026-11-15T16:50:52.484Z",
+  "version": "5a3a9f7e04c1fa22",
+  "fetchedAt": "2026-11-16T20:00:47.778Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -243,17 +243,17 @@
     {
       "id": 30,
       "title": "Misure ed analisi nel dominio della frequenza",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
       "id": 31,
       "title": "Strumenti di misura per analisi in frequenza",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -4428,6 +4428,286 @@
         "la larghezza della banda passante"
       ],
       "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "30-1",
+      "chapterId": 30,
+      "number": 1,
+      "text": "L'analisi nel dominio della frequenza viene utilizzata per:",
+      "options": [
+        "esplorare la causa di un segnale e le informazioni correlate",
+        "misurare la potenza di un segnale in tempo reale",
+        "aumetare il livello di rumore su un segnale",
+        "eliminare il rumore da un segnale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "30-2",
+      "chapterId": 30,
+      "number": 2,
+      "text": "L'analisi spettrale di un segnale è particolarmente utile per:",
+      "options": [
+        "calcolare la potenza media di un segnale",
+        "analizzare segnali con un'unica frequenza",
+        "determinare l'ampiezza massima di un segnale",
+        "identificare componenti di frequenza in segnali complessi"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "30-3",
+      "chapterId": 30,
+      "number": 3,
+      "text": "Il rumore in un segnale è più facilmente separabile e visualizzabile nel:",
+      "options": [
+        "dominio del tempo",
+        "dominio della frequenza",
+        "dominio della potenza",
+        "dominio della fase"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "30-4",
+      "chapterId": 30,
+      "number": 4,
+      "text": "La Trasformata di Fourier viene applicata per:",
+      "options": [
+        "amplificare un segnale analogico",
+        "campionare un segnale a frequenze basse",
+        "convertire un segnale dal dominio del tempo al dominio della frequenza",
+        "eliminare il rumore da un segnale digitale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "30-5",
+      "chapterId": 30,
+      "number": 5,
+      "text": "Un segnale periodico può essere sviluppato in una serie di sinusoidi mediante:",
+      "options": [
+        "il teorema di Nyquist",
+        "il teorema di Shannon",
+        "la legge di Ohm",
+        "lo sviluppo in serie di Fourier"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "30-6",
+      "chapterId": 30,
+      "number": 6,
+      "text": "Nel caso di segnali ad onda quadra periodici , lo spettro è caratterizzato da:",
+      "options": [
+        "componenti armoniche a frequenze multiple della fondamentale",
+        "un'unica componente a frequenza fondamentale",
+        "componenti a frequenze casuali",
+        "una singola componente continua"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "30-7",
+      "chapterId": 30,
+      "number": 7,
+      "text": "Nel caso di segnali sinusoidali periodici , lo spettro è caratterizzato da:",
+      "options": [
+        "componenti armoniche a frequenze multiple della fondamentale",
+        "un'unica componente a frequenza fondamentale",
+        "componenti a frequenze casuali",
+        "una singola componente continua"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "30-8",
+      "chapterId": 30,
+      "number": 8,
+      "text": "La densità spettrale di potenza (PSD) è utilizzata per:",
+      "options": [
+        "determinare la frequenza fondamentale di un segnale periodico",
+        "misurare l'ampiezza massima di un segnale",
+        "calcolare la potenza media di un segnale continuo",
+        "descrivere la distribuzione della potenza di un segnale non periodico nel dominio della frequenza"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "30-9",
+      "chapterId": 30,
+      "number": 9,
+      "text": "La trasformata di Fourier e l'antitrasformata sono:",
+      "options": [
+        "identiche, tranne che per il segno dell'esponente",
+        "diverse, una si applica solo ai segnali analogici",
+        "applicabili solo ai segnali discreti",
+        "utilizzate per filtrare i segnali"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "30-10",
+      "chapterId": 30,
+      "number": 10,
+      "text": "La proprietà di linearità della Trasformata di Fourier implica che:",
+      "options": [
+        "la trasformata di una combinazione lineare di segnali è la combinazione lineare delle loro trasformate",
+        "la trasformata di un segnale reale è sempre complessa",
+        "la trasformata di Fourier non può essere applicata a segnali non lineari",
+        "un segnale periodico non ha trasformata di Fourier"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "31-1",
+      "chapterId": 31,
+      "number": 1,
+      "text": "L'analisi nel dominio della frequenza è utilizzata per:",
+      "options": [
+        "determinare come l'ampiezza di un tono frequenziale sia distribuita tra diverse frequenze",
+        "calcolare la velocità di trasmissione dei dati",
+        "misurare l'ampiezza massima di un segnale",
+        "determinare la fase di un segnale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "31-2",
+      "chapterId": 31,
+      "number": 2,
+      "text": "Gli analizzatori di spettro sono strumenti che permettono di:",
+      "options": [
+        "convertire segnali analogici in digitali",
+        "ridurre il rumore in un segnale",
+        "amplificare i segnali deboli",
+        "visualizzare e misurare le componenti in frequenza di un segnale"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "31-3",
+      "chapterId": 31,
+      "number": 3,
+      "text": "I filtri analogici sono utilizzati per:",
+      "options": [
+        "amplificare tutte le frequenze di un segnale",
+        "selezionare specifiche componenti frequenziali di un segnale",
+        "eliminare il segnale di rumore",
+        "sincronizzare i segnali in ingresso"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "31-4",
+      "chapterId": 31,
+      "number": 4,
+      "text": "Un filtro passa-basso consente il passaggio di:",
+      "options": [
+        "frequenze inferiori a una certa soglia",
+        "frequenze superiori a una certa soglia",
+        "tutte le frequenze",
+        "nessuna frequenza"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "31-5",
+      "chapterId": 31,
+      "number": 5,
+      "text": "Un filtro passa-banda permette di:",
+      "options": [
+        "attenuare tutte le frequenze all'interno della sua banda",
+        "amplificare solo le frequenze basse",
+        "far passare solo un intervallo specifico di frequenze",
+        "eliminare completamente il segnale caratterizzato da una frequenza all'interno della sua banda"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "31-6",
+      "chapterId": 31,
+      "number": 6,
+      "text": "La risoluzione di un filtro, definita dalla Resolution Bandwidth (RBW), indica:",
+      "options": [
+        "l'ampiezza massima di un segnale",
+        "la capacità di distinguere tra frequenze vicine",
+        "la potenza del segnale",
+        "la frequenza minima di un segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "31-7",
+      "chapterId": 31,
+      "number": 7,
+      "text": "Un filtro passa-alto consente il passaggio di:",
+      "options": [
+        "frequenze superiori a una certa soglia",
+        "frequenze inferiori a una certa soglia",
+        "tutte le frequenze",
+        "nessuna frequenza"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "31-8",
+      "chapterId": 31,
+      "number": 8,
+      "text": "Un rivelatore di inviluppo rileva:",
+      "options": [
+        "la frequenza fondamentale di un segnale",
+        "l'inviluppo di un segnale modulato",
+        "la potenza media di un segnale",
+        "il rumore di fondo di un segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "31-9",
+      "chapterId": 31,
+      "number": 9,
+      "text": "Il rivelatore di inviluppo utilizza un diodo per:",
+      "options": [
+        "rettificare il segnale modulato",
+        "amplificare il segnale in ingresso",
+        "attenuare le frequenze alte",
+        "campionare il segnale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "31-10",
+      "chapterId": 31,
+      "number": 10,
+      "text": "In un rivelatore di inviluppo, il filtro passa-basso a monte serve a:",
+      "options": [
+        "amplificare le basse frequenze",
+        "rettificare il segnale modulato",
+        "misurare la potenza del segnale",
+        "eliminare le componenti ad alta frequenza"
+      ],
+      "correctIndex": 3,
       "note": ""
     }
   ]
