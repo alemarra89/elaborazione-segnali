@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-17",
+      "createdAt": "2026-11-17T18:57:57.093Z",
+      "datasetVersion": "1b5f9e8d9a66a413",
+      "questions": [
+        {
+          "id": "9-5",
+          "chapterId": 9,
+          "number": 5,
+          "text": "L'incertezza che viene valutata mediante metodi di tipo A è calcolata usando:",
+          "options": [
+            "la deviazione standard corretta",
+            "la mediana",
+            "il valore massimo",
+            "il valore minimo"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "21-7",
+          "chapterId": 21,
+          "number": 7,
+          "text": "Un filtro anti-aliasing reale è caratterizzato da:",
+          "options": [
+            "una banda di transizione con estensione non infinitesima",
+            "una banda di transizione infinita",
+            "una banda di transizione nulla",
+            "una banda passante variabile"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "15-7",
+          "chapterId": 15,
+          "number": 7,
+          "text": "Per le misure di resistenza a due morsetti, è importante che il circuito sotto misura sia:",
+          "options": [
+            "alimentato anche da fonti esterne",
+            "non alimentato anche da fonti esterne",
+            "sovralimentato",
+            "isolato"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "2-7",
+          "chapterId": 2,
+          "number": 7,
+          "text": "La candela è definita prendendo la costante di efficacia luminosa della radiazione monocromatica a:",
+          "options": [
+            "540 x 1012 Hz",
+            "540 x 1010 Hz",
+            "540 x 1014 Hz",
+            "540 x 108 Hz"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "18-6",
+          "chapterId": 18,
+          "number": 6,
+          "text": "Il valore della resistenza di contatto varia in relazione a:",
+          "options": [
+            "la lunghezza del cavo e la temperatura d'esercizio",
+            "il materiale di contatto e la temperatura d'esercizio",
+            "la capacità del cavo e la temperatura d'esercizio",
+            "l'induttanza del cavo e la corrente d'esercizio"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "11-2",
+          "chapterId": 11,
+          "number": 2,
+          "text": "Il campo di valori che il segnale d'uscita assume in corrispondenza del campo di misura è definito come:",
+          "options": [
+            "campo di taratura",
+            "campo di normale funzionamento dell'uscita",
+            "campo di calibrazione",
+            "campo di misura"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "3-2",
+          "chapterId": 3,
+          "number": 2,
+          "text": "Le cause sistematiche degli errori di misura sono dovute a:",
+          "options": [
+            "difetti costruttivi o di taratura degli strumenti",
+            "inadeguata conoscenza degli effetti ambientali",
+            "rumore generato internamente allo strumento",
+            "stato modificato del misurando"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "2-9",
+          "chapterId": 2,
+          "number": 9,
+          "text": "I Laboratori di Taratura Accreditati (LAT) hanno il compito di:",
+          "options": [
+            "disseminare i campioni delle unità di misura del Sistema Internazionale",
+            "certificare i prodotti per il commercio internazionale",
+            "controllare la qualità dei prodotti industriali",
+            "verificare la sicurezza degli impianti industriali"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "30-2",
+          "chapterId": 30,
+          "number": 2,
+          "text": "L'analisi spettrale di un segnale è particolarmente utile per:",
+          "options": [
+            "calcolare la potenza media di un segnale",
+            "analizzare segnali con un'unica frequenza",
+            "determinare l'ampiezza massima di un segnale",
+            "identificare componenti di frequenza in segnali complessi"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "5-3",
+          "chapterId": 5,
+          "number": 3,
+          "text": "La funzione massa di probabilità (pmf) nel caso discreto:",
+          "options": [
+            "assegna probabilità a intervalli continui",
+            "assegna probabilità solo a valori continui",
+            "assegna probabilità a ciascun valore discreto",
+            "non assegna probabilità"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-16",
       "createdAt": "2026-11-16T20:00:47.894Z",
       "datasetVersion": "5a3a9f7e04c1fa22",

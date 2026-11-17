@@ -1,6 +1,6 @@
 {
-  "version": "5a3a9f7e04c1fa22",
-  "fetchedAt": "2026-11-16T20:00:47.778Z",
+  "version": "1b5f9e8d9a66a413",
+  "fetchedAt": "2026-11-17T18:57:56.937Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -259,9 +259,9 @@
     {
       "id": 32,
       "title": "Analizzatori di spettro a banchi di filtri paralleli e filtro sintonizzabile",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -4708,6 +4708,146 @@
         "eliminare le componenti ad alta frequenza"
       ],
       "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "32-1",
+      "chapterId": 32,
+      "number": 1,
+      "text": "Gli analizzatori di spettro vengono utilizzati per:",
+      "options": [
+        "visualizzare un segnale nel dominio del tempo",
+        "analizzare un segnale nel dominio della frequenza",
+        "amplificare un segnale di bassa frequenza",
+        "ridurre il rumore di un segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "32-2",
+      "chapterId": 32,
+      "number": 2,
+      "text": "Gli analizzatori di spettro rappresentano un segnale su:",
+      "options": [
+        "una scala orizzontale in frequenza e verticale in ampiezza o potenza",
+        "una scala orizzontale in ampiezza e verticale in tempo",
+        "una scala verticale in frequenza e orizzontale in potenza",
+        "una scala orizzontale in tempo e verticale in frequenza"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "32-3",
+      "chapterId": 32,
+      "number": 3,
+      "text": "Nel caso di segnali con spettri a righe, la determinazione dello spettro richiede la misura di:",
+      "options": [
+        "ampiezza e potenza del segnale",
+        "resistenza e frequenza del segnale",
+        "ampiezza e frequenza centrale del tono frequenziale",
+        "ampiezza e periodo della i-esima componente"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "32-4",
+      "chapterId": 32,
+      "number": 4,
+      "text": "Gli analizzatori di spettro a banchi di filtri paralleli utilizzano:",
+      "options": [
+        "un singolo filtro passa-banda",
+        "un unico filtro sintonizzabile",
+        "una serie di filtri passa-basso operanti in serie",
+        "una serie di filtri passa-banda operanti in parallelo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "32-5",
+      "chapterId": 32,
+      "number": 5,
+      "text": "Lo spettro di un segnale in un analizzatore a banchi di filtri paralleli viene ottenuto:",
+      "options": [
+        "sovrapponendo gli output di più filtri passa-banda",
+        "amplificando un unico segnale filtrato",
+        "campionando il segnale a diverse frequenze",
+        "sommando i segnali filtrati in serie"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "32-6",
+      "chapterId": 32,
+      "number": 6,
+      "text": "Uno svantaggio degli analizzatori a banchi di filtri paralleli è:",
+      "options": [
+        "l'elevato numero di filtri necessari per ottenere una buona risoluzione",
+        "l'impossibilità di analizzare segnali non stazionari",
+        "la ridotta ampiezza di banda disponibile",
+        "la difficoltà di analizzare segnali continui"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "32-7",
+      "chapterId": 32,
+      "number": 7,
+      "text": "Gli analizzatori di spettro a filtro sintonizzabile utilizzano:",
+      "options": [
+        "una serie di filtri passa-basso sintonizzati su diverse frequenze",
+        "una serie di filtri passa-alto operanti in parallelo",
+        "un filtro passa-banda fisso",
+        "un unico filtro passa-banda che viene regolato su diverse frequenze centrali"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "32-8",
+      "chapterId": 32,
+      "number": 8,
+      "text": "Il segnale ricostruito in un analizzatore a filtro sintonizzabile è ottenuto:",
+      "options": [
+        "sovrapponendo i segnali filtrati da più filtri",
+        "sommando i contributi di un unico filtro a diverse frequenze",
+        "amplificando il segnale originale",
+        "campionando il segnale a diverse ampiezze"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "32-9",
+      "chapterId": 32,
+      "number": 9,
+      "text": "Il tempo necessario per completare la scansione dello spettro in un analizzatore a filtro sintonizzabile è chiamato:",
+      "options": [
+        "tempo di campionamento",
+        "tempo di reazione",
+        "tempo di risposta",
+        "sweep time"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "32-10",
+      "chapterId": 32,
+      "number": 10,
+      "text": "Un oscillatore controllato in tensione (VCO) viene utilizzato per:",
+      "options": [
+        "generare un segnale la cui frequenza varia con la tensione di ingresso",
+        "amplificare il segnale in ingresso",
+        "filtrare il segnale in ingresso",
+        "misurare l'ampiezza di un segnale"
+      ],
+      "correctIndex": 0,
       "note": ""
     }
   ]
