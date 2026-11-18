@@ -1,6 +1,6 @@
 {
-  "version": "1b5f9e8d9a66a413",
-  "fetchedAt": "2026-11-17T18:57:56.937Z",
+  "version": "ad8404bd4f968dc5",
+  "fetchedAt": "2026-11-18T18:40:30.530Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -267,9 +267,9 @@
     {
       "id": 33,
       "title": "Analizzatori di spettro a supereterodina: principi e applicazioni",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -4846,6 +4846,146 @@
         "amplificare il segnale in ingresso",
         "filtrare il segnale in ingresso",
         "misurare l'ampiezza di un segnale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "33-1",
+      "chapterId": 33,
+      "number": 1,
+      "text": "L'analizzatore di spettro a supereterodina è progettato per:",
+      "options": [
+        "visualizzare segnali nel dominio del tempo",
+        "analizzare segnali nel dominio della frequenza",
+        "amplificare i segnali a bassa frequenza",
+        "ridurre il rumore di un segnale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "33-2",
+      "chapterId": 33,
+      "number": 2,
+      "text": "Il componente che permette la traslazione del segnale da analizzare su una frequenza intermedia fissata è:",
+      "options": [
+        "l'amplificatore",
+        "il filtro passa-basso",
+        "il mixer",
+        "l'oscillatore locale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "33-3",
+      "chapterId": 33,
+      "number": 3,
+      "text": "Il filtro passa-banda (BPF) in un analizzatore di spettro a supereterodina è centrato su:",
+      "options": [
+        "una frequenza variabile",
+        "una frequenza fissa",
+        "la frequenza del segnale in ingresso",
+        "la frequenza di uscita del mixer"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "33-4",
+      "chapterId": 33,
+      "number": 4,
+      "text": "Il fenomeno di ambiguità in un analizzatore di spettro a supereterodina è causato da:",
+      "options": [
+        "la sovrapposizione di segnali a frequenze diverse",
+        "l'uso di un filtro passa-basso",
+        "l'errata taratura del mixer",
+        "la presenza di frequenze immagine"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "33-5",
+      "chapterId": 33,
+      "number": 5,
+      "text": "Per ridurre l'effetto della frequenza immagine  in un analizzatore di spettro a supereterodina, si utilizza:",
+      "options": [
+        "un amplificatore a larga banda",
+        "un oscillatore locale con frequenza variabile",
+        "un filtro passa-basso con frequenza di taglio adeguata",
+        "un filtro passa-alto"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "33-6",
+      "chapterId": 33,
+      "number": 6,
+      "text": "La larghezza di banda di risoluzione (RBW) è utilizzata per:",
+      "options": [
+        "determinare la capacità del filtro di essere risoluto rispetto a segnali adiacenti",
+        "misurare l'ampiezza massima di un segnale",
+        "calcolare la frequenza intermedia",
+        "amplificare i segnali a bassa frequenza"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "33-7",
+      "chapterId": 33,
+      "number": 7,
+      "text": "Il range dinamico di un analizzatore di spettro indica:",
+      "options": [
+        "la frequenza massima che può essere analizzata",
+        "la differenza massima di ampiezza tra due segnali affinché possano essere visualizzati distintamente",
+        "la capacità del sistema di analizzare segnali continui",
+        "la banda passante del filtro"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "33-8",
+      "chapterId": 33,
+      "number": 8,
+      "text": "Il tempo di sweep (Sweep Time) è definito come:",
+      "options": [
+        "l tempo richiesto per completare una scansione dell'intero range di frequenze analizzate",
+        "il tempo necessario per traslare un segnale nel dominio della frequenza",
+        "il tempo necessario per amplificare un segnale",
+        "il tempo richiesto per convertire un segnale analogico in digitale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "33-9",
+      "chapterId": 33,
+      "number": 9,
+      "text": "La selettività di un analizzatore di spettro dipende da:",
+      "options": [
+        "la frequenza del segnale in ingresso",
+        "la velocità dell'oscillatore locale",
+        "l'ampiezza del segnale in ingresso",
+        "la qualità dei filtri interni e dalla RBW"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "33-10",
+      "chapterId": 33,
+      "number": 10,
+      "text": "La traslazione in frequenza in un analizzatore di spettro a supereterodina è ottenuta mediante:",
+      "options": [
+        "la somma e la differenza delle frequenze del segnale in ingresso e dell'oscillatore locale",
+        "la modulazione di ampiezza del segnale",
+        "l'eliminazione delle frequenze alte",
+        "l'amplificazione del segnale in ingresso"
       ],
       "correctIndex": 0,
       "note": ""

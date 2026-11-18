@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-18",
+      "createdAt": "2026-11-18T18:40:30.695Z",
+      "datasetVersion": "ad8404bd4f968dc5",
+      "questions": [
+        {
+          "id": "32-5",
+          "chapterId": 32,
+          "number": 5,
+          "text": "Lo spettro di un segnale in un analizzatore a banchi di filtri paralleli viene ottenuto:",
+          "options": [
+            "sovrapponendo gli output di più filtri passa-banda",
+            "amplificando un unico segnale filtrato",
+            "campionando il segnale a diverse frequenze",
+            "sommando i segnali filtrati in serie"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "10-2",
+          "chapterId": 10,
+          "number": 2,
+          "text": "La  misurazione di un'area di un quadrato mediante un calibro può essere definita come:",
+          "options": [
+            "misura complessa",
+            "misura ottima",
+            "misura derivata",
+            "misura indiretta"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "19-8",
+          "chapterId": 19,
+          "number": 8,
+          "text": "Nel metodo della caduta di potenziale, per verificare che la variabilità introdotta dalla variazione della temperatura sia trascurabile, si stima:",
+          "options": [
+            "la media delle misure ripetute",
+            "la moda delle misure ripetute",
+            "la mediana delle misure ripetute",
+            "la deviazione standard delle misure ripetute"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "22-3",
+          "chapterId": 22,
+          "number": 3,
+          "text": "La quantizzazione uniforme implica la suddivisione del campo di misura in:",
+          "options": [
+            "intervalli di ampiezza costante",
+            "intervalli di ampiezza variabile",
+            "intervalli di frequenza costante",
+            "intervalli di frequenza variabile"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "12-1",
+          "chapterId": 12,
+          "number": 1,
+          "text": "La descrizione del comportamento del dispositivo a fronte di una grandezza di ingresso variabile nel tempo è definita come:",
+          "options": [
+            "caratteristica statica",
+            "caratteristica dinamica",
+            "caratteristica metrologica",
+            "caratteristica ausiliaria"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "20-3",
+          "chapterId": 20,
+          "number": 3,
+          "text": "Un segnale analogico è caratterizzato da una funzione che è:",
+          "options": [
+            "definita solo in alcuni istanti",
+            "definita per un insieme discreto di valori",
+            "discontinua e quantizzata",
+            "continua e definita per ogni valore del tempo"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "21-7",
+          "chapterId": 21,
+          "number": 7,
+          "text": "Un filtro anti-aliasing reale è caratterizzato da:",
+          "options": [
+            "una banda di transizione con estensione non infinitesima",
+            "una banda di transizione infinita",
+            "una banda di transizione nulla",
+            "una banda passante variabile"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "18-6",
+          "chapterId": 18,
+          "number": 6,
+          "text": "Il valore della resistenza di contatto varia in relazione a:",
+          "options": [
+            "la lunghezza del cavo e la temperatura d'esercizio",
+            "il materiale di contatto e la temperatura d'esercizio",
+            "la capacità del cavo e la temperatura d'esercizio",
+            "l'induttanza del cavo e la corrente d'esercizio"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "9-8",
+          "chapterId": 9,
+          "number": 8,
+          "text": "L'incertezza totale o globale viene valutata combinando le incertezze di tipo:",
+          "options": [
+            "A e C",
+            "A e B",
+            "B e C",
+            "B e D"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "6-8",
+          "chapterId": 6,
+          "number": 8,
+          "text": "In una distribuzione rettangolare, media e mediana:",
+          "options": [
+            "sono complementari",
+            "sono differenti",
+            "sono posti sugli estremi",
+            "coincidono"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "createdAt": "2026-11-17T18:57:57.093Z",
       "datasetVersion": "1b5f9e8d9a66a413",
