@@ -1,6 +1,6 @@
 {
-  "version": "ad8404bd4f968dc5",
-  "fetchedAt": "2026-11-18T18:40:30.530Z",
+  "version": "301011bfaf49b349",
+  "fetchedAt": "2026-11-19T18:53:35.415Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -275,17 +275,17 @@
     {
       "id": 34,
       "title": "Applicazione della finestratura ai dati campionati per l analisi nel dominio della frequenza",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
       "id": 35,
       "title": "Principio di funzionamento di un FFT analyzer",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -4988,6 +4988,286 @@
         "l'amplificazione del segnale in ingresso"
       ],
       "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "34-1",
+      "chapterId": 34,
+      "number": 1,
+      "text": "La finestratura applicata ai segnali campionati è utile per:",
+      "options": [
+        "ridurre gli effetti del leakage spettrale",
+        "aumentare la risoluzione temporale",
+        "amplificare il segnale in ingresso",
+        "ridurre il rumore di fondo"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "34-2",
+      "chapterId": 34,
+      "number": 2,
+      "text": "L'operazione di campionamento asincrono comporta:",
+      "options": [
+        "una riduzione della frequenza del segnale",
+        "discontinuità ai bordi del segnale",
+        "una riduzione della risoluzione di ampiezza",
+        "l'assenza di leakage spettrale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "34-3",
+      "chapterId": 34,
+      "number": 3,
+      "text": "Il fenomeno del leakage spettrale si verifica quando:",
+      "options": [
+        "il segnale campionato ha una frequenza elevata",
+        "il campionamento è effettuato a una frequenza bassa",
+        "il segnale contiene solo una frequenza",
+        "il segnale campionato non contiene un numero intero di periodi"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "34-4",
+      "chapterId": 34,
+      "number": 4,
+      "text": "La finestra di Hanning è particolarmente efficace per:",
+      "options": [
+        "ridurre i lobi laterali e il leakage spettrale",
+        "migliorare la risoluzione in frequenza",
+        "eliminare completamente le discontinuità ai bordi",
+        "mantenere il lobo principale molto stretto"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "34-5",
+      "chapterId": 34,
+      "number": 5,
+      "text": "L'applicazione della finestratura in un'analisi FFT migliora:",
+      "options": [
+        "l'ampiezza del segnale campionato",
+        "la risoluzione spettrale",
+        "la durata del segnale",
+        "la frequenza di campionamento"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "34-6",
+      "chapterId": 34,
+      "number": 6,
+      "text": "Nell'analisi in frequenza, la finestra rettangolare presenta:",
+      "options": [
+        "un lobo principale stretto ma lobi laterali più elevati",
+        "un lobo principale largo e ben definito",
+        "una scarsa capacità di ridurre il leakage spettrale",
+        "l'assenza di errori di misura in caso di campionamento asincrono"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "34-7",
+      "chapterId": 34,
+      "number": 7,
+      "text": "La finestra Flat Top viene utilizzata per:",
+      "options": [
+        "ridurre la risoluzione spettrale",
+        "eliminare completamente i lobi laterali",
+        "misure accurate di ampiezza in presenza di campionamento asincrono",
+        "migliorare la risoluzione temporale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "34-8",
+      "chapterId": 34,
+      "number": 8,
+      "text": "La finestra di Blackman-Harris è caratterizzata da:",
+      "options": [
+        "l'incapacità di ridurre il leakage spettrale",
+        "un'attenuazione efficace dei lobi laterali e un buon compromesso tra risoluzione e leakage",
+        "una maggiore risoluzione temporale",
+        "la riduzione del segnale principale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "34-9",
+      "chapterId": 34,
+      "number": 9,
+      "text": "Il roll-off di una finestra si riferisce a:",
+      "options": [
+        "la larghezza del lobo principale",
+        "la frequenza di taglio",
+        "la capacità di amplificare il segnale in ingresso",
+        "la velocità di decadimento dei lobi laterali"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "34-10",
+      "chapterId": 34,
+      "number": 10,
+      "text": "Il fenomeno della scallop loss si verifica quando:",
+      "options": [
+        "il segnale è troppo debole per essere campionato",
+        "la frequenza di campionamento è troppo elevata",
+        "la frequenza del segnale non coincide con uno dei bin della FFT",
+        "il segnale contiene un numero intero di periodi"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "35-1",
+      "chapterId": 35,
+      "number": 1,
+      "text": "La trasformata di Fourier (FFT) viene applicata a un segnale campionato per:",
+      "options": [
+        "analizzare le componenti in frequenza",
+        "amplificare il segnale",
+        "ridurre il rumore di fondo",
+        "convertire il segnale in analogico"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "35-2",
+      "chapterId": 35,
+      "number": 2,
+      "text": "Per evitare il fenomeno dell'aliasing, è necessario:",
+      "options": [
+        "aumentare la frequenza di campionamento",
+        "applicare un filtro anti-aliasing prima del campionamento",
+        "ridurre l'ampiezza del segnale",
+        "aumentare la risoluzione temporale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "35-3",
+      "chapterId": 35,
+      "number": 3,
+      "text": "Il filtro anti-aliasing viene utilizzato per:",
+      "options": [
+        "amplificare il segnale campionato",
+        "eliminare la componente continua del segnale",
+        "ridurre le componenti frequenziali superiori alla frequenza di Nyquist",
+        "aumentare la risoluzione spettrale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "35-4",
+      "chapterId": 35,
+      "number": 4,
+      "text": "L'errore di quantizzazione in un FFT analyzer (ma anche generalmente) è modellato come:",
+      "options": [
+        "un guadagno moltiplicativo",
+        "una distorsione non lineare",
+        "una perdita di dati",
+        "un rumore additivo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "35-5",
+      "chapterId": 35,
+      "number": 5,
+      "text": "Per ottimizzare il processo di quantizzazione, il segnale deve:",
+      "options": [
+        "essere adattato alla dinamica del quantizzatore tramite amplificazione o attenuazione",
+        "essere campionato a una frequenza più alta",
+        "essere filtrato prima della trasformazione FFT",
+        "essere elaborato solo a basse frequenze"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "35-6",
+      "chapterId": 35,
+      "number": 6,
+      "text": "L'accoppiamento (o coupling) AC viene utilizzato per:",
+      "options": [
+        "amplificare le basse frequenze",
+        "eliminare la componente continua del segnale",
+        "ridurre la risoluzione spettrale",
+        "migliorare la qualità della quantizzazione"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "35-7",
+      "chapterId": 35,
+      "number": 7,
+      "text": "Nel caso di campionamento asincrono, l'applicazione della FFT può portare a:",
+      "options": [
+        "la riduzione del segnale di rumore",
+        "una migliore risoluzione temporale",
+        "il fenomeno del leakage spettrale",
+        "un miglioramento della precisione spettrale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "35-8",
+      "chapterId": 35,
+      "number": 8,
+      "text": "La finestratura dei segnali campionati viene applicata per:",
+      "options": [
+        "aumentare la frequenza di campionamento",
+        "eliminare le componenti a bassa frequenza",
+        "amplificare il segnale",
+        "ridurre gli effetti del leakage spettrale"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "35-9",
+      "chapterId": 35,
+      "number": 9,
+      "text": "Il buffer di memoria in un FFT analyzer è tipicamente modellata come:",
+      "options": [
+        "lineare con gestione LIFO (Last In First Out)",
+        "non volatile",
+        "circolare con gestione FIFO (First In First Out)",
+        "espandibile automaticamente"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "35-10",
+      "chapterId": 35,
+      "number": 10,
+      "text": "La finestratura Hanning è utilizzata per:",
+      "options": [
+        "aumentare la risoluzione temporale",
+        "ridurre il leakage spettrale a scapito della risoluzione spettrale",
+        "migliorare la qualità del campionamento",
+        "amplificare il segnale principale"
+      ],
+      "correctIndex": 1,
       "note": ""
     }
   ]

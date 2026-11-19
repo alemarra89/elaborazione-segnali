@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-19",
+      "createdAt": "2026-11-19T18:53:35.553Z",
+      "datasetVersion": "301011bfaf49b349",
+      "questions": [
+        {
+          "id": "35-3",
+          "chapterId": 35,
+          "number": 3,
+          "text": "Il filtro anti-aliasing viene utilizzato per:",
+          "options": [
+            "amplificare il segnale campionato",
+            "eliminare la componente continua del segnale",
+            "ridurre le componenti frequenziali superiori alla frequenza di Nyquist",
+            "aumentare la risoluzione spettrale"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "18-10",
+          "chapterId": 18,
+          "number": 10,
+          "text": "Le resistenze di contatto associate ai morsetti voltmetrici di una resistenza a quattro morsetti sono trascurabili perché:",
+          "options": [
+            "l'impedenza di ingresso di un voltmetro è molto elevata",
+            "l'impedenza di ingresso di un voltmetro è molto bassa",
+            "la capacità di ingresso di un voltmetro è molto elevata",
+            "la capacità di ingresso di un voltmetro è molto bassa"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "27-8",
+          "chapterId": 27,
+          "number": 8,
+          "text": "In un contatore numerico, la risoluzione nella misura di frequenza migliora:",
+          "options": [
+            "aumentando la frequenza del segnale",
+            "aumentando il numero di impulsi contati",
+            "riducendo il tempo di osservazione",
+            "riducendo la frequenza del segnale"
+          ],
+          "correctIndex": 1,
+          "note": "da vedere bene"
+        },
+        {
+          "id": "31-4",
+          "chapterId": 31,
+          "number": 4,
+          "text": "Un filtro passa-basso consente il passaggio di:",
+          "options": [
+            "frequenze inferiori a una certa soglia",
+            "frequenze superiori a una certa soglia",
+            "tutte le frequenze",
+            "nessuna frequenza"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "10-8",
+          "chapterId": 10,
+          "number": 8,
+          "text": "Le misure che vengono utilizzate per determinare la frequenza di una forma d'onda sono un esempio di:",
+          "options": [
+            "misure complesse",
+            "misure derivate",
+            "misure indirette",
+            "misure dirette"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "12-8",
+          "chapterId": 12,
+          "number": 8,
+          "text": "Il passaggio dal dominio del tempo a quello della frequenza avviene per mezzo della:",
+          "options": [
+            "trasformata di Laplace",
+            "trasformata di Fourier",
+            "trasformata di Z",
+            "trasformata di Mellin"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "34-8",
+          "chapterId": 34,
+          "number": 8,
+          "text": "La finestra di Blackman-Harris è caratterizzata da:",
+          "options": [
+            "l'incapacità di ridurre il leakage spettrale",
+            "un'attenuazione efficace dei lobi laterali e un buon compromesso tra risoluzione e leakage",
+            "una maggiore risoluzione temporale",
+            "la riduzione del segnale principale"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "12-1",
+          "chapterId": 12,
+          "number": 1,
+          "text": "La descrizione del comportamento del dispositivo a fronte di una grandezza di ingresso variabile nel tempo è definita come:",
+          "options": [
+            "caratteristica statica",
+            "caratteristica dinamica",
+            "caratteristica metrologica",
+            "caratteristica ausiliaria"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "28-5",
+          "chapterId": 28,
+          "number": 5,
+          "text": "Il blocco di condizionamento analogico in un oscilloscopio numerico ha il compito di:",
+          "options": [
+            "convertire il segnale in digitale",
+            "filtrare il segnale con un filtro passa-basso",
+            "generare il segnale di clock",
+            "attenuare o amplificare il segnale in ingresso"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "33-10",
+          "chapterId": 33,
+          "number": 10,
+          "text": "La traslazione in frequenza in un analizzatore di spettro a supereterodina è ottenuta mediante:",
+          "options": [
+            "la somma e la differenza delle frequenze del segnale in ingresso e dell'oscillatore locale",
+            "la modulazione di ampiezza del segnale",
+            "l'eliminazione delle frequenze alte",
+            "l'amplificazione del segnale in ingresso"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-18",
       "createdAt": "2026-11-18T18:40:30.695Z",
       "datasetVersion": "ad8404bd4f968dc5",
