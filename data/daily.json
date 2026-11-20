@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-20",
+      "createdAt": "2026-11-20T18:22:09.176Z",
+      "datasetVersion": "4c1e5fe39c496b31",
+      "questions": [
+        {
+          "id": "18-7",
+          "chapterId": 18,
+          "number": 7,
+          "text": "Per ridurre il contributo delle resistenze parassite dei cavi, è possibile:",
+          "options": [
+            "aumentare la sezione trasversale del cavo e ridurre la lunghezza del cavo",
+            "ridurre la sezione trasversale del cavo e aumentare la lunghezza del cavo",
+            "aumentare la capacità del cavo e ridurre la lunghezza del cavo",
+            "ridurre l'induttanza del cavo e aumentare la lunghezza del cavo"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "22-1",
+          "chapterId": 22,
+          "number": 1,
+          "text": "L'operazione che discretizza un segnale rispetto alle ampiezze durante la conversione A/D è chiamata:",
+          "options": [
+            "campionamento",
+            "quantizzazione",
+            "modulazione",
+            "amplificazione"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "37-6",
+          "chapterId": 37,
+          "number": 6,
+          "text": "L'isteresi è un fenomeno rilevante perché:",
+          "options": [
+            "introduce una distorsione sinusoidale alle alte frequenze",
+            "determina una differenza nei valori in uscita in funzione della direzione di variazione dell'ingresso",
+            "rappresenta una fluttuazione casuale della sensibilità del sensore",
+            "si verifica esclusivamente in sensori dotati di retroazione negativa"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "26-4",
+          "chapterId": 26,
+          "number": 4,
+          "text": "Il contatore numerico opera tramite:",
+          "options": [
+            "elaborazione analogica del segnale",
+            "misurazioni continue delle ampiezze del segnale",
+            "conteggio di impulsi discreti",
+            "analisi spettroscopica del segnale"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "37-8",
+          "chapterId": 37,
+          "number": 8,
+          "text": "Un segnale sinusoidale in ingresso a un sensore è utile per:",
+          "options": [
+            "determinare il valore assoluto dell'offset dinamico",
+            "stimare la funzione di trasferimento nel dominio della frequenza",
+            "identificare il punto di massima isteresi",
+            "verificare l'ampiezza di saturazione del sensore"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "12-2",
+          "chapterId": 12,
+          "number": 2,
+          "text": "Le caratteristiche del sistema di misura espresse mediante parametri sintetici in due domini specifici sono:",
+          "options": [
+            "dominio della lunghezza e dominio del tempo",
+            "dominio della frequenza e dominio della lunghezza",
+            "dominio del tempo e dominio della frequenza",
+            "dominio del tempo e dominio della velocità"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "17-5",
+          "chapterId": 17,
+          "number": 5,
+          "text": "La condizione di equilibrio del ponte di Wheatstone si ottiene variando:",
+          "options": [
+            "la resistenza incognita",
+            "il valore della resistenza del resistore variabile",
+            "la tensione di alimentazione",
+            "il galvanometro"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "23-5",
+          "chapterId": 23,
+          "number": 5,
+          "text": "La velocità di conversione nei convertitori A/D Flash è limitata da:",
+          "options": [
+            "numero di bit del convertitore",
+            "stabilità del clock",
+            "rumore di ingresso",
+            "numero di comparatori utilizzati"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "35-7",
+          "chapterId": 35,
+          "number": 7,
+          "text": "Nel caso di campionamento asincrono, l'applicazione della FFT può portare a:",
+          "options": [
+            "la riduzione del segnale di rumore",
+            "una migliore risoluzione temporale",
+            "il fenomeno del leakage spettrale",
+            "un miglioramento della precisione spettrale"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "28-2",
+          "chapterId": 28,
+          "number": 2,
+          "text": "Quando l'andamento temporale è ottenuto da un numero finito di campioni memorizzati, si parla di un oscilloscopio:",
+          "options": [
+            "analogico",
+            "a memori variabile",
+            "numerico o digitale",
+            "dinamico"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "createdAt": "2026-11-19T18:53:35.553Z",
       "datasetVersion": "301011bfaf49b349",

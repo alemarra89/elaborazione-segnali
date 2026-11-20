@@ -1,6 +1,6 @@
 {
-  "version": "301011bfaf49b349",
-  "fetchedAt": "2026-11-19T18:53:35.415Z",
+  "version": "4c1e5fe39c496b31",
+  "fetchedAt": "2026-11-20T18:22:09.055Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -291,17 +291,17 @@
     {
       "id": 36,
       "title": "Parametri di impostazione di un FFT analyzer",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
       "id": 37,
       "title": "Caratteristiche statiche e dinamiche di sensori e trasduttori",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -5266,6 +5266,286 @@
         "ridurre il leakage spettrale a scapito della risoluzione spettrale",
         "migliorare la qualità del campionamento",
         "amplificare il segnale principale"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "36-1",
+      "chapterId": 36,
+      "number": 1,
+      "text": "La risoluzione spettrale ottenibile con un FFT analyzer è definita come:",
+      "options": [
+        "la frequenza massima visualizzabile",
+        "la distanza in frequenza tra due campioni spettrali adiacenti",
+        "il numero totale di campioni acquisiti",
+        "l'ampiezza del segnale visualizzato"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "36-2",
+      "chapterId": 36,
+      "number": 2,
+      "text": "Il termine \"bin\" in un FFT analyzer rappresenta:",
+      "options": [
+        "un singolo campione spettrale",
+        "la frequenza massima",
+        "il numero di punti acquisiti",
+        "l'ampiezza del segnale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "36-3",
+      "chapterId": 36,
+      "number": 3,
+      "text": "La frequenza di campionamento, nel caso di un FFT analyzer, influisce su:",
+      "options": [
+        "lo span di analisi dello spettro",
+        "la potenza del segnale acquisito",
+        "l'energia del segnale acquisito",
+        "l'amplificazione del segnale"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "36-4",
+      "chapterId": 36,
+      "number": 4,
+      "text": "Il teorema di Nyquist stabilisce che lo span di analisi di un FFT analyzet è limitato a:",
+      "options": [
+        "il doppio della frequenza di campionamento",
+        "un terzo della frequenza di campionamento",
+        "metà della frequenza di campionamento",
+        "un quarto della frequenza di campionamento"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "36-5",
+      "chapterId": 36,
+      "number": 5,
+      "text": "Per ottenere un miglioramento della risoluzione spettrale, nell'analisi FFT, è consigliabile:",
+      "options": [
+        "aumentare l'ampiezza del segnale",
+        "utilizzare un filtro passa-basso",
+        "ridurre il numero di punti acquisiti",
+        "ridurre la frequenza di campionamento"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "36-6",
+      "chapterId": 36,
+      "number": 6,
+      "text": "Nel caso di un FFT analyzer, la decimazione numerica viene utilizzata per:",
+      "options": [
+        "ridurre la frequenza di campionamento senza alterare il segnale originale",
+        "aumentare la risoluzione temporale",
+        "amplificare il segnale in ingresso",
+        "convertire segnali digitali in analogici"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "36-7",
+      "chapterId": 36,
+      "number": 7,
+      "text": "Nel caso di utilizzo di un FFT analyzer, la traslazione in frequenza dello spettro consente di:",
+      "options": [
+        "amplificare il segnale",
+        "focalizzare l'analisi su una porzione specifica dello spettro",
+        "ridurre il rumore del segnale",
+        "convertire il segnale in analogico"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "36-8",
+      "chapterId": 36,
+      "number": 8,
+      "text": "In un FFT analyzer, il blocco di moltiplicazione del segnale analizzato per una cosinusoide agisce come:",
+      "options": [
+        "un traslatore di frequenza (mixer digitale)",
+        "un amplificatore di segnale",
+        "un filtro passa-basso",
+        "un convertitore A/D"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "36-9",
+      "chapterId": 36,
+      "number": 9,
+      "text": "Nell'operazione di finestratura, la scelta della finestra influisce su:",
+      "options": [
+        "la frequenza di campionamento",
+        "l'accuratezza dello spettro ottenuto",
+        "l'ampiezza del segnale analogico",
+        "la velocità di trasmissione del dato"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "36-10",
+      "chapterId": 36,
+      "number": 10,
+      "text": "L'effetto della decimazione sullo spettro consiste nel:",
+      "options": [
+        "riduzione dell'ampiezza del segnale",
+        "incremento del rumore",
+        "abbassamento della frequenza di taglio",
+        "miglioramento della risoluzione in frequenza"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "37-1",
+      "chapterId": 37,
+      "number": 1,
+      "text": "In un sistema fisico, il processo di misura serve principalmente a:",
+      "options": [
+        "visualizzare graficamente i dati rilevati da un sistema embedded",
+        "interpretare il comportamento di segnali elettronici disturbati",
+        "assegnare un valore numerico a una grandezza fisica reale",
+        "trasformare un'informazione qualitativa in un'informazione digitale"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "37-2",
+      "chapterId": 37,
+      "number": 2,
+      "text": "All'interno di un sistema di misura, la funzione del sensore è:",
+      "options": [
+        "rilevare informazioni digitali da un sistema esterno",
+        "trasdurre una grandezza fisica in una grandezza elettrica o meccanica",
+        "amplificare un segnale proporzionale all'ingresso",
+        "confrontare la grandezza misurata con un valore di riferimento noto"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "37-3",
+      "chapterId": 37,
+      "number": 3,
+      "text": "Il ruolo del convertitore A/D in un sistema di misura consiste nel:",
+      "options": [
+        "generare un segnale continuo proporzionale al dato acquisito",
+        "effettuare la compensazione automatica degli errori sistematici",
+        "trasformare un segnale analogico in un formato digitale utilizzabile",
+        "filtrare le componenti in alta frequenza del segnale di ingresso"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "37-4",
+      "chapterId": 37,
+      "number": 4,
+      "text": "La sensibilità di un sensore può essere interpretata come:",
+      "options": [
+        "la deviazione standard della curva di calibrazione",
+        "il valore assoluto massimo del segnale in uscita in condizioni ideali",
+        "il tasso di variazione dell'uscita rispetto alla variazione dell'ingresso",
+        "la quantità di energia richiesta per garantire una minima variazione dell'uscita"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "37-5",
+      "chapterId": 37,
+      "number": 5,
+      "text": "L'offset di un sensore rappresenta:",
+      "options": [
+        "il massimo errore di non linearità tollerabile in fase di taratura",
+        "la variazione dell'uscita legata alla deriva temporale",
+        "la componente sistematica dell'errore",
+        "il valore di uscita quando l'ingresso è nullo"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "37-6",
+      "chapterId": 37,
+      "number": 6,
+      "text": "L'isteresi è un fenomeno rilevante perché:",
+      "options": [
+        "introduce una distorsione sinusoidale alle alte frequenze",
+        "determina una differenza nei valori in uscita in funzione della direzione di variazione dell'ingresso",
+        "rappresenta una fluttuazione casuale della sensibilità del sensore",
+        "si verifica esclusivamente in sensori dotati di retroazione negativa"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "37-7",
+      "chapterId": 37,
+      "number": 7,
+      "text": "La funzione di trasferimento G(s) di un sensore rappresenta:",
+      "options": [
+        "l'inverso della risposta impulsiva nel dominio del tempo",
+        "il rapporto tra il segnale di uscita e quello di ingresso nel dominio di Laplace",
+        "la trasformata di Fourier della risposta al gradino",
+        "la derivata seconda del segnale di uscita rispetto al tempo"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "37-8",
+      "chapterId": 37,
+      "number": 8,
+      "text": "Un segnale sinusoidale in ingresso a un sensore è utile per:",
+      "options": [
+        "determinare il valore assoluto dell'offset dinamico",
+        "stimare la funzione di trasferimento nel dominio della frequenza",
+        "identificare il punto di massima isteresi",
+        "verificare l'ampiezza di saturazione del sensore"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "37-9",
+      "chapterId": 37,
+      "number": 9,
+      "text": "Un sensore con risposta dinamica di ordine zero ha la caratteristica di:",
+      "options": [
+        "presentare un tempo di assestamento nullo e assenza di ritardo",
+        "attenuare fortemente tutte le componenti in alta frequenza",
+        "esibire un'uscita che anticipa l'ingresso",
+        "produrre un'uscita a forma di rampa indipendentemente dall'ingresso"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "37-10",
+      "chapterId": 37,
+      "number": 10,
+      "text": "Un valore del fattore di smorzamento ζ maggiore o uguale a 1 implica:",
+      "options": [
+        "instabilità del sistema e oscillazioni crescenti",
+        "assenza di oscillazioni e comportamento sovrasmorzato",
+        "presenza di un'anomalia alle basse frequenze",
+        "comportamento critico del sistema con massima energia dissipata"
       ],
       "correctIndex": 1,
       "note": ""
