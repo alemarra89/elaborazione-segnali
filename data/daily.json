@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-21",
+      "createdAt": "2026-11-21T17:08:43.806Z",
+      "datasetVersion": "4c1e5fe39c496b31",
+      "questions": [
+        {
+          "id": "37-2",
+          "chapterId": 37,
+          "number": 2,
+          "text": "All'interno di un sistema di misura, la funzione del sensore è:",
+          "options": [
+            "rilevare informazioni digitali da un sistema esterno",
+            "trasdurre una grandezza fisica in una grandezza elettrica o meccanica",
+            "amplificare un segnale proporzionale all'ingresso",
+            "confrontare la grandezza misurata con un valore di riferimento noto"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "34-2",
+          "chapterId": 34,
+          "number": 2,
+          "text": "L'operazione di campionamento asincrono comporta:",
+          "options": [
+            "una riduzione della frequenza del segnale",
+            "discontinuità ai bordi del segnale",
+            "una riduzione della risoluzione di ampiezza",
+            "l'assenza di leakage spettrale"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "4-8",
+          "chapterId": 4,
+          "number": 8,
+          "text": "Il fattore di dispersione misura:",
+          "options": [
+            "la media dei dati",
+            "la dispersione relativa dei dati",
+            "il valore massimo",
+            "la somma dei valori"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "30-1",
+          "chapterId": 30,
+          "number": 1,
+          "text": "L'analisi nel dominio della frequenza viene utilizzata per:",
+          "options": [
+            "esplorare la causa di un segnale e le informazioni correlate",
+            "misurare la potenza di un segnale in tempo reale",
+            "aumetare il livello di rumore su un segnale",
+            "eliminare il rumore da un segnale"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "37-7",
+          "chapterId": 37,
+          "number": 7,
+          "text": "La funzione di trasferimento G(s) di un sensore rappresenta:",
+          "options": [
+            "l'inverso della risposta impulsiva nel dominio del tempo",
+            "il rapporto tra il segnale di uscita e quello di ingresso nel dominio di Laplace",
+            "la trasformata di Fourier della risposta al gradino",
+            "la derivata seconda del segnale di uscita rispetto al tempo"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "26-9",
+          "chapterId": 26,
+          "number": 9,
+          "text": "Il blocco di visualizzazione in un contatore numerico converte i dati per:",
+          "options": [
+            "l'archiviazione su memoria esterna",
+            "la trasmissione a un computer",
+            "la visualizzazione su un display",
+            "l'analisi statistica"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "22-4",
+          "chapterId": 22,
+          "number": 4,
+          "text": "Il numero di bit necessario per rappresentare M livelli di quantizzazione è dato da:",
+          "options": [
+            "M",
+            "2M",
+            "log2(M)",
+            "M/2"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "13-1",
+          "chapterId": 13,
+          "number": 1,
+          "text": "Le due principali tipologie di multimetri in commercio sono:",
+          "options": [
+            "multimetri digitali e analogici",
+            "multimetri portatili e da banco",
+            "multimetri a una portata e multipli",
+            "multimetri ad alta e bassa risoluzione"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "9-1",
+          "chapterId": 9,
+          "number": 1,
+          "text": "Il parametro associato al risultato di una misura che caratterizza la dispersione dei valori ragionevolmente attribuibili al misurando è definito come:",
+          "options": [
+            "deviazione standard",
+            "valore medio",
+            "incertezza di misura",
+            "accuratezza"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "3-6",
+          "chapterId": 3,
+          "number": 6,
+          "text": "La stabilità di uno strumento si riferisce a:",
+          "options": [
+            "la capacità di risolvere stati diversi del misurando",
+            "la vicinanza di risultati ottenuti in diverse condizioni",
+            "l'attitudine a fornire valori di lettura poco differenti nel tempo",
+            "la capacità di compensare gli effetti delle cause sistematiche"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-20",
       "createdAt": "2026-11-20T18:22:09.176Z",
       "datasetVersion": "4c1e5fe39c496b31",
