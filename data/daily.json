@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-22",
+      "createdAt": "2026-11-22T17:39:16.876Z",
+      "datasetVersion": "4c1e5fe39c496b31",
+      "questions": [
+        {
+          "id": "6-6",
+          "chapterId": 6,
+          "number": 6,
+          "text": "La media di una variabile aleatoria che  segue una distribuzione uniforme tra 1 e 7 è:",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "11-7",
+          "chapterId": 11,
+          "number": 7,
+          "text": "Il valore dell'impedenza equivalente tra i morsetti di uscita del sistema di misura è:",
+          "options": [
+            "resistenza di uscita",
+            "capacità di uscita",
+            "impedenza di uscita",
+            "induttanza di uscita"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "29-2",
+          "chapterId": 29,
+          "number": 2,
+          "text": "La funzione del controllo \"time base\" in un oscilloscopio è di:",
+          "options": [
+            "regolare l'ampiezza del segnale in ingresso",
+            "impostare i secondi per divisione visualizzati sullo schermo",
+            "amplificare il segnale di ingresso",
+            "ridurre il rumore del segnale"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "14-3",
+          "chapterId": 14,
+          "number": 3,
+          "text": "La tecnica di misura in cui una delle sonde è collegata alla massa del circuito è:",
+          "options": [
+            "misura floating",
+            "misura contromassa",
+            "misura a quattro fili",
+            "misura a due fili"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "37-4",
+          "chapterId": 37,
+          "number": 4,
+          "text": "La sensibilità di un sensore può essere interpretata come:",
+          "options": [
+            "la deviazione standard della curva di calibrazione",
+            "il valore assoluto massimo del segnale in uscita in condizioni ideali",
+            "il tasso di variazione dell'uscita rispetto alla variazione dell'ingresso",
+            "la quantità di energia richiesta per garantire una minima variazione dell'uscita"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "3-10",
+          "chapterId": 3,
+          "number": 10,
+          "text": "Le cause sistematiche degli errori di misura possono essere compensate se:",
+          "options": [
+            "vengono ripetute le misure più volte",
+            "vengono corrette con un metodo noto",
+            "viene cambiato l'operatore",
+            "viene utilizzato un campione di riferimento diverso"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "37-5",
+          "chapterId": 37,
+          "number": 5,
+          "text": "L'offset di un sensore rappresenta:",
+          "options": [
+            "il massimo errore di non linearità tollerabile in fase di taratura",
+            "la variazione dell'uscita legata alla deriva temporale",
+            "la componente sistematica dell'errore",
+            "il valore di uscita quando l'ingresso è nullo"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "24-6",
+          "chapterId": 24,
+          "number": 6,
+          "text": "L'impedenza incognita è calcolata mediante:",
+          "options": [
+            "somma vettoriale di tensione e corrente",
+            "rapporto vettoriale tra caduta di tensione e corrente",
+            "somma algebrica di tensione e corrente",
+            "differenza vettoriale di tensione e corrente"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "19-3",
+          "chapterId": 19,
+          "number": 3,
+          "text": "La scelta di utilizzare due voltmetri anziché un voltmetro e un amperometro nel metodo della caduta di potenziale è dovuta a:",
+          "options": [
+            "la facilità di utilizzo",
+            "il costo inferiore",
+            "la semplicità del circuito",
+            "la precisione e l'accuratezza non raggiungibili da un amperometro"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "37-7",
+          "chapterId": 37,
+          "number": 7,
+          "text": "La funzione di trasferimento G(s) di un sensore rappresenta:",
+          "options": [
+            "l'inverso della risposta impulsiva nel dominio del tempo",
+            "il rapporto tra il segnale di uscita e quello di ingresso nel dominio di Laplace",
+            "la trasformata di Fourier della risposta al gradino",
+            "la derivata seconda del segnale di uscita rispetto al tempo"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-21",
       "createdAt": "2026-11-21T17:08:43.806Z",
       "datasetVersion": "4c1e5fe39c496b31",
