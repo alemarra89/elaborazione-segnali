@@ -1,6 +1,6 @@
 {
-  "version": "4c1e5fe39c496b31",
-  "fetchedAt": "2026-11-22T17:39:16.756Z",
+  "version": "9c3b6c580795d94c",
+  "fetchedAt": "2026-11-23T21:54:46.430Z",
   "source": {
     "spreadsheetId": "1XmlmuLpJLPI6fA3J1K5GrW1TvbCxM5N3w6Ijs2ekg90",
     "sheetId": 0,
@@ -307,17 +307,17 @@
     {
       "id": 38,
       "title": "Sensori resistivi",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
       "id": 39,
       "title": "Circuiti di condizionamento per sensori resistivi",
-      "questionCount": 0,
-      "available": false,
-      "status": "empty",
+      "questionCount": 10,
+      "available": true,
+      "status": "ready",
       "issues": []
     },
     {
@@ -5546,6 +5546,286 @@
         "assenza di oscillazioni e comportamento sovrasmorzato",
         "presenza di un'anomalia alle basse frequenze",
         "comportamento critico del sistema con massima energia dissipata"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "38-1",
+      "chapterId": 38,
+      "number": 1,
+      "text": "La variazione di resistenza nei sensori resistivi può essere causata da variazioni di lunghezza, di sezione o di resistività del materiale. Tra queste, la resistività è influenzata principalmente da:",
+      "options": [
+        "variazioni della temperatura del materiale",
+        "deformazioni meccaniche longitudinali",
+        "spostamento del punto di contatto elettrico",
+        "presenza di un campo magnetico esterno"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "38-2",
+      "chapterId": 38,
+      "number": 2,
+      "text": "La misura della deformazione tramite estensimetro si basa sulla variazione della resistenza elettrica causata:",
+      "options": [
+        "dall'allungamento e dal restringimento del materiale conduttivo",
+        "dal cambiamento della resistività del materiale per effetto termoionico",
+        "dalla modifica della capacità elettrica del sensore",
+        "dall'introduzione di correnti parassite nel substrato"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "38-3",
+      "chapterId": 38,
+      "number": 3,
+      "text": "La linearità della relazione tra la tensione di uscita e la posizione del cursore in un potenziometro dipende dal fatto che:",
+      "options": [
+        "la sezione trasversale e la resistività del materiale siano costanti lungo tutta la lunghezza",
+        "la sezione trasversale e la resistività del materiale siano di valore crescente lungo tutta la lunghezza",
+        "la potenza dissipata non superi la soglia massima consentita",
+        "il cursore abbia una superficie di contatto variabile"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "38-4",
+      "chapterId": 38,
+      "number": 4,
+      "text": "La principale causa della vita meccanica limitata nei potenziometri lineari è:",
+      "options": [
+        "l'usura provocata dallo sfregamento del cursore sulla pista resistiva",
+        "la variazione della resistività del materiale per effetto termico",
+        "la degradazione elettrica dovuta alla potenza dissipata eccessiva",
+        "la formazione di correnti parassite nel substrato"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "38-5",
+      "chapterId": 38,
+      "number": 5,
+      "text": "La sensibilità di un potenziometro è direttamente proporzionale a:",
+      "options": [
+        "la tensione di ingresso applicata tra i terminali estremi del resistore",
+        "la lunghezza totale del resistore",
+        "la potenza massima dissipabile dal sensore",
+        "la sezione trasversale del materiale resistivo"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "38-6",
+      "chapterId": 38,
+      "number": 6,
+      "text": "Secondo l'equazione di Callendar-Van Dusen, quale termine aggiuntivo è incluso per descrivere con precisione la resistenza di un RTD in platino a temperature inferiori a 0 °C, rispetto all'equazione utilizzata per temperature superiori a 0 °C:",
+      "options": [
+        "un termine lineare in T",
+        "un termine esponenziale in T",
+        "un termine quadratico in T²",
+        "un termine cubico in T³ moltiplicato per (T-100)"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "38-7",
+      "chapterId": 38,
+      "number": 7,
+      "text": "Quale caratteristica distingue i termistori NTC dai termistori PTC:",
+      "options": [
+        "i termistori NTC hanno una resistenza che aumenta all'aumentare della temperatura",
+        "i termistori PTC sono più sensibili alle basse temperature",
+        "i termistori NTC hanno una resistenza che diminuisce all'aumentare della temperatura",
+        "i termistori PTC hanno resistenza costante rispetto alla temperatura"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "38-8",
+      "chapterId": 38,
+      "number": 8,
+      "text": "Il modulo di Poisson (ν) in un materiale sottoposto a forza serve a:",
+      "options": [
+        "misurare il rapporto tra deformazione longitudinale e variazione di resistività",
+        "indicare la costante elastica del materiale",
+        "quantificare il rapporto tra deformazione trasversale e deformazione longitudinale",
+        "rappresentare il coefficiente di sensibilità dell'estensimetro"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "38-9",
+      "chapterId": 38,
+      "number": 9,
+      "text": "Il fattore estensimetrico (Gage Factor, G) di un estensimetro metallico, assumendo resistività costante, è dato da:",
+      "options": [
+        "G=1+2ν",
+        "G=1-2ν",
+        "G=2+2ν",
+        "G=1+2ν2"
+      ],
+      "correctIndex": 0,
+      "note": ""
+    },
+    {
+      "id": "38-10",
+      "chapterId": 38,
+      "number": 10,
+      "text": "La disposizione degli estensimetri in una cella di carico ha lo scopo di:",
+      "options": [
+        "misurare solo la deformazione longitudinale",
+        "aumentare la sensibilità ignorando le deformazioni trasversali",
+        "posizionare sensori casualmente per coprire tutta la superficie",
+        "rilevare deformazioni longitudinali e trasversali per aumentare precisione e linearità"
+      ],
+      "correctIndex": 3,
+      "note": ""
+    },
+    {
+      "id": "39-1",
+      "chapterId": 39,
+      "number": 1,
+      "text": "La tecnica di linearizzazione mediante inserimento della resistenza Rlin nella parte superiore del potenziometro consente di:",
+      "options": [
+        "aumentare la resistenza equivalente del cursore nelle posizioni centrali",
+        "bilanciare le componenti capacitive introdotte dal carico RL",
+        "ridurre la non linearità causata da una resistenza di carico finita",
+        "ridurre la non linearità causata da una resistenza di carico infinita"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "39-2",
+      "chapterId": 39,
+      "number": 2,
+      "text": "La scelta di un valore basso per la resistenza del potenziometro RP rispetto al carico RL determina:",
+      "options": [
+        "un peggioramento della linearità",
+        "un incremento dell'impedenza d'uscita e una riduzione del guadagno",
+        "una maggiore dissipazione di potenza e una riduzione della sensibilità del sensore",
+        "un aumento della larghezza di banda del segnale utile in uscita"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "39-3",
+      "chapterId": 39,
+      "number": 3,
+      "text": "Il compromesso principale nella scelta del valore della resistenza RP del potenziometro riguarda:",
+      "options": [
+        "il bilanciamento tra rumore termico e isteresi meccanica del cursore",
+        "a minimizzazione del tempo di risposta e la massimizzazione della frequenza di taglio",
+        "la linearità della misura, la sensibilità del sistema e la dissipazione di potenza nel componente",
+        "la resistenza di isolamento verso terra e la compatibilità elettromagnetica del circuito"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "39-4",
+      "chapterId": 39,
+      "number": 4,
+      "text": "Nel ponte di Wheatstone utilizzato con il metodo di zero, l'equilibrio del ponte si ottiene quando:",
+      "options": [
+        "la tensione di alimentazione è nulla",
+        "la tensione differenziale di uscita è zero",
+        "tutte le resistenze sono uguali",
+        "la corrente nel ramo del sensore è minima"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "39-5",
+      "chapterId": 39,
+      "number": 5,
+      "text": "Nel metodo a deflessione del ponte di Wheatstone, la sensibilità massima si ottiene quando:",
+      "options": [
+        "il valore di k è molto più grande di 1",
+        "il valore di k è uguale a 1",
+        "la tensione di alimentazione è minima",
+        "la variazione relativa x della resistenza è molto grande"
+      ],
+      "correctIndex": 1,
+      "note": ""
+    },
+    {
+      "id": "39-6",
+      "chapterId": 39,
+      "number": 6,
+      "text": "Aumentare il valore di k nel ponte di Wheatstone con metodo a deflessione comporta:",
+      "options": [
+        "un aumento della sensibilità e una diminuzione dell'intervallo lineare",
+        "una diminuzione della sensibilità e una riduzione dell'intervallo lineare",
+        "una diminuzione della sensibilità e un aumento dell'intervallo in cui la risposta è lineare",
+        "nessun cambiamento significativo nella risposta del ponte"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "39-7",
+      "chapterId": 39,
+      "number": 7,
+      "text": "Nel metodo a deflessione con due termoresistenze identiche, rispetto al caso con una sola termoresistenza, la sensibilità del ponte:",
+      "options": [
+        "resta invariata poiché la configurazione è simmetrica",
+        "diminuisce a causa della presenza di due elementi variabili",
+        "raddoppia grazie alla variazione simultanea di entrambe le resistenze",
+        "dipende esclusivamente dal valore di tensione di alimentazione"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "39-8",
+      "chapterId": 39,
+      "number": 8,
+      "text": "Nel ponte di Wheatstone con un solo estensimetro in un ramo e k=1, la tensione di uscita per piccole deformazioni ϵ è approssimabile a:",
+      "options": [
+        "V⋅Gϵ",
+        "(V/2)⋅Gϵ",
+        "(V/4)⋅Gϵ",
+        "(V/8)⋅Gϵ"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "39-9",
+      "chapterId": 39,
+      "number": 9,
+      "text": "Rispetto alla configurazione con un solo estensimetro, un ponte con due estensimetri soggetti alla stessa deformazione:",
+      "options": [
+        "dimezza la sensibilità a causa della divisione della corrente",
+        "non modifica la sensibilità ma migliora la linearità",
+        "raddoppia la sensibilità",
+        "produce una tensione di uscita quadruplicata"
+      ],
+      "correctIndex": 2,
+      "note": ""
+    },
+    {
+      "id": "39-10",
+      "chapterId": 39,
+      "number": 10,
+      "text": "Nel ponte con due estensimetri posti su una trave a sbalzo (cantilever), uno in trazione e uno in compressione, la risposta del sistema:",
+      "options": [
+        "non è più lineare a causa della presenza di due segnali opposti",
+        "è lineare anche per deformazioni elevate e ha sensibilità raddoppiata rispetto al caso con un solo estensimetro",
+        "è lineare ma la sensibilità si riduce a causa delle resistenze parziali",
+        "si annulla perché le variazioni di resistenza si compensano"
       ],
       "correctIndex": 1,
       "note": ""

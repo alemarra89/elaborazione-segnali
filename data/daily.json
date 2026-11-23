@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-23",
+      "createdAt": "2026-11-23T21:54:46.603Z",
+      "datasetVersion": "9c3b6c580795d94c",
+      "questions": [
+        {
+          "id": "29-1",
+          "chapterId": 29,
+          "number": 1,
+          "text": "In un oscilloscopio numerico, per poter variare la visualizzazione sull'asse verticale, si variano i parametri relativi a:",
+          "options": [
+            "un attenuatore e un amplificatore",
+            "un rilevatore di fase",
+            "un convertitore A/D",
+            "un deviatore e un filtro passa-basso"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "20-6",
+          "chapterId": 20,
+          "number": 6,
+          "text": "Il componente che trasforma un segnale analogico in un flusso numerico di dati è definito:",
+          "options": [
+            "convertitore analogico-digitale",
+            "amplificatore operazionale",
+            "trasduttore di segnale",
+            "convertitore digitale-analogico"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "21-6",
+          "chapterId": 21,
+          "number": 6,
+          "text": "Il filtro utilizzato per prevenire il fenomeno dell'aliasing è denominato:",
+          "options": [
+            "filtro anti-aliasing",
+            "filtro passa-alto",
+            "filtro passa-basso",
+            "filtro di Shannon"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "36-9",
+          "chapterId": 36,
+          "number": 9,
+          "text": "Nell'operazione di finestratura, la scelta della finestra influisce su:",
+          "options": [
+            "la frequenza di campionamento",
+            "l'accuratezza dello spettro ottenuto",
+            "l'ampiezza del segnale analogico",
+            "la velocità di trasmissione del dato"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "32-7",
+          "chapterId": 32,
+          "number": 7,
+          "text": "Gli analizzatori di spettro a filtro sintonizzabile utilizzano:",
+          "options": [
+            "una serie di filtri passa-basso sintonizzati su diverse frequenze",
+            "una serie di filtri passa-alto operanti in parallelo",
+            "un filtro passa-banda fisso",
+            "un unico filtro passa-banda che viene regolato su diverse frequenze centrali"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "24-9",
+          "chapterId": 24,
+          "number": 9,
+          "text": "Le ammettenze parassite nei circuiti di misura si manifestano principalmente:",
+          "options": [
+            "alle alte frequenze",
+            "alle basse frequenze",
+            "solo nei circuiti resistivi",
+            "solo nei circuiti capacitivi"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "14-2",
+          "chapterId": 14,
+          "number": 2,
+          "text": "La tecnica di misura in cui lo strumento è isolato dal potenziale di terra è:",
+          "options": [
+            "misura floating",
+            "misura contromassa",
+            "misura a quattro fili",
+            "misura a due fili"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "37-3",
+          "chapterId": 37,
+          "number": 3,
+          "text": "Il ruolo del convertitore A/D in un sistema di misura consiste nel:",
+          "options": [
+            "generare un segnale continuo proporzionale al dato acquisito",
+            "effettuare la compensazione automatica degli errori sistematici",
+            "trasformare un segnale analogico in un formato digitale utilizzabile",
+            "filtrare le componenti in alta frequenza del segnale di ingresso"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "19-2",
+          "chapterId": 19,
+          "number": 2,
+          "text": "Nel metodo della caduta di potenziale, per ottenere il valore della corrente che circola sul circuito di misura, viene misurata:",
+          "options": [
+            "la tensione ai capi della resistenza campione",
+            "la tensione ai capi della resistenza incognita",
+            "la corrente attraverso la resistenza incognita",
+            "la potenza dissipata dalla resistenza campione"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "15-2",
+          "chapterId": 15,
+          "number": 2,
+          "text": "I sensori utilizzati per misurare deformazioni fisiche in applicazioni civili sono chiamati:",
+          "options": [
+            "sensori di temperatura",
+            "potenziometri",
+            "sensori di umidità",
+            "estensimetri"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-22",
       "createdAt": "2026-11-22T17:39:16.876Z",
       "datasetVersion": "4c1e5fe39c496b31",
