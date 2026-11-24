@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-24",
+      "createdAt": "2026-11-24T20:30:44.793Z",
+      "datasetVersion": "9c3b6c580795d94c",
+      "questions": [
+        {
+          "id": "12-4",
+          "chapterId": 12,
+          "number": 4,
+          "text": "Il sistema che si considera sempre funzionante in regime stazionario è",
+          "options": [
+            "sistema del primo ordine",
+            "sistema del secondo ordine",
+            "sistema del terzo ordine",
+            "sistema di ordine zero"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "26-5",
+          "chapterId": 26,
+          "number": 5,
+          "text": "Il blocco di ingresso di un contatore numerico ha la funzione di:",
+          "options": [
+            "visualizzare il risultato della misura",
+            "amplificare e condizionare il segnale elettrico in ingresso",
+            "fornire l'alimentazione al circuito",
+            "eseguire la conversione A/D del segnale"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "18-1",
+          "chapterId": 18,
+          "number": 1,
+          "text": "I fenomeni indesiderati che possono influire sulla precisione e l'accuratezza delle misurazioni sono chiamati:",
+          "options": [
+            "fenomeni lineari",
+            "fenomeni non lineari",
+            "fenomeni parassiti",
+            "fenomeni stazionari"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "39-6",
+          "chapterId": 39,
+          "number": 6,
+          "text": "Aumentare il valore di k nel ponte di Wheatstone con metodo a deflessione comporta:",
+          "options": [
+            "un aumento della sensibilità e una diminuzione dell'intervallo lineare",
+            "una diminuzione della sensibilità e una riduzione dell'intervallo lineare",
+            "una diminuzione della sensibilità e un aumento dell'intervallo in cui la risposta è lineare",
+            "nessun cambiamento significativo nella risposta del ponte"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "32-6",
+          "chapterId": 32,
+          "number": 6,
+          "text": "Uno svantaggio degli analizzatori a banchi di filtri paralleli è:",
+          "options": [
+            "l'elevato numero di filtri necessari per ottenere una buona risoluzione",
+            "l'impossibilità di analizzare segnali non stazionari",
+            "la ridotta ampiezza di banda disponibile",
+            "la difficoltà di analizzare segnali continui"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "10-10",
+          "chapterId": 10,
+          "number": 10,
+          "text": "L'incertezza di misura che viene propagata attraverso una funzione matematica è definita come:",
+          "options": [
+            "incertezza composta",
+            "incertezza residua",
+            "incertezza ponderata",
+            "incertezza assoluta"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "38-1",
+          "chapterId": 38,
+          "number": 1,
+          "text": "La variazione di resistenza nei sensori resistivi può essere causata da variazioni di lunghezza, di sezione o di resistività del materiale. Tra queste, la resistività è influenzata principalmente da:",
+          "options": [
+            "variazioni della temperatura del materiale",
+            "deformazioni meccaniche longitudinali",
+            "spostamento del punto di contatto elettrico",
+            "presenza di un campo magnetico esterno"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "7-10",
+          "chapterId": 7,
+          "number": 10,
+          "text": "Il  livello di confidenzache si ha nel caso di distribuzione gaussiana con 3σ è pari a:",
+          "options": [
+            "13%",
+            "68.30%",
+            "95.40%",
+            "99.70%"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "21-3",
+          "chapterId": 21,
+          "number": 3,
+          "text": "Il teorema che garantisce la corretta rappresentazione di un segnale campionato se la frequenza di campionamento è adeguata è:",
+          "options": [
+            "Teorema di Fourier",
+            "Teorema di Shannon",
+            "Teorema di Nyquist",
+            "Teorema di Heisenberg"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "22-7",
+          "chapterId": 22,
+          "number": 7,
+          "text": "L'errore di guadagno in un convertitore A/D è caratterizzato da:",
+          "options": [
+            "una traslazione della caratteristica rispetto all'asse delle ordinate",
+            "un'inclinazione della caratteristica diversa da 45°",
+            "una non linearità della caratteristica",
+            "una traslazione della caratteristica rispetto all'asse delle ascisse"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "createdAt": "2026-11-23T21:54:46.603Z",
       "datasetVersion": "9c3b6c580795d94c",
