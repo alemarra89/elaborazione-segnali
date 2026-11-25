@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-25",
+      "createdAt": "2026-11-25T19:46:54.270Z",
+      "datasetVersion": "9c3b6c580795d94c",
+      "questions": [
+        {
+          "id": "14-3",
+          "chapterId": 14,
+          "number": 3,
+          "text": "La tecnica di misura in cui una delle sonde è collegata alla massa del circuito è:",
+          "options": [
+            "misura floating",
+            "misura contromassa",
+            "misura a quattro fili",
+            "misura a due fili"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "2-6",
+          "chapterId": 2,
+          "number": 6,
+          "text": "Il metro è stato ridefinito come la lunghezza del tragitto percorso dalla luce nel vuoto in un intervallo di tempo pari a:",
+          "options": [
+            "1/100000000 s",
+            "1/186000 s",
+            "1/2997924 s",
+            "1/299792458 s"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "29-3",
+          "chapterId": 29,
+          "number": 3,
+          "text": "Il controllo di ritardo in un oscilloscopio viene utilizzato per:",
+          "options": [
+            "ritardare la visualizzazione del segnale lungo l'asse orizzontale del display",
+            "aumentare l'ampiezza del segnale",
+            "filtrare il segnale in ingresso",
+            "ridurre la frequenza di campionamento"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "5-8",
+          "chapterId": 5,
+          "number": 8,
+          "text": "L'approccio \"a priori\" è basato su:",
+          "options": [
+            "stime future",
+            "esperienze passate",
+            "numero di misure realizzate",
+            "probabilità soggettiva"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "37-3",
+          "chapterId": 37,
+          "number": 3,
+          "text": "Il ruolo del convertitore A/D in un sistema di misura consiste nel:",
+          "options": [
+            "generare un segnale continuo proporzionale al dato acquisito",
+            "effettuare la compensazione automatica degli errori sistematici",
+            "trasformare un segnale analogico in un formato digitale utilizzabile",
+            "filtrare le componenti in alta frequenza del segnale di ingresso"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "36-2",
+          "chapterId": 36,
+          "number": 2,
+          "text": "Il termine \"bin\" in un FFT analyzer rappresenta:",
+          "options": [
+            "un singolo campione spettrale",
+            "la frequenza massima",
+            "il numero di punti acquisiti",
+            "l'ampiezza del segnale"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "21-6",
+          "chapterId": 21,
+          "number": 6,
+          "text": "Il filtro utilizzato per prevenire il fenomeno dell'aliasing è denominato:",
+          "options": [
+            "filtro anti-aliasing",
+            "filtro passa-alto",
+            "filtro passa-basso",
+            "filtro di Shannon"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "35-2",
+          "chapterId": 35,
+          "number": 2,
+          "text": "Per evitare il fenomeno dell'aliasing, è necessario:",
+          "options": [
+            "aumentare la frequenza di campionamento",
+            "applicare un filtro anti-aliasing prima del campionamento",
+            "ridurre l'ampiezza del segnale",
+            "aumentare la risoluzione temporale"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        },
+        {
+          "id": "27-7",
+          "chapterId": 27,
+          "number": 7,
+          "text": "La misura di frequenza in un contatore numerico avviene contando:",
+          "options": [
+            "gli impulsi di segnale in un intervallo di tempo definito",
+            "le oscillazioni del segnale di ingresso",
+            "i cicli completi del segnale",
+            "i picchi di tensione del segnale"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "3-7",
+          "chapterId": 3,
+          "number": 7,
+          "text": "La riproducibilità di una misura è definita come:",
+          "options": [
+            "vicinanza dei risultati ottenuti sullo stesso misurando in diverse condizioni",
+            "capacità di risolvere stati diversi del misurando",
+            "grado di concordanza tra valore misurato e valore vero",
+            "stima quantitativa del livello di non conoscenza del misurando"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-24",
       "createdAt": "2026-11-24T20:30:44.793Z",
       "datasetVersion": "9c3b6c580795d94c",
