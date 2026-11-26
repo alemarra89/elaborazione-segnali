@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-26",
+      "createdAt": "2026-11-26T19:26:06.891Z",
+      "datasetVersion": "9c3b6c580795d94c",
+      "questions": [
+        {
+          "id": "31-5",
+          "chapterId": 31,
+          "number": 5,
+          "text": "Un filtro passa-banda permette di:",
+          "options": [
+            "attenuare tutte le frequenze all'interno della sua banda",
+            "amplificare solo le frequenze basse",
+            "far passare solo un intervallo specifico di frequenze",
+            "eliminare completamente il segnale caratterizzato da una frequenza all'interno della sua banda"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "34-1",
+          "chapterId": 34,
+          "number": 1,
+          "text": "La finestratura applicata ai segnali campionati è utile per:",
+          "options": [
+            "ridurre gli effetti del leakage spettrale",
+            "aumentare la risoluzione temporale",
+            "amplificare il segnale in ingresso",
+            "ridurre il rumore di fondo"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "30-8",
+          "chapterId": 30,
+          "number": 8,
+          "text": "La densità spettrale di potenza (PSD) è utilizzata per:",
+          "options": [
+            "determinare la frequenza fondamentale di un segnale periodico",
+            "misurare l'ampiezza massima di un segnale",
+            "calcolare la potenza media di un segnale continuo",
+            "descrivere la distribuzione della potenza di un segnale non periodico nel dominio della frequenza"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "33-6",
+          "chapterId": 33,
+          "number": 6,
+          "text": "La larghezza di banda di risoluzione (RBW) è utilizzata per:",
+          "options": [
+            "determinare la capacità del filtro di essere risoluto rispetto a segnali adiacenti",
+            "misurare l'ampiezza massima di un segnale",
+            "calcolare la frequenza intermedia",
+            "amplificare i segnali a bassa frequenza"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "21-8",
+          "chapterId": 21,
+          "number": 8,
+          "text": "Il risultato dell'applicazione della trasformata di Fourier a un segnale periodico è:",
+          "options": [
+            "un segnale continuo nel tempo",
+            "un segnale discreto nel tempo",
+            "uno spettro di ampiezza del segnale",
+            "un segnale modulato"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "27-8",
+          "chapterId": 27,
+          "number": 8,
+          "text": "In un contatore numerico, la risoluzione nella misura di frequenza migliora:",
+          "options": [
+            "aumentando la frequenza del segnale",
+            "aumentando il numero di impulsi contati",
+            "riducendo il tempo di osservazione",
+            "riducendo la frequenza del segnale"
+          ],
+          "correctIndex": 1,
+          "note": "da vedere bene"
+        },
+        {
+          "id": "12-10",
+          "chapterId": 12,
+          "number": 10,
+          "text": "La banda di misura dello strumento è rappresentata dall'intervallo di frequenze in cui la curva di risposta in modulo non esce da una fascia di tolleranza prefissata a:",
+          "options": [
+            "0 dB",
+            "100 dB",
+            "3 dB",
+            "3 kg"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "22-6",
+          "chapterId": 22,
+          "number": 6,
+          "text": "La risoluzione di un quantizzatore migliora se:",
+          "options": [
+            "aumenta il numero di livelli di quantizzazione",
+            "diminuisce il numero di bit",
+            "aumenta la tensione di fondo scala a parità di numero di bit",
+            "diminuisce la tensione di fondo scala"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "35-8",
+          "chapterId": 35,
+          "number": 8,
+          "text": "La finestratura dei segnali campionati viene applicata per:",
+          "options": [
+            "aumentare la frequenza di campionamento",
+            "eliminare le componenti a bassa frequenza",
+            "amplificare il segnale",
+            "ridurre gli effetti del leakage spettrale"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "18-7",
+          "chapterId": 18,
+          "number": 7,
+          "text": "Per ridurre il contributo delle resistenze parassite dei cavi, è possibile:",
+          "options": [
+            "aumentare la sezione trasversale del cavo e ridurre la lunghezza del cavo",
+            "ridurre la sezione trasversale del cavo e aumentare la lunghezza del cavo",
+            "aumentare la capacità del cavo e ridurre la lunghezza del cavo",
+            "ridurre l'induttanza del cavo e aumentare la lunghezza del cavo"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-25",
       "createdAt": "2026-11-25T19:46:54.270Z",
       "datasetVersion": "9c3b6c580795d94c",
