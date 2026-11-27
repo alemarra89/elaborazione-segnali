@@ -1,6 +1,153 @@
 {
   "quizzes": [
     {
+      "date": "2026-11-27",
+      "createdAt": "2026-11-27T19:22:16.716Z",
+      "datasetVersion": "9c3b6c580795d94c",
+      "questions": [
+        {
+          "id": "32-3",
+          "chapterId": 32,
+          "number": 3,
+          "text": "Nel caso di segnali con spettri a righe, la determinazione dello spettro richiede la misura di:",
+          "options": [
+            "ampiezza e potenza del segnale",
+            "resistenza e frequenza del segnale",
+            "ampiezza e frequenza centrale del tono frequenziale",
+            "ampiezza e periodo della i-esima componente"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "12-5",
+          "chapterId": 12,
+          "number": 5,
+          "text": "Il tempo che il sistema impiega per passare dal 10% al 90% del valore di regime è definito come:",
+          "options": [
+            "tempo di assestamento",
+            "tempo di risposta",
+            "tempo di salita",
+            "tempo morto"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "25-8",
+          "chapterId": 25,
+          "number": 8,
+          "text": "La modalità \"swept frequency\" di un impedenzimetro numerico consente di:",
+          "options": [
+            "analizzare il comportamento di un componente su un determinato intervallo di frequenze",
+            "misurare la resistenza solo a una frequenza specifica",
+            "eliminare completamente le impedenze parassite",
+            "generare un segnale di riferimento a fase variabile"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "1-10",
+          "chapterId": 1,
+          "number": 10,
+          "text": "L'obiettivo della metrologia scientifica e tecnica è di:",
+          "options": [
+            "verificare gli strumenti di misura commerciale",
+            "monitorare i livelli di inquinamento",
+            "fornire alla metrologia legale i metodi di verifica dei parametri di interesse",
+            "regolare gli scambi commerciali"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "9-10",
+          "chapterId": 9,
+          "number": 10,
+          "text": "Nel caso di distribuzione di probabilità gaussiana, il livello di confidenza del 68.3% si ha per un fattore di copertura (k) pari a:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correctIndex": 0,
+          "note": ""
+        },
+        {
+          "id": "8-10",
+          "chapterId": 8,
+          "number": 10,
+          "text": "Il fattore di rischio indica:",
+          "options": [
+            "la probabilità che si abbia un risultato positivo",
+            "la probabilità che si abbia una frequenza assoluta",
+            "il numero di classi",
+            "la probabilità che si abbia un risultato negativo"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "37-4",
+          "chapterId": 37,
+          "number": 4,
+          "text": "La sensibilità di un sensore può essere interpretata come:",
+          "options": [
+            "la deviazione standard della curva di calibrazione",
+            "il valore assoluto massimo del segnale in uscita in condizioni ideali",
+            "il tasso di variazione dell'uscita rispetto alla variazione dell'ingresso",
+            "la quantità di energia richiesta per garantire una minima variazione dell'uscita"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "12-3",
+          "chapterId": 12,
+          "number": 3,
+          "text": "l tempo che intercorre dall'applicazione dell'ingresso al momento in cui il sistema raggiunge il 5% del valore di regime è noto come:",
+          "options": [
+            "tempo di risposta",
+            "tempo di salita",
+            "tempo di recupero",
+            "tempo morto"
+          ],
+          "correctIndex": 3,
+          "note": ""
+        },
+        {
+          "id": "20-9",
+          "chapterId": 20,
+          "number": 9,
+          "text": "Il numero di bit in un convertitore A/D rappresenta:",
+          "options": [
+            "la quantità di memoria necessaria per la conversione",
+            "la precisione della tensione di fondo scala",
+            "il numero di cifre binarie utilizzate per rappresentare il segnale convertito",
+            "il numero di componenti elettronici coinvolti nella conversione"
+          ],
+          "correctIndex": 2,
+          "note": ""
+        },
+        {
+          "id": "4-8",
+          "chapterId": 4,
+          "number": 8,
+          "text": "Il fattore di dispersione misura:",
+          "options": [
+            "la media dei dati",
+            "la dispersione relativa dei dati",
+            "il valore massimo",
+            "la somma dei valori"
+          ],
+          "correctIndex": 1,
+          "note": ""
+        }
+      ]
+    },
+    {
       "date": "2026-11-26",
       "createdAt": "2026-11-26T19:26:06.891Z",
       "datasetVersion": "9c3b6c580795d94c",
